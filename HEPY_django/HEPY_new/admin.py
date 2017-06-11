@@ -30,6 +30,7 @@ class QuestionnaireAdmin(NestedModelAdmin):
 admin.site.register(Questionnaire, QuestionnaireAdmin)
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Answer)
+admin.site.register(Comment)
 admin.site.register(Disable)
 admin.site.register(User)
 admin.site.register(AnswerWeight)

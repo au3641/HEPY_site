@@ -12,6 +12,7 @@ router = routers.DefaultRouter()
 router.register(r'questionnaireHEPY', views.QuestionnaireHEPY)
 router.register(r'questionsHEPY', views.QuestionSetHEPY) # get every question from HEPY questionnaire
 router.register(r'answersHEPY', views.AnswerSetForHEPY)
+router.register(r'commentsHEPY', views.CommentSetForHEPY)
 router.register(r'disablesHEPY', views.DisableForHEPY)
 router.register(r'answerWeightsHEPY', views.AnswerWeightForHEPY)
 router.register(r'sendAnswersHEPY', views.SendAnswersHEPY)

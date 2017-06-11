@@ -16,6 +16,11 @@ class AnswerSerializer(serializers.ModelSerializer):
         model = Answer
         fields = ('pk', 'question', 'text', 'order')
 
+class CommentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Comment
+        fields = ('pk', 'question', 'long_text', 'short_text', 'answersThatEnable')
+
 class DisableSerializer(serializers.ModelSerializer):
     class Meta:
         model = Disable
@@ -29,4 +34,4 @@ class UserSerializer(serializers.ModelSerializer):
 class AnswerWeightSerializer(serializers.ModelSerializer):
     class Meta:
         model = AnswerWeight
-        fields = ('pk', 'answer', 'type', 'value', 'text')
+        fields = ('pk', 'answer', 'type', 'value')

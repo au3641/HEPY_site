@@ -80,18 +80,30 @@ class Answer(models.Model):
 
 class Comment(models.Model):
     def __str__(self):
+        q_text = ""
+        ae_text = ""
         try:
-            return "QUESTION: {0} | TEXT: {1}".format(
-                self.question.text,
-                self.text,
-            )
+            q_text = self.question.text
         except:
-            return "QUESTION: {0} | TEXT: {1}".format(
-                "question does not exist",
-                self.text,
-            )
+            q_text = "question does not exist"
+
+        for ae in self.answersThatEnable.all():
+            try:
+                ae_text.join(ae.text)
+            except:
+                ae_text.join("answer does not exist")
+
+
+        return "QUESTION: {0} | LONG TEXT: {1} | SHORT TEXT: {2} | ENABLED BY: {3}".format(
+            q_text,
+            self.long_text,
+            self.short_text,
+            ae_text,
+        )
     question = models.ForeignKey(Question)
-    text = models.TextField(blank=True, null=True)
+    long_text = models.TextField(blank=True, null=True)
+    short_text = models.TextField(blank=True, null=True)
+    answersThatEnable = models.ManyToManyField(Answer)
 
 
 class Disable(models.Model):
@@ -164,17 +176,13 @@ class AnswerWeight(models.Model):
         )
 
     ANSWERWEIGHT_TYPES = (
-        ('short_comment', 'short_comment'),
-        ('long_comment', 'long_comment'),
-        ('only_value', 'only_value'),
-        ('report', 'report'),
+        ('risk', 'risk'),
     )
 
     answer = models.ForeignKey(Answer)
     type = models.CharField(
         max_length=16,
         choices=ANSWERWEIGHT_TYPES,
-        default='short_comment',
+        default='risk',
     )
     value = models.FloatField(blank=True, null=True)
-    text = models.TextField(blank=True, null=True)

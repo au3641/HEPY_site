@@ -57,6 +57,11 @@ class AnswerSetForHEPY(viewsets.ModelViewSet):
     queryset = Answer.objects.filter(question__questionnaire__name='HEPY')
     serializer_class = AnswerSerializer
 
+# Returns all the posible comments for HEPY question set
+class CommentSetForHEPY(viewsets.ModelViewSet):
+    queryset = Comment.objects.filter(question__questionnaire__name='HEPY')
+    serializer_class = CommentSerializer
+
 # Returns answer weights for HEPY question set
 class AnswerWeightForHEPY(viewsets.ModelViewSet):
     queryset = AnswerWeight.objects.filter(answer__question__questionnaire__name='HEPY')

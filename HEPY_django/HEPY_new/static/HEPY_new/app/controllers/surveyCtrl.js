@@ -9,6 +9,35 @@
 		$scope.moveOn = false;		// If false, "next" button will be greyed out
 		$scope.userConsent = false;	// Tells us if user consented to send his answers for research - by default user consent must be set to false
 
+
+		function update_comment_visibility()
+		{
+			var bork = false;
+			for(var i = 0; i < $scope.questions[$scope.displayNr].comments.length; i++)
+			{
+				$scope.questions[$scope.displayNr].comments[i].displayed = false;
+				bork = false;
+				for(var j = 0; j < $scope.questions[$scope.displayNr].comments[i].answersThatEnable.length; j++)
+				{
+					var rqa = $scope.questions[$scope.displayNr].comments[i].relatedQAs[j];
+					for(var k = 0; k < $scope.questions[rqa].answers.length; k++)
+					{
+						if($scope.questions[rqa].answers[k].pk == $scope.questions[$scope.displayNr].comments[i].answersThatEnable[j])
+						{
+							if($scope.questions[rqa].answers[k].selected == true)
+							{
+								$scope.questions[$scope.displayNr].comments[i].displayed = true;
+								bork = true;
+                            	break;
+                            }
+                        }
+					}
+					if(bork)
+						break;
+				}
+			}
+		}
+
 		// Function is called when radio button selection changes
 		$scope.change = function(pk){
 			$scope.moveOn = true;	// Enable "next" button
@@ -21,10 +50,15 @@
                 else
                     $scope.questions[$scope.displayNr].answers[i].selected = false;
             }
+            update_comment_visibility();
 		};
 
+		$scope.changeCheckbox = function(){
+			update_comment_visibility();
+		}
+
 		// Called when returning to previous question
-		$scope.back = function() 
+		$scope.back = function()
 		{
 			// Make current question inactive (hide on front-end)
 			$scope.questions[$scope.displayNr].active = false;
@@ -72,7 +106,7 @@
 						{
 							if(weight.length != 0)
 							{
-								if(weight.type == "short_comment")
+								if(weight.type == "risk")
 								{
 									switch (weight.value)
 									{
@@ -128,7 +162,7 @@
 		}
 
 		// Called when procceding to next question
-		$scope.next = function() 
+		$scope.next = function()
 		{
 			// Make current question inactive (hide on front-end)
 			$scope.questions[$scope.displayNr].active = false;
@@ -213,6 +247,7 @@
 				// Add property 'active' to indicate which question is displayed
 				questions[i].active = false;// Required for Bootstrap UI Carousel
 				questions[i].answers = [];	// array filled by getAnswers
+				questions[i].comments = []; // array filled by getComments
 				questions[i].disables = []; // array filled by getDisables
 				questions[i].ninja = false; // ninja == disabled == hidden (ninja is not reserved in JS ^^)
 				// if question is ninja, then do not send it's answer in a result
@@ -241,8 +276,8 @@
             $scope.consentQuestion.ninja = false;
 
             // -1 private key is accept, -2 is refuse
-            $scope.consentQuestion.answers.push({pk: -1, question: -1, text: $scope.questionnaire.consentAcceptText, order: 1, weights: []});
-            $scope.consentQuestion.answers.push({pk: -2, question: -1, text: $scope.questionnaire.consentRefuseText, order: 2, weights: []});
+            $scope.consentQuestion.answers.push({pk: -1, question: -1, text: $scope.questionnaire.consentAcceptText, order: 1, comments:[], weights: []});
+            $scope.consentQuestion.answers.push({pk: -2, question: -1, text: $scope.questionnaire.consentRefuseText, order: 2, comments:[], weights: []});
             $scope.consentQuestion.consentConfirmPK = -1;
             $scope.consentQuestion.consentRefusePK = -1;
 
@@ -283,6 +318,46 @@
 					return a.order - b.order;
 				});
 			}
+		});
+
+		// Service calls this function after it gets comments from the database
+		hepyService.getComments().then(function (comments)
+		{
+			// Go through all the data we get
+			for(var i = 0; i < comments.length; i++)
+			{
+				comments[i].displayed = false;
+				comments[i].relatedQAs = new Array();
+				// Sort answersThatEnable in ascending order
+				comments[i].answersThatEnable.sort(function (a, b)
+				{
+					return a.answersThatEnable - b.answersThatEnable;
+				});
+
+				// Find corresponding question IDs
+				// Check through answers that enable current comment
+				for(var j = 0; j < comments[i].answersThatEnable.length; j++)
+				{
+					// Check thorugh every possible questions
+					for(var k = 0; k < $scope.questions.length; k++)
+					{
+						// If answer we seek is in this question
+						for(var l = 0; l < $scope.questions[k].answers.length; l++)
+						{
+                            if ($scope.questions[k].answers[l].pk == comments[i].answersThatEnable[j])
+                                comments[i].relatedQAs.push(k); // Add question id to related
+                        }
+					}
+				}
+
+				// Attach comment to question it belongs to
+				for(var j = 0; j < $scope.questions.length; j++)
+				{
+					// Add comment to the correspoinding question
+					if($scope.questions[j].pk == comments[i].question)
+                        $scope.questions[j].comments.push(comments[i]);
+				}
+            }
 		});
 
 		// Service calls this function after it gets disables from the database

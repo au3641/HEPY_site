@@ -1,0 +1,1313 @@
+[
+    {
+        "model": "HEPY_new.questionnaire",
+        "pk": 1,
+        "fields": {
+            "name": "HEPY",
+            "introText": "Pozdravljeni v začetnem oknu spletnega vprašalnika, ki vam bo pomagal oceniti, kakšna je verjetnost, da ste okuženi s katerimkoli od hepatitisov. Ko boste odgovorili na zastavljena vprašanja o vašem spolnem vedenju in morebitnih zdravstvenih težavah, bo sistem podal oceno stopnje tveganja. Vprašalnik ni nadomestilo za pregled pri zdravniku. Ob vsakem tveganem spolnem vedenju se posvetujte s strokovnjakom.<br>Vprašalniku boste namenili največ pet minut. Nadaljujte s klikom gumba Naprej.",
+            "consentQuestionText": "Ali se strinjate, da se vaši odgovori anonimno shranijo v podatkovni sistem?\nS tem pripomorete k boljšemu razumevanju simptomov spolno prenosljivih okužb.",
+            "consentAcceptText": "Da",
+            "consentRefuseText": "Ne",
+            "consentShowOrder": 1000000
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 1,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Spol?",
+            "order": 1,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 2,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Starost?",
+            "order": 2,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 3,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Vprašalnik vsebuje različna vprašanja, glede na vrsto virusnega hepatitisa",
+            "order": 3,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 4,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste cepljeni proti hepatitisu B?",
+            "order": 4,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 5,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali je bilo cepljenje uspešno (prejeli ste tri odmerke cepiva in imate zadostno koncentracijo protiteles v krvi)?",
+            "order": 5,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 6,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste se vi ali vaši starši rodili v državah, kjer je pogosta okužba z virusom hepatitisa B?",
+            "order": 6,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 7,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali je/je bil kdo izmed spodaj naštetih oseb okužen z virusom hepatitisa B ali C?",
+            "order": 7,
+            "type": "checkbox"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 8,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste imeli pred letom 1993 katerega od spodaj naštetih medicinskih postopkov",
+            "order": 8,
+            "type": "checkbox"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 9,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste imeli izven zdravstvenega sistema opravljeno kaj od naštetega?",
+            "order": 9,
+            "type": "checkbox"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 10,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste kdaj njuhali ali si injicirali droge?",
+            "order": 10,
+            "type": "checkbox"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 11,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste se kdaj po naključju zbodli z že uporabljeno injekcijsko iglo ali se poškodovali z okrvavljenim predmetom?",
+            "order": 11,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 12,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste kdaj souporabljali osebni pribor (zobna ščetka, britvice, manikirni pribor) z osebo, ki je okužena/je bila okužena z virusom hepatitisa B ali C?",
+            "order": 12,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 13,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste bili na vojaškem urjenju v tujini oziroma ste odslužili vojaški rok v Jugoslaviji?",
+            "order": 13,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 14,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Če nimate spolnih odnosov le s svojim stalnim in neokuženim partnerjem ali partnerko, ali uporabljate kondom vedno in pravilno pri vsakem spolnem odnosu?",
+            "order": 14,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 15,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali imate spolne odnose z moškimi?",
+            "order": 15,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 16,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste kdaj imeli/imate katero od *spolno prenosljivih okužb* (gonorejo, sifilis, klamidijsko okužbo, genitalni herpes, genitalne bradavice, trihomonozo, hepatitis B, HIV)?",
+            "order": 16,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 17,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste/ste bili okuženi s katero izmed naslednjih okužb?",
+            "order": 17,
+            "type": "checkbox"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 18,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste bili kdaj testirani na okužbo z virusom hepatitisa B ali C?",
+            "order": 18,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 19,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali imate katerega od naštetih simptomov ali znakov bolezni, ki jih z dosedaj opravljenimi preiskavami niso uspeli pojasniti:",
+            "order": 19,
+            "type": "checkbox"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 20,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste cepljeni proti hepatitisu A?",
+            "order": 20,
+            "type": "radio"  
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 21,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste bili cepljeni vsaj en mesec* (telo potrebuje vsaj en mesec, da ustvari zadostno količino protiteles, ki nas lahko učinkovito ščiti pred okužbo) pred potovanjem v države, kjer je endemičen hepatitis A? *zemljevid*",
+            "order": 21,
+            "type": "radio" 
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 22,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste v zadnjih dveh mesecih potovali v države, kjer sta endemična hepatitisa A ali E?  *zemljevid*",
+            "order": 22,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 23,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste na tem potovanju uživali neustekleničeno vodo, ledene kocke, neolupljeno sadje, surovo ali slabo prekuhano / slabo prepečeno meso, zelenjavo, morsko hrano?",
+            "order": 23,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 24,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste bili na tem potovanju v stiku z živalmi ali njihovimi iztrebki?",
+            "order": 24,
+            "type": "radio"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 25,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali kdaj uživate kaj od spodaj naštetega?",
+            "order": 25,
+            "type": "checkbox"
+        }
+    },
+    {
+        "model": "HEPY_new.question",
+        "pk": 26,
+        "fields": {
+            "questionnaire": 1,
+            "text": "Ali ste kdaj imeli nenormalne krvne teste za oceno delovanja jeter (ALT, AST, bilirubin, protrombinski čas, albumini) in vzrok za to ni bil opredeljen?",
+            "order": 26,
+            "type": "radio"
+        }
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":1,
+    	"fields": {
+    		"question": 1,
+    		"text": "Moški",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":2,
+    	"fields": {
+    		"question": 1,
+    		"text": "Ženska",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":3,
+    	"fields": {
+    		"question": 2,
+    		"text": "Manj kot 16 let",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":4,
+    	"fields": {
+    		"question": 2,
+    		"text": "16 – 24 let",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":5,
+    	"fields": {
+    		"question": 2,
+    		"text": "25 – 34 let",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":6,
+    	"fields": {
+    		"question": 2,
+    		"text": "35 – 44 let",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":7,
+    	"fields": {
+    		"question": 2,
+    		"text": "45 – 59 let",
+    		"order": 5
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":8,
+    	"fields": {
+    		"question": 2,
+    		"text": "Več kot 60 let",
+    		"order": 6
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":9,
+    	"fields": {
+    		"question": 3,
+    		"text": "Rad/a potujem po svetu, zato me najbolj zanima okužba, povezana s tamkajšnjim uživanjem hrane, vode, ipd",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":10,
+    	"fields": {
+    		"question": 3,
+    		"text": "Zaradi življenjskega sloga (pogosto menjavanje spolnih partnerk ali partnerjev, uživanje drog, tetoviranje, »piercing«) me najbolj zanima okužba, povezana s spolnim prenosom ali s krvjo (hepatitisa B in C)",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":11,
+    	"fields": {
+    		"question": 3,
+    		"text": "Član skupnega gospodinjstva ali spolni partner/ka je okužen/a z virusom hepatitisa B ali C",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":12,
+    	"fields": {
+    		"question": 3,
+    		"text": "Imam zdravstvene težave, za katere mislim, da bi lahko bile povezane z okužbo z virusi hepatitisa",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":13,
+    	"fields": {
+    		"question": 3,
+    		"text": "Ne zanima me nič določenega",
+    		"order": 5
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":14,
+    	"fields": {
+    		"question": 4,
+    		"text": "Da, cepljen/a sem v okviru rednega programa cepljenja otrok pred vstopom v šolo (rojeni po letu 1992)",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":15,
+    	"fields": {
+    		"question": 4,
+    		"text": "Da, cepil/a sem se individualno",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":16,
+    	"fields": {
+    		"question": 4,
+    		"text": "Ne",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":17,
+    	"fields": {
+    		"question": 5,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":18,
+    	"fields": {
+    		"question": 5,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":19,
+    	"fields": {
+    		"question": 5,
+    		"text": "Ne vem",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":20,
+    	"fields": {
+    		"question": 6,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":21,
+    	"fields": {
+    		"question": 6,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":22,
+    	"fields": {
+    		"question": 7,
+    		"text": "Da, družinski član",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":23,
+    	"fields": {
+    		"question": 7,
+    		"text": "Da, spolni partner ali partnerka",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":24,
+    	"fields": {
+    		"question": 7,
+    		"text": "Da, član skupnega gospodinjstva",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":25,
+    	"fields": {
+    		"question": 7,
+    		"text": "Da, mati v času nosečnosti",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":26,
+    	"fields": {
+    		"question": 7,
+    		"text": "Ne",
+    		"order": 5
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":27,
+    	"fields": {
+    		"question": 8,
+    		"text": "Večji operativni poseg ali večji poseg pri zobozdravniku",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":28,
+    	"fields": {
+    		"question": 8,
+    		"text": "Prejel/a sem transfuzijo krvi in/ali krvnih pripravkov",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":29,
+    	"fields": {
+    		"question": 8,
+    		"text": "Prejel/a sem transplantiran organ",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":30,
+    	"fields": {
+    		"question": 8,
+    		"text": "Nič od naštetega",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":31,
+    	"fields": {
+    		"question": 9,
+    		"text": "Tetovažo",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":32,
+    	"fields": {
+    		"question": 9,
+    		"text": "Prebadanje kože ali sluznic (»piercing«)",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":33,
+    	"fields": {
+    		"question": 9,
+    		"text": "Akupunkturo",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":34,
+    	"fields": {
+    		"question": 9,
+    		"text": "Injiciranje hormonov, steroidov, kozmetičnih pripravkov ali drugo?",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":35,
+    	"fields": {
+    		"question": 10,
+    		"text": "Da, njuhal/a",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":36,
+    	"fields": {
+    		"question": 10,
+    		"text": "Da, injiciral/a",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":37,
+    	"fields": {
+    		"question": 10,
+    		"text": "Ne",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":38,
+    	"fields": {
+    		"question": 11,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":39,
+    	"fields": {
+    		"question": 11,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":40,
+    	"fields": {
+    		"question": 12,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":41,
+    	"fields": {
+    		"question": 12,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":42,
+    	"fields": {
+    		"question": 12,
+    		"text": "Ne vem",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":43,
+    	"fields": {
+    		"question": 13,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":44,
+    	"fields": {
+    		"question": 13,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":45,
+    	"fields": {
+    		"question": 14,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":46,
+    	"fields": {
+    		"question": 14,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":47,
+    	"fields": {
+    		"question": 14,
+    		"text": "Ne, nimam spolnih odnosov",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":48,
+    	"fields": {
+    		"question": 15,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":49,
+    	"fields": {
+    		"question": 15,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":50,
+    	"fields": {
+    		"question": 16,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":51,
+    	"fields": {
+    		"question": 16,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":52,
+    	"fields": {
+    		"question": 17,
+    		"text": "Virusom hepatitisa B",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":53,
+    	"fields": {
+    		"question": 17,
+    		"text": "Virusom hepatitisa C",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":54,
+    	"fields": {
+    		"question": 17,
+    		"text": "Virusom HIV",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":55,
+    	"fields": {
+    		"question": 17,
+    		"text": "Nikoli nisem bil/a okužen/a",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":56,
+    	"fields": {
+    		"question": 18,
+    		"text": "Test na okužbo z virusom hepatitisa B je bil pozitiven in je potrdil trenutno okužbo (HBsAg pozitiven)",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":57,
+    	"fields": {
+    		"question": 18,
+    		"text": "Test na okužbo z virusom hepatitisa B je bil pozitiven in je potrdil prebolelo okužbo (anti-HBc in antiHBs pozitiven)",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":58,
+    	"fields": {
+    		"question": 18,
+    		"text": "Test na okužbo z virusom hepatitisa C je bil pozitiven in je potrdil trenutno okužbo (HCV RNA pozitiven)",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":59,
+    	"fields": {
+    		"question": 18,
+    		"text": "Test na okužbo z virusom hepatitisa C je bil pozitiven (anti-HCV pozitiven), vendar ni potrdil trenutne okužbe, ampak prebolelo okužbo (HCV RNA negativen)",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":60,
+    	"fields": {
+    		"question": 18,
+    		"text": "Test na okužbo z virusom hepatitisa B in C je bil negativen",
+    		"order": 5
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":61,
+    	"fields": {
+    		"question": 19,
+    		"text": "Dlje časa trajajoče slabo počutje ali izčrpavajoča utrujenost",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":62,
+    	"fields": {
+    		"question": 19,
+    		"text": "Tiščečo bolečino v zgornjem delu trebuha",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":63,
+    	"fields": {
+    		"question": 19,
+    		"text": "Spahovanje in napenjanje v trebuhu",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":64,
+    	"fields": {
+    		"question": 19,
+    		"text": "Siljenje na bruhanje/bruhanje",
+    		"order": 4
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":65,
+    	"fields": {
+    		"question": 19,
+    		"text": "Izguba apetita in/ali izguba telesne teže",
+    		"order": 5
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":66,
+    	"fields": {
+    		"question": 19,
+    		"text": "Zatekanje v trebuh in noge",
+    		"order": 6
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":67,
+    	"fields": {
+    		"question": 19,
+    		"text": "Na dotik občutljiva ali povečana jetra",
+    		"order": 7
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":68,
+    	"fields": {
+    		"question": 19,
+    		"text": "Zlatenica",
+    		"order": 8
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":69,
+    	"fields": {
+    		"question": 19,
+    		"text": "Opažate svetlejšo barvo blata",
+    		"order": 9
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":70,
+    	"fields": {
+    		"question": 19,
+    		"text": "Opažate temnejšo barvo urina",
+    		"order": 10
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":71,
+    	"fields": {
+    		"question": 19,
+    		"text": "Nobena izmed naštetih trditev zame ne drži",
+    		"order": 11
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":72,
+    	"fields": {
+    		"question": 20,
+    		"text": "Da, prejel/a sem 1 odmerek/",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":73,
+    	"fields": {
+    		"question": 20,
+    		"text": "Da, prejel/a sem 2 odmerka",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":74,
+    	"fields": {
+    		"question": 20,
+    		"text": "Ne",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":75,
+    	"fields": {
+    		"question": 21,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":76,
+    	"fields": {
+    		"question": 21,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":77,
+    	"fields": {
+    		"question": 22,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":78,
+    	"fields": {
+    		"question": 22,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":79,
+    	"fields": {
+    		"question": 23,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":80,
+    	"fields": {
+    		"question": 23,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":81,
+    	"fields": {
+    		"question": 24,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":82,
+    	"fields": {
+    		"question": 24,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":83,
+    	"fields": {
+    		"question": 25,
+    		"text": "Domače suhomesne izdelke iz divjačine ali svinjine",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":84,
+    	"fields": {
+    		"question": 25,
+    		"text": "Slabo prepečeno ali neprekuhano divjačino ali svinjino",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":85,
+    	"fields": {
+    		"question": 25,
+    		"text": "Ne",
+    		"order": 3
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":86,
+    	"fields": {
+    		"question": 26,
+    		"text": "Da",
+    		"order": 1
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":87,
+    	"fields": {
+    		"question": 26,
+    		"text": "Ne",
+    		"order": 2
+    	}
+    },
+    {
+    	"model": "HEPY_new.answer",
+    	"pk":88,
+    	"fields": {
+    		"question": 26,
+    		"text": "Ne vem/nisem opravil krvnih testov za oceno delovanja jeter)",
+    		"order": 3
+    	}
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":1,
+        "fields": {
+            "question": 4,
+            "long_text": "Priporočamo vam cepljenje proti hepatitisu B in po tretjem odmerku preverjanje uspešnosti cepljenja, saj pri majhnem deležu cepljenih oseb cepljenje ni uspešno in ga je potrebno dopolniti z dodatnimi odmerki.",
+            "short_text": "Niste bili cepljeni proti hepatitisu B / hepatitisu A / hepatitisu B in A.",
+            "answersThatEnable": [
+            16]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":2,
+        "fields": {
+            "question": 6,
+            "long_text": "Obstaja večje verjetnost okužbe z virusom hepatitisa B, če ste vi ali vaši starši rojeni v državah, kjer so okužbe z virusnimi hepatitisi pogoste.",
+            "short_text": "Vi ali vaši starši ste rojeni v državah, kjer so okužbe z virusnimi hepatitisi pogoste.",
+            "answersThatEnable": [
+            20]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":3,
+        "fields": {
+            "question": 7,
+            "long_text": "Ker se okužba z virusoma hepatitisa B ali C lahko prenese med nezaščitenim spolnim stikom z okuženo osebo, z okužene matere na plod/novorojenca in pri sobivanju z okuženo osebo (zaradi možne izpostavljenosti krvi in telesnim tekočinam), vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C.",
+            "short_text": "Družinski član, spolni partner/ka ali član skupnega gospodinjstva je okužen z virusom hepatitisa B ali C.",
+            "answersThatEnable": [
+            22, 23, 24, 25]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":4,
+        "fields": {
+            "question": 8,
+            "long_text": "Ker ste pred letom 1993, ko se je v zdravstvu vzpostavilo rutinsko testiranje na oba virusa, ki se prenašata z okuženo krvjo, bili izpostavljeni medicinskim postopkom, ki lahko predstavljajo tveganje za okužbo, vam priporočamo, da se testirate na okužbo z virusoma hepatitisa B in C.",
+            "short_text": "Pred letom 1993 ste bili izpostavljeni medicinskim postopkom, ki lahko predstavljajo tveganje za okužbo.",
+            "answersThatEnable": [
+            27, 28, 29]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":5,
+        "fields": {
+            "question": 9,
+            "long_text": "Če je tak postopek izveden v higiensko neustreznih razmerah, lahko pride do prenosa virusov hepatitisa B in C, zato vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C.",
+            "short_text": "Imate tetovažo, »piercing« ali pa ste bili na akupunkturi izvedeni v higiensko neustreznih razmerah",
+            "answersThatEnable": [
+            31, 32, 33, 34]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":6,
+        "fields": {
+            "question": 10,
+            "long_text": "Ker uživate droge na način, ki predstavlja večje tveganje za prenos virusov hepatitisa B in C (njuhanje ali injiciranje drog), vam priporočamo testiranje naokužbo z virusoma hepatitisa B in C.",
+            "short_text": "Imate tetovažo, »piercing« ali pa ste bili na akupunkturi izvedeni v higiensko neustreznih razmerah.",
+            "answersThatEnable": [
+            35, 36]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":7,
+        "fields": {
+            "question": 11,
+            "long_text": "Ker ste se zbodli z uporabljeno injekcijsko iglo ali se poškodovali z okrvavljenim predmetom, obstaja možnost, da ste bili izpostavljeni s krvjo prenosljivim okužbam. Priporočamo vam obisk pri zdravniku, ki vas bo napotil na ustrezna testiranja.",
+            "short_text": "Zbodli ste se z uporabljeno injekcijsko iglo ali se poškodovali z okrvavljenim predmetom.",
+            "answersThatEnable": [
+            38]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":8,
+        "fields": {
+            "question": 12,
+            "long_text": "Pri souporabi osebnega pribora z osebo, ki je/je bila okužena z virusom hepatitisa B ali C, lahko pride do prenosa okužbe, zato vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C.",
+            "short_text": "Souporabljate osebni pribor (zobna ščetka, britvice, manikirni pribor) z osebo, ki je oziroma je bila okužena z virusom hepatitisa B ali C.",
+            "answersThatEnable": [
+            40, 42]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":9,
+        "fields": {
+            "question": 13,
+            "long_text": "Ker ste bili na vojaškem urjenju v tujini oziroma ste odslužili vojaški rok v Jugoslaviji, kjer je večja možnost prenosa hepatitisa B in C, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C.",
+            "short_text": "Bili ste  na vojaškem urjenju v tujini oziroma ste odslužili vojaški rok v Jugoslaviji.",
+            "answersThatEnable": [
+            43]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":10,
+        "fields": {
+            "question": 14,
+            "long_text": "Priporočamo, da kondom uporabljate vedno in pravilno pri vsakem spolnem odnosu, ker se ob nezaščitenih spolnih odnosih prenašajo poleg virusov hepatitisa B in C tudi druge spolno prenosljive okužbe. Zato vam priporočamo tako testiranje na okužbo z virusoma hepatitisa B in C, kot tudi na ostale spolno prenosljive okužbe. Več o spolno prenosljivih okužbah si lahko preberete na: https://aspo.mf.uni-lj.si//",
+            "short_text": "Kondoma ne uporabljate vedno in pravilno pri vsakem spolnem odnosu.",
+            "answersThatEnable": [
+            46]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":11,
+        "fields": {
+            "question": 15,
+            "long_text": "Ker imate spolne odnose z moškimi, kjer je večja možnost prenosa okužbe z virusoma hepatitisa B in C, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C.",
+            "short_text": "Imate spolne odnose z moškimi.",
+            "answersThatEnable": [
+            48]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":12,
+        "fields": {
+            "question": 17,
+            "long_text": "Ker ste/ste bili okuženi z virusom hepatitis B in C ali virusom HIV, in se naštete okužbe zaradi načina prenosa lahko pojavljajo skupaj, vam priporočamo obisk pri osebnem zdravniku in testiranje na okužbo z virusoma hepatitisa B in C ter virusom HIV, v kolikor tega še niste opravili.",
+            "short_text": "Ker ste/ste bili okuženi z virusom hepatitis B in C ali virusom HIV, in se naštete okužbe zaradi načina prenosa lahko pojavljajo skupaj, vam priporočamo obisk pri osebnem zdravniku in testiranje na okužbo z virusoma hepatitisa B in C ter virusom HIV, v kolikor tega še niste opravili.",
+            "answersThatEnable": [
+            52, 53, 54]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":13,
+        "fields": {
+            "question": 19,
+            "long_text": "Ker imate enega ali več simptomov in znakov, ki so lahko prisotni pri virusnem hepatitisu, vam priporočamo obisk osebnega zdravnika, ki vas bo napotil na ustrezna testiranja.",
+            "short_text": "Imate simptome in znake, ki so  lahko prisotni pri virusnem hepatitisu.",
+            "answersThatEnable": [
+            61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":14,
+        "fields": {
+            "question": 20,
+            "long_text": "Pred potovanji v področja, kjer je veliko tveganje za okužbo z virusom hepatitisa A, vam priporočamo pravočasno cepljenje (vsaj en mesec pred odhodom), z vsaj enim odmerkom cepiva, za trajno zaščito pa z dvema odmerkoma.",
+            "short_text": "Pred potovanji v področja, kjer je veliko tveganje za okužbo z virusom hepatitisa A, vam priporočamo pravočasno cepljenje (vsaj en mesec pred odhodom), z vsaj enim odmerkom cepiva, za trajno zaščito pa z dvema odmerkoma.",
+            "answersThatEnable": [
+            74]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":15,
+        "fields": {
+            "question": 21,
+            "long_text": "Za tvorbo zadostne količine protiteles, ki nas nato učinkovito zaščitijo pred okužbo z virusom hepatitisa A, telo potrebuje vsaj en mesec, zato je pomembno, da se pred potovanjem pravočasno cepimo.",
+            "short_text": "Za tvorbo zadostne količine protiteles, ki nas nato učinkovito zaščitijo pred okužbo z virusom hepatitisa A, telo potrebuje vsaj en mesec, zato je pomembno, da se pred potovanjem pravočasno cepimo.",
+            "answersThatEnable": [
+            75, 76]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":16,
+        "fields": {
+            "question": 25,
+            "long_text": "Ker ste uživali domače suhomesne izdelke iz divjačine ali svinjine ter slabo termično obdelano divjačino ali svinjino, ki je lahko okužena z virusom hepatitis A in E, bodite pozorni, če se vam pojavijo simptomi in znaki okužbe, kot so slabost in bruhanje, povišana telesna temperatura, bolečina v trebuhu, še posebej pod desnim rebrnim lokom, zlatenica, svetlo blato in temen urin. V tem primeru se oglasite pri zdravniku.",
+            "short_text": "Uživali ste domače suhomesne izdelke iz divjačine ali svinjine ter slabo termično obdelano divjačino ali svinjino.",
+            "answersThatEnable": [
+            83, 84]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk":17,
+        "fields": {
+            "question": 26,
+            "long_text": "Ker vzrok nenormalnih krvnih testov za oceno delovanja jeter še ni bil opredeljen, vam priporočamo testiranje na okužbo z virusi hepatitisa, saj le-ti preko okvare jetrnih celic lahko povzročijo porast ravni jetrnih encimov v krvi.",
+            "short_text": "Imate nenormalne krvne teste za oceno delovanja jeter.",
+            "answersThatEnable": [
+            86]
+        }
+    },
+    {
+        "model": "HEPY_new.disable",
+        "pk": 1,
+        "fields": {
+            "question": 5,
+            "requiredAnswers": [
+                16
+            ]
+        }
+    },
+    {
+        "model": "HEPY_new.disable",
+        "pk": 2,
+        "fields": {
+            "question": 8,
+            "requiredAnswers": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "HEPY_new.disable",
+        "pk": 3,
+        "fields": {
+            "question": 8,
+            "requiredAnswers": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "HEPY_new.disable",
+        "pk": 4,
+        "fields": {
+            "question": 15,
+            "requiredAnswers": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "HEPY_new.disable",
+        "pk": 5,
+        "fields": {
+            "question": 23,
+            "requiredAnswers": [
+                78
+            ]
+        }
+    },
+    {
+        "model": "HEPY_new.disable",
+        "pk": 5,
+        "fields": {
+            "question": 24,
+            "requiredAnswers": [
+                78
+            ]
+        }
+    }
+]

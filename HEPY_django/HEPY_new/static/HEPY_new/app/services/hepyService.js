@@ -31,6 +31,12 @@
 			return req.then(_handleSuccess, _handleError);
 		}
 
+		function getComments() {
+			var req = $http.get(baseUrl + "commentsHEPY/?format=json");
+
+			return req.then(_handleSuccess, _handleError);
+		}
+
 		function getDisables() {
 			var req = $http.get(baseUrl + "disablesHEPY/?format=json");
 
@@ -53,6 +59,7 @@
 			getQuestionnaire: getQuestionnaire,
 	        getQuestions: getQuestions,
 			getAnswers: getAnswers,
+			getComments: getComments,
 			getDisables: getDisables,
 			getAnswerWeights: getAnswerWeights,
 			sendData: sendData
