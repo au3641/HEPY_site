@@ -9,7 +9,7 @@ import re
 # Create your views here.
 # from django.http import HttpResponse
 
-class AspoIndexRedirect(RedirectView):
+class HepyIndexRedirect(RedirectView):
     permanent = False
     #query_string = True
     pattern_name = '/'

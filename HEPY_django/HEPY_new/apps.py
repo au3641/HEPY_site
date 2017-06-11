@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class AspoNewConfig(AppConfig):
+class HepyNewConfig(AppConfig):
     name = 'HEPY_new'

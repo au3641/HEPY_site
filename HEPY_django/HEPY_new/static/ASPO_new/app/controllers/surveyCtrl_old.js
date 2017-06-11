@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    angular.module("HEPY").controller('SurveyCtrl', ["$scope", "AspoService", function ($scope, hepyService) {
+    angular.module("HEPY").controller('SurveyCtrl', ["$scope", "HepyService", function ($scope, hepyService) {
         var that = this; // Save this into that for better minification results.
 		
 		that.answered = [{questionId: 0, answerId: 0}];

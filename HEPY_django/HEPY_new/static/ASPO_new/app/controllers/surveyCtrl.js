@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    angular.module("HEPY").controller('SurveyCtrl', ["$scope", "AspoService", function ($scope, hepyService) {
+    angular.module("HEPY").controller('SurveyCtrl', ["$scope", "HepyService", function ($scope, hepyService) {
 
 		$scope.displayNr = -1; 		// Index of currently displayed question in carousel
 		$scope.actualDisplayNumber = 1;	// Displayed question number shown to user (how many questions did the user see, ignores hidden questions)

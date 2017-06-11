@@ -1,7 +1,7 @@
 (function () {
 	"use strict";
 
-	angular.module("HEPY").factory("AspoService", ["$http", "$q",
+	angular.module("HEPY").factory("HepyService", ["$http", "$q",
 	function ($http, $q) {
 	    var that = this;
 	    $http.defaults.xsrfCookieName = 'csrftoken';

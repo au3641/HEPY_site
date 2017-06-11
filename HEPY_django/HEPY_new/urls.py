@@ -18,7 +18,7 @@ router.register(r'sendAnswersHEPY', views.SendAnswersHEPY)
 
 urlpatterns = [
     # API
-    url(r'^$', views.AspoIndexRedirect.as_view(permanent=False), name='index'),
+    url(r'^$', views.HepyIndexRedirect.as_view(permanent=False), name='index'),
     # url(r'home', views.home, name='home'),
     # url(r'menu', views.menu, name='menu'),
     # url(r'footer', views.footer, name='footer'),

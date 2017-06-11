@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'HEPY_new.apps.AspoNewConfig',
+    #'HEPY_new.apps.HepyNewConfig',
     'HEPY_new',
     'rest_framework',       # djangorestframework (3.6.2)
     'django_extensions',    # django-extensions (1.7.8)
