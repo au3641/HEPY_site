@@ -29,4 +29,4 @@ class UserSerializer(serializers.ModelSerializer):
 class AnswerWeightSerializer(serializers.ModelSerializer):
     class Meta:
         model = AnswerWeight
-        fields = ('pk', 'answer', 'type', 'value')
+        fields = ('pk', 'answer', 'type', 'value', 'text')

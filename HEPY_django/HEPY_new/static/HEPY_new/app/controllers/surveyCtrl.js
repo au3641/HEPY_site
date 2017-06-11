@@ -63,22 +63,28 @@
 				question.answers.forEach(function(answer)
                 {
                 	// if answer was selected, add it to pack
-                	if(answer.selected && (answer.pk != $scope.consentQuestion.consentConfirmPK ||answer.pk != $scope.consentQuestion.consentRefusePK))
+                	if(answer.selected && (answer.pk != $scope.consentQuestion.consentConfirmPK || answer.pk != $scope.consentQuestion.consentRefusePK))
 						pack["answeredWith"].push(answer.pk);
 
-					if(answer.selected && answer.weight.length != 0)
+                	if(answer.selected && answer.weights.length != 0)
 					{
-						if(answer.weight.type == "semafor")
+						answer.weights.forEach(function(weight)
 						{
-							switch (answer.weight.value)
+							if(weight.length != 0)
 							{
-								case 1: green++; break;
-								case 2: yellow++; break;
-								case 3: red++; break;
-								case 4: pinky++; break;
+								if(weight.type == "short_comment")
+								{
+									switch (weight.value)
+									{
+										case 1: green++; break;
+										case 2: yellow++; break;
+										case 3: red++; break;
+										case 4: pinky++; break;
+									}
+								}
 							}
-						}
-					}
+						});
+                    }
 				});
 			});
 
@@ -235,8 +241,8 @@
             $scope.consentQuestion.ninja = false;
 
             // -1 private key is accept, -2 is refuse
-            $scope.consentQuestion.answers.push({pk: -1, question: -1, text: $scope.questionnaire.consentAcceptText, order: 1, weight: []});
-            $scope.consentQuestion.answers.push({pk: -2, question: -1, text: $scope.questionnaire.consentRefuseText, order: 2, weight: []});
+            $scope.consentQuestion.answers.push({pk: -1, question: -1, text: $scope.questionnaire.consentAcceptText, order: 1, weights: []});
+            $scope.consentQuestion.answers.push({pk: -2, question: -1, text: $scope.questionnaire.consentRefuseText, order: 2, weights: []});
             $scope.consentQuestion.consentConfirmPK = -1;
             $scope.consentQuestion.consentRefusePK = -1;
 
@@ -259,7 +265,7 @@
 			for(var i = 0; i < answers.length; i++)
 			{
 				answers[i].selected = false; // did user select this question
-				answers[i].weight = -1;		 // answer weight (or in our case alert level)
+				answers[i].weights = -1;		 // answer weights (or in our case alert level)
 
 				for(var j = 0; j < $scope.questions.length; j++)
 				{
@@ -324,18 +330,20 @@
 		// Service calls this function after it gets weights from the database
 		hepyService.getAnswerWeights().then(function (weights)
 		{
-			// Check through all the answer weights we got
-			for(var i = 0; i < weights.length; i++)
+			// Check through every question
+			for(var j = 0; j < $scope.questions.length; j++)
 			{
-				// Check through every question
-				for(var j = 0; j < $scope.questions.length; j++)
+				// Check through every answer on this question
+				for(var k = 0; k < $scope.questions[j].answers.length; k++)
 				{
-					// Check through every answer on this question
-					for(var k = 0; k < $scope.questions[j].answers.length; k++)
+					$scope.questions[j].answers[k].weights = new Array();
+
+					// Check through all the answer weights we got
+					for(var i = 0; i < weights.length; i++)
 					{
 						// If current weight belongs to current answer
 						if($scope.questions[j].answers[k].pk == weights[i].answer)
-							$scope.questions[j].answers[k].weight = weights[i]; // add weight value to the answer
+							$scope.questions[j].answers[k].weights.push(weights[i]); // add weight value to the answer
 					}
 				}
 			}

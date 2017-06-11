@@ -162,6 +162,19 @@ class AnswerWeight(models.Model):
             aqt,
             ant,
         )
+
+    ANSWERWEIGHT_TYPES = (
+        ('short_comment', 'short_comment'),
+        ('long_comment', 'long_comment'),
+        ('only_value', 'only_value'),
+        ('report', 'report'),
+    )
+
     answer = models.ForeignKey(Answer)
-    type = models.TextField(blank=True, null=True)
+    type = models.CharField(
+        max_length=16,
+        choices=ANSWERWEIGHT_TYPES,
+        default='short_comment',
+    )
     value = models.FloatField(blank=True, null=True)
+    text = models.TextField(blank=True, null=True)
