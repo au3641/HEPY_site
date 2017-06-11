@@ -1,0 +1,6 @@
+*_dev.py
+*_secret.py
+settings_dev.py
+settings_secret.py
+.idea
+.idea/*
