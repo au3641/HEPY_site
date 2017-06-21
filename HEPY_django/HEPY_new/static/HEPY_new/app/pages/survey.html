@@ -37,20 +37,13 @@
 					</slide>
 				</carousel>
 
-				<div ng-show="alertLevel >= 0" class="alert" ng-class="alertLevel == 1 ? 'alert-success' : alertLevel == 2 ? 'alert-warning' : 'alert-danger'">
-					<span ng-switch on="alertLevel">
-						<span ng-switch-when="1">
-							Verjetnost, da imate spolno prenosljivo okužbo, je zelo majhna. Če ste zaskrbljeni, pojdite k izbranemu osebnemu zdravniku. Izogibajte se tveganim spolnim odnosom ter pravilno in dosledno uporabljajte kondom.
-						</span>
-						
-						<span ng-switch-when="2">
-							Obstaja verjetnost, da imate spolno prenosljivo okužbo. Veliko spolno prenosljivih okužb lahko poteka brez bolezenskih znakov. Pojdite k izbranemu osebnemu zdravniku, da vas bo napotil k ustreznemu specialistu, v kolikor se mu bo to zdelo potrebno. Izogibajte se tveganim spolnim odnosom ter pravilno in dosledno uporabljajte kondom.
-						</span>
-						
-						<span ng-switch-when="3">
-							Obstaja zelo velika verjetnost, da imate spolno prenosljivo okužbo, zato se izogibajte spolnim odnosom (tudi oralnim), dokler ne boste prepričani, da nimate spolno prenosljive okužbe. Čim prej pojdite do izbranega osebnega zdravnika, ki vas bo napotil k ustreznemu specialistu.
-						</span>
-					</span>
+				<!--div ng-show="alertLevel >= 0" class="alert" ng-class="alertLevel == 1 ? 'alert-success' : alertLevel == 2 ? 'alert-warning' : 'alert-danger'"-->
+				<div ng-show="alertLevel >= 0" class="alert" ng-class="'alert-warning'">
+					<ul>
+						<li ng-repeat="rt in resultText">
+							{{ rt }}
+						</li>
+					</ul>
 				</div>
 			</div>
         </div>

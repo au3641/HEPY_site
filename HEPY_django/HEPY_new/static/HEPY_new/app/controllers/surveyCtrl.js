@@ -8,7 +8,7 @@
 		$scope.alertLevel = -1;		// Controls which alert message to display at the end of survey
 		$scope.moveOn = false;		// If false, "next" button will be greyed out
 		$scope.userConsent = false;	// Tells us if user consented to send his answers for research - by default user consent must be set to false
-
+		$scope.resultText = [];
 
 		function update_comment_visibility()
 		{
@@ -94,6 +94,14 @@
 			// Count weight values for answered questions
 			$scope.questions.forEach(function(question)
 			{
+				if(!question.ninja)
+				{
+                    question.comments.forEach(function (comment)
+					{
+                        if (comment.displayed == true)
+                        	$scope.resultText.push(comment.short_text);
+					});
+                }
 				question.answers.forEach(function(answer)
                 {
                 	// if answer was selected, add it to pack
@@ -132,6 +140,7 @@
 
 			// Set alert level variable that controls alert display
 			$scope.alertLevel = alertlevel;
+			$scope.alertLevel = 1;
 			/*
 			ZELENA, vsi odgovori zeleni, ali do vključno trije rumeni
 			RUMENA, če so zeleni in vsaj štirje rumeni; če sta 1 ali 2 roza in ostali zeleni/rumeni
@@ -273,11 +282,12 @@
             $scope.consentQuestion.active = false;
             $scope.consentQuestion.answers = [];
             $scope.consentQuestion.disables = [];
+            $scope.consentQuestion.comments = [];
             $scope.consentQuestion.ninja = false;
 
             // -1 private key is accept, -2 is refuse
-            $scope.consentQuestion.answers.push({pk: -1, question: -1, text: $scope.questionnaire.consentAcceptText, order: 1, comments:[], weights: []});
-            $scope.consentQuestion.answers.push({pk: -2, question: -1, text: $scope.questionnaire.consentRefuseText, order: 2, comments:[], weights: []});
+            $scope.consentQuestion.answers.push({pk: -1, question: -1, text: $scope.questionnaire.consentAcceptText, order: 1, weights: []});
+            $scope.consentQuestion.answers.push({pk: -2, question: -1, text: $scope.questionnaire.consentRefuseText, order: 2, weights: []});
             $scope.consentQuestion.consentConfirmPK = -1;
             $scope.consentQuestion.consentRefusePK = -1;
 
