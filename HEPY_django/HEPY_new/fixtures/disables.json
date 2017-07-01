@@ -1,0 +1,62 @@
+[
+  {
+    "model": "HEPY_new.disable",
+    "pk": 1,
+    "fields": {
+      "question": 6,
+      "requiredAnswers": [
+          18
+      ]
+    }
+  },
+  {
+    "model": "HEPY_new.disable",
+    "pk": 2,
+    "fields": {
+      "question": 8,
+      "requiredAnswers": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "HEPY_new.disable",
+    "pk": 3,
+    "fields": {
+      "question": 17,
+      "requiredAnswers": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "HEPY_new.disable",
+    "pk": 4,
+    "fields": {
+      "question": 14,
+      "requiredAnswers": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "HEPY_new.disable",
+    "pk": 5,
+    "fields": {
+      "question": 24,
+      "requiredAnswers": [
+        76
+      ]
+    }
+  },
+  {
+    "model": "HEPY_new.disable",
+    "pk": 6,
+    "fields": {
+      "question": 25,
+      "requiredAnswers": [
+        76
+      ]
+    }
+  }
+]

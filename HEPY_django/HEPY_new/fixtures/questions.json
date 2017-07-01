@@ -1,0 +1,304 @@
+[
+	{
+        "model": "HEPY_new.questionnaire",
+        "pk": 1,
+        "fields": {
+            "name": "HEPY",
+            "introText": "Pozdravljeni v začetnem oknu spletnega vprašalnika, ki vam bo pomagal oceniti, kakšna je verjetnost, da ste okuženi s katerimkoli od hepatitisov. Ko boste odgovorili na zastavljena vprašanja o vašem spolnem vedenju in morebitnih zdravstvenih težavah, bo sistem podal oceno stopnje tveganja. Vprašalnik ni nadomestilo za pregled pri zdravniku. Ob vsakem tveganem dejavniku se posvetujte s strokovnjakom.<br>Vprašalnik vam ne bo vzel veliko časa. Nadaljujte s klikom gumba Naprej.",
+            "consentQuestionText": "Ali se strinjate, da se vaši odgovori anonimno shranijo v podatkovni sistem?\nS tem pripomorete k boljšemu razumevanju simptomov hepatitisov.",
+            "consentAcceptText": "Da",
+            "consentRefuseText": "Ne",
+            "consentShowOrder": 1000000
+        }
+    },
+	{
+		"model": "HEPY_new.question",
+		"pk": 1,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Spol?",
+			"order": 10,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 2,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Starost?",
+			"order": 20,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 3,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste rojeni pred letom 1992?",
+			"order": 30,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 4,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Vprašalnik vsebuje različna vprašanja, glede na vrsto virusnega hepatitisa. Kaj vas najbolj zanima?",
+			"order": 40,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 5,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste cepljeni proti hepatitisu B?",
+			"order": 50,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 6,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali je bilo cepljenje uspešno (prejeli ste tri odmerke cepiva in imate zadostno koncentracijo protiteles v krvi)?",
+			"order": 60,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 7,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste se vi ali vaši starši rodili v državah, kjer je pogosta okužba z virusom hepatitisa B?",
+			"order": 70,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 8,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali je/je bil kdo izmed spodaj naštetih oseb okužen z virusom hepatitisa B in/ali C?",
+			"order": 80,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 9,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste imeli pred letom 1993 katerega od spodaj naštetih medicinskih postopkov?",
+			"order": 90,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 10,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste imeli izven zdravstvenega sistema opravljeno kaj od naštetega?",
+			"order": 100,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 11,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste kdaj njuhali ali si injicirali droge?",
+			"order": 110,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 12,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste se kdaj po naključju zbodli z že uporabljeno injekcijsko iglo ali se poškodovali z okrvavljenim predmetom?",
+			"order": 120,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 13,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste kdaj souporabljali osebni pribor (zobna ščetka, britvice, manikirni pribor) z osebo, ki je okužena/je bila okužena z virusom hepatitisa B ali C?",
+			"order": 130,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 14,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste bili na vojaškem urjenju v tujini oziroma ste odslužili vojaški rok v bivši Jugoslaviji?",
+			"order": 140,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 15,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali imate spolne odnose le s svojim stalnim in neokuženim partnerjem/partnerko?",
+			"order": 150,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 16,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali pri vsakem spolnem odnosu uporabljate kondom vedno in pravilno?",
+			"order": 160,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 17,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali imate spolne odnose z moškimi?",
+			"order": 170,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 18,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste kdaj imeli/imate katero od spolno prenosljivih okužb (gonorejo, sifilis, klamidijsko okužbo, genitalni herpes, genitalne bradavice, trihomonozo, hepatitis B, HIV)?",
+			"order": 180,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 19,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste/ste bili okuženi z:",
+			"order": 190,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 20,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste bili kdaj testirani na okužbo z virusom hepatitisa B ali C?",
+			"order": 200,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 21,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste se rodili državah, kjer je pogosta okužba z virusom hepatitisa A? *zemljevid*",
+			"order": 210,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 22,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste cepljeni proti hepatitisu A?",
+			"order": 220,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 23,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste v zadnjih dveh mesecih potovali v države, kjer sta endemična hepatitisa A ali hepatitisa E? *2 zemljevida*",
+			"order": 230,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 24,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste bili cepljeni vsaj en mesec pred potovanjem v države, kjer je endemičen hepatitis A? *zemljevid*",
+			"order": 240,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 25,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste na tem potovanju uživali neustekleničeno vodo, ledene kocke, neolupljeno sadje, surovo ali slabo prekuhano ali slabo prepečeno meso, zelenjavo, morsko hrano?",
+			"order": 250,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 26,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali kdaj uživate kaj od spodaj naštetega?",
+			"order": 260,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 27,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste kdaj imeli nenormalne krvne teste za oceno delovanja jeter (ALT, AST, bilirubin, protrombinski čas, albumini) in vzrok za to ni bil pojasnjen?",
+			"order": 270,
+			"type": "radio"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 28,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali imate katerega od naštetih simptomov ali znakov bolezni, ki jih z dosedaj opravljenimi preiskavami niso uspeli pojasniti?",
+			"order": 280,
+			"type": "checkbox"
+		}
+	},
+	{
+		"model": "HEPY_new.question",
+		"pk": 29,
+		"fields": {
+			"questionnaire": 1,
+			"text": "Ali ste se vi ali vaši starši rodili v državah, kjer je pogosta okužba z virusom hepatitisa C? *zemljevid*",
+			"order": 75,
+			"type": "radio"
+		}
+	}
+]

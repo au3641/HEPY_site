@@ -1,0 +1,277 @@
+[
+	{
+		"model": "HEPY_new.comment",
+		"pk": 4,
+		"fields": {
+			"question": 4,
+			"long_text": "Priporočamo vam cepljenje proti hepatitisu B in po tretjem odmerku preverjanje uspešnosti cepljenja, saj je pri zelo majhnem deležu cepljenih oseb potrebno dopolniti cepljenje z dodatnimi odmerki.",
+			"short_text": "Niste bili cepljeni proti hepatitisu B, hepatitisu A ali hepatitisoma A in B.",
+			"answersThatEnable": [
+			18]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 6,
+		"fields": {
+			"question": 6,
+			"long_text": "Obiščite izbranega osebnega zdravnika in ga prosite, da omogoči preverjanje uspešnosti cepljenja oziroma vam pove, ali je bilo cepljenje uspešno.",
+			"short_text": "Obiščite izbranega osebnega zdravnika in ga prosite, da omogoči preverjanje uspešnosti cepljenja oziroma vam pove, ali je bilo cepljenje uspešno.",
+			"answersThatEnable": [
+			20, 21]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 7,
+		"fields": {
+			"question": 7,
+			"long_text": "Obstaja večja verjetnost okužbe z virusom hepatitisa B, če ste vi ali vaši starši rojeni v državah, kjer je ta okužba pogosta.",
+			"short_text": "Vi ali vaši starši ste bili rojeni v državah, kjer so okužbe z virusi hepatitisa pogoste.",
+			"answersThatEnable": [
+			22]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 8,
+		"fields": {
+			"question": 8,
+			"long_text": "Ker se okužba z virusoma hepatitisa B ali C lahko prenese med nezaščitenim spolnim stikom z okuženo osebo, z okužene matere na plod ali novorojenca in pri sobivanju z okuženo osebo  (zaradi možne izpostavljenosti krvi in telesnim tekočinam), vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Družinski član, spolni partner/ka ali član skupnega gospodinjstva je okužen z virusom hepatitisa B ali/in C.",
+			"answersThatEnable": [
+			24, 25, 26, 27, 29]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 9,
+		"fields": {
+			"question": 9,
+			"long_text": "Ker ste bili pred letom 1993, ko se je v zdravstvu vzpostavilo rutinsko testiranje na oba virusa, ki se prenašata z okuženo krvjo, izpostavljeni medicinskim postopkom, ki lahko predstavljajo tveganje za okužbo, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Pred letom 1993 ste bili izpostavljeni medicinskim postopkom, ki lahko predstavljajo tveganje za okužbo.",
+			"answersThatEnable": [
+			30, 31, 32, 33]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 10,
+		"fields": {
+			"question": 10,
+			"long_text": "Če je bil tak postopek izveden neprofesionalno, oziroma v higiensko neustreznih razmerah, lahko pride do prenosa virusov hepatitisa B in C,  zato vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Imate tetovažo, »piercing« ali pa ste bili na akupunkturi izvedeni v higiensko neustreznih razmerah.",
+			"answersThatEnable": [
+			35, 36, 37, 38]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 11,
+		"fields": {
+			"question": 11,
+			"long_text": "Ker uživate droge na način, ki predstavlja večje tveganje za prenos virusov hepatitisa B in C (njuhanje ali injiciranje drog), vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Ker uživate droge na način, ki predstavlja večje tveganje za prenos virusov hepatitisa B in C (njuhanje ali injiciranje drog), vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"answersThatEnable": [
+			40, 41]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 12,
+		"fields": {
+			"question": 12,
+			"long_text": "Ker ste se zbodli z uporabljeno injekcijsko iglo ali se poškodovali z okrvavljenim predmetom, obstaja možnost, da ste bili izpostavljeni virusom, ki se prenašajo s krvjo. Priporočamo vam testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Zbodli ste se z uporabljeno injekcijsko iglo ali se poškodovali z okrvavljenim predmetom.",
+			"answersThatEnable": [
+			43]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 13,
+		"fields": {
+			"question": 13,
+			"long_text": "Pri souporabi osebnega pribora z osebo, ki je oziroma je bila okužena z virusom hepatitisa B ali C, lahko pride do prenosa okužbe, zato vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Souporabljate osebni pribor (zobna ščetka, britvice, manikirni pribor) z osebo, ki je oziroma je bila okužena z virusom hepatitisa B ali C.",
+			"answersThatEnable": [
+			45, 47]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 14,
+		"fields": {
+			"question": 14,
+			"long_text": "Ker ste bili na vojaškem urjenju v tujini oziroma ste odslužili vojaški rok v Jugoslaviji, kjer je obstajala možnost prenosa virusa hepatitisa B ali C, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Bili ste na vojaškem urjenju v tujini oziroma ste odslužili vojaški rok v bivši Jugoslaviji.",
+			"answersThatEnable": [
+			48]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 15,
+		"fields": {
+			"question": 15,
+			"long_text": "Priporočamo, da kondom uporabljate vedno in pravilno pri vsakem spolnem odnosu, ker se ob nezaščitenih spolnih odnosih prenašajo poleg virusov hepatitisa B in C tudi druge spolno prenosljive okužbe. Zato vam priporočamo tako testiranje na okužbo z virusoma hepatitisa B in C, kot tudi na ostale spolno prenosljive okužbe. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.Več o spolno prenosljivih okužbah si lahko preberete na: https://aspo.mf.uni-lj.si//",
+			"short_text": "Kondoma ne uporabljate vedno in pravilno pri vsakem spolnem odnosu.",
+			"answersThatEnable": [
+			51]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 17,
+		"fields": {
+			"question": 17,
+			"long_text": "Ker imate spolne odnose z moškimi, obstaja večja možnost prenosa okužbe z virusoma hepatitisa B in C, zato vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Imate spolne odnose z moškimi.",
+			"answersThatEnable": [
+			53]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 18,
+		"fields": {
+			"question": 18,
+			"long_text": "Več o spolno prenosljivih okužbah si lahko preberete na: https://aspo.mf.uni-lj.si//",
+			"short_text": "Več o spolno prenosljivih okužbah si lahko preberete na: https://aspo.mf.uni-lj.si//",
+			"answersThatEnable": [
+			55, 56]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 19,
+		"fields": {
+			"question": 19,
+			"long_text": "Ker ste/ste bili okuženi z virusom hepatitis B ali C ali virusom HIV, in zaradi načina prenosa lahko pride hkrati do vseh naštetih okužb, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C ter virusom HIV, v kolikor tega še niste opravili. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "Ker ste/ste bili okuženi z virusom hepatitis B ali C ali virusom HIV, in zaradi načina prenosa lahko pride hkrati do vseh naštetih okužb, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C ter virusom HIV, v kolikor tega še niste opravili. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"answersThatEnable": [
+			59, 60, 61]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 20,
+		"fields": {
+			"question": 20,
+			"long_text": "V primeru povečanega tveganja za okužbo, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"short_text": "V primeru povečanega tveganja za okužbo, vam priporočamo testiranje na okužbo z virusoma hepatitisa B in C. Če ste bili uspešno cepljeni proti hepatitisu B, vam svetujemo le testiranje na okužbo z virusom hepatitisa C.",
+			"answersThatEnable": [
+			68, 69]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 21,
+		"fields": {
+			"question": 21,
+			"long_text": "Obstaja večja verjetnost okužbe z virusom hepatitisa A, če ste vi rodili v državah, kjer je ta okužba pogosta.",
+			"short_text": "Obstaja večja verjetnost okužbe z virusom hepatitisa A, če ste vi rodili v državah, kjer je ta okužba pogosta.",
+			"answersThatEnable": [
+			70]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 22,
+		"fields": {
+			"question": 22,
+			"long_text": "Cepljenje le z enim odmerkom najverjetneje ne nudi zaščite pred hepatitisom A za vse življenje.",
+			"short_text": "Cepljenje le z enim odmerkom najverjetneje ne nudi zaščite pred hepatitisom A za vse življenje.",
+			"answersThatEnable": [
+			72, 74]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 24,
+		"fields": {
+			"question": 24,
+			"long_text": "Za tvorbo zadostne količine protiteles, ki nas nato učinkovito zaščitijo pred okužbo z virusom hepatitisa A, telo potrebuje določen čas, zato je pomembno, da se pred potovanjem pravočasno cepimo. ",
+			"short_text": "Za tvorbo zadostne količine protiteles, ki nas nato učinkovito zaščitijo pred okužbo z virusom hepatitisa A, telo potrebuje določen čas, zato je pomembno, da se pred potovanjem pravočasno cepimo. ",
+			"answersThatEnable": [
+			77, 78]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 26,
+		"fields": {
+			"question": 26,
+			"long_text": "Če se vam pojavijo simptomi in znaki okužbe, kot so slabost in bruhanje, zvišana telesna temperatura, tiščeče bolečina v zgornjem delu trebuha, zlatenica, temnejši seč ali svetlo obarvano blato, in ste nekaj tednov pred tem uživali termično slabo obdelano divjačino ali svinjino, obstaja minimalna možnost, da ste se okužili z virusom hepatitisa E. V tem primeru obiščite svojega osebnega zdravnika.",
+			"short_text": "Uživali ste slabo termično obdelano divjačino ali svinjino.",
+			"answersThatEnable": [
+			81, 82]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 27,
+		"fields": {
+			"question": 27,
+			"long_text": "Ker vzrok nenormalnih krvnih testov za oceno delovanja jeter še ni bil opredeljen, vam priporočamo obisk osebnega zdravnika in testiranje na okužbe z virusnimi hepatitisi, saj le-ti preko okvare jetrnih celic lahko povzročijo porast ravni jetrnih encimov v krvi.",
+			"short_text": "Imate nenormalne krvne teste za oceno delovanja jeter.",
+			"answersThatEnable": [
+			84]
+		}
+	},
+	{
+		"model": "HEPY_new.comment",
+		"pk": 28,
+		"fields": {
+			"question": 28,
+			"long_text": "Ker imate enega ali več simptomov in znakov, ki so lahko prisotni pri virusnem hepatitisu, vam priporočamo obisk osebnega zdravnika, ki vas bo napotil na ustrezne preiskave.",
+			"short_text": "Imate simptome in znake, ki so lahko prisotni pri virusnem hepatitisu.",
+			"answersThatEnable": [
+			88, 89, 90, 91, 92, 93, 94, 95, 96]
+		}
+	},
+    {
+        "model": "HEPY_new.comment",
+        "pk": 29,
+        "fields": {
+            "question": 29,
+            "long_text": "Obstaja večja verjetnost okužbe z virusom hepatitisa C, če ste vi ali vaši starši rojeni v državah, kjer je ta okužba pogosta.",
+            "short_text": "Obstaja večja verjetnost okužbe z virusom hepatitisa C, če ste vi ali vaši starši rojeni v državah, kjer je ta okužba pogosta.",
+            "answersThatEnable": [
+            98]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk": 30,
+        "fields": {
+            "question": 20,
+            "long_text": "Ker imate potrjeno trenutno okužbo z virusom hepatitisa B, vam svetujemo, da se čim prej oglasite pri osebnem zdravniku, ki vas bo napotil do ustreznega specialista.",
+            "short_text": "Ker imate potrjeno trenutno okužbo z virusom hepatitisa B, vam svetujemo, da se čim prej oglasite pri osebnem zdravniku, ki vas bo napotil do ustreznega specialista.",
+            "answersThatEnable": [
+            64]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk": 31,
+        "fields": {
+            "question": 20,
+            "long_text": "Ker imate potrjeno trenutno okužbo z virusom hepatitisa C, vam svetujemo, da se čim prej oglasite pri osebnem zdravniku, ki vas bo napotil do ustrezenga specialista.",
+            "short_text": "Ker imate potrjeno trenutno okužbo z virusom hepatitisa C, vam svetujemo, da se čim prej oglasite pri osebnem zdravniku, ki vas bo napotil do ustrezenga specialista.",
+            "answersThatEnable": [
+            65]
+        }
+    },
+    {
+        "model": "HEPY_new.comment",
+        "pk": 32,
+        "fields": {
+            "question": 23,
+            "long_text": "V kolikor načrtujete potovanja v območja kjer sta endemična hepatitis A in E, vam svetujemo, da obiščete eno izmed ambulant za potnike in se pozanimate o cepljenju in ostalih preventivnih ukrepih.",
+            "short_text": "V kolikor načrtujete potovanja v območja kjer sta endemična hepatitis A in E, vam svetujemo, da obiščete eno izmed ambulant za potnike in se pozanimate o cepljenju in ostalih preventivnih ukrepih.",
+            "answersThatEnable": [
+            76]
+        }
+    }
+]

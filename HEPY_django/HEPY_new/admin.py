@@ -4,6 +4,10 @@ from nested_inline.admin import NestedStackedInline, NestedModelAdmin
 import nested_inline
 # Register your models here.
 
+class CommentInline(NestedStackedInline):
+    model = Comment
+    filter_horizontal = ('answersThatEnable',)
+
 class DisableInline(NestedStackedInline):
     model = Disable
     filter_horizontal = ('requiredAnswers',)
@@ -18,7 +22,8 @@ class QuestionInline(NestedStackedInline):
 
 class QuestionAdmin(NestedModelAdmin):
     inlines = [
-        AnswerInline
+        AnswerInline,
+        CommentInline
     ]
 
 class QuestionnaireAdmin(NestedModelAdmin):

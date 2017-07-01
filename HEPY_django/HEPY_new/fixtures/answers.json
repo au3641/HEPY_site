@@ -1,0 +1,893 @@
+[
+	{
+		"model": "HEPY_new.answer",
+		"pk":1,
+		"fields": {
+			"question": 1,
+			"text": "Moški",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":2,
+		"fields": {
+			"question": 1,
+			"text": "Ženska",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":3,
+		"fields": {
+			"question": 2,
+			"text": "Manj kot 16 let",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":4,
+		"fields": {
+			"question": 2,
+			"text": "16 – 24 let",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":5,
+		"fields": {
+			"question": 2,
+			"text": "25 – 34 let",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":6,
+		"fields": {
+			"question": 2,
+			"text": "35 – 44 let",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":7,
+		"fields": {
+			"question": 2,
+			"text": "45 – 59 let",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":8,
+		"fields": {
+			"question": 2,
+			"text": "Več kot 60 let",
+			"order": 6
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":9,
+		"fields": {
+			"question": 3,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":10,
+		"fields": {
+			"question": 3,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":11,
+		"fields": {
+			"question": 4,
+			"text": "Zaradi življenjskega sloga (pogosto menjavanje spolnih partnerk ali partnerjev, uživanje drog, tetoviranje, »piercing«) me najbolj zanima okužba, povezana s spolnim prenosom ali s krvjo (hepatitisa B in C)",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":12,
+		"fields": {
+			"question": 4,
+			"text": "Član skupnega gospodinjstva ali spolni partner/ka je okužen/a z virusom hepatitisa B in/ali C",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":13,
+		"fields": {
+			"question": 4,
+			"text": "Rad/a potujem po svetu, zato me najbolj zanima okužba, povezana s tamkajšnjim uživanjem hrane, vode, ipd",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":14,
+		"fields": {
+			"question": 4,
+			"text": "Imam zdravstvene težave, za katere mislim, da bi lahko bile povezane z okužbo z virusi hepatitisa",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":15,
+		"fields": {
+			"question": 4,
+			"text": "Zanimajo me splošne informacije o okužbah z virusi hepatitisa.",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":16,
+		"fields": {
+			"question": 5,
+			"text": "Da, cepljen/a sem v okviru rednega programa cepljenja otrok pred vstopom v šolo (rojeni po letu 1992)",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":17,
+		"fields": {
+			"question": 5,
+			"text": "Da, cepil/a sem se individualno",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":18,
+		"fields": {
+			"question": 5,
+			"text": "Ne",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":19,
+		"fields": {
+			"question": 6,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":20,
+		"fields": {
+			"question": 6,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":21,
+		"fields": {
+			"question": 6,
+			"text": "Ne vem",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":22,
+		"fields": {
+			"question": 7,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":23,
+		"fields": {
+			"question": 7,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":24,
+		"fields": {
+			"question": 8,
+			"text": "Da, družinski član",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":25,
+		"fields": {
+			"question": 8,
+			"text": "Da, spolni partner ali partnerka",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":26,
+		"fields": {
+			"question": 8,
+			"text": "Da, član skupnega gospodinjstva",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":27,
+		"fields": {
+			"question": 8,
+			"text": "Da, mati v času nosečnosti",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":28,
+		"fields": {
+			"question": 8,
+			"text": "Ne",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":29,
+		"fields": {
+			"question": 8,
+			"text": "Ne vem",
+			"order": 6
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":30,
+		"fields": {
+			"question": 9,
+			"text": "Večji operativni poseg ali večji poseg pri zobozdravniku",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":31,
+		"fields": {
+			"question": 9,
+			"text": "Prejel/a sem transfuzijo krvi in/ali krvnih pripravkov",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":32,
+		"fields": {
+			"question": 9,
+			"text": "Imel/a sem zdravljenje s hemodializo",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":33,
+		"fields": {
+			"question": 9,
+			"text": "Prejel/a sem transplantiran organ",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":34,
+		"fields": {
+			"question": 9,
+			"text": "Nič od naštetega",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":35,
+		"fields": {
+			"question": 10,
+			"text": "Tetovažo",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":36,
+		"fields": {
+			"question": 10,
+			"text": "Prebadanje kože ali sluznic (»piercing«)",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":37,
+		"fields": {
+			"question": 10,
+			"text": "Akupunkturo",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":38,
+		"fields": {
+			"question": 10,
+			"text": "Injiciranje hormonov, steroidov, kozmetičnih pripravkov ali drugo?",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":39,
+		"fields": {
+			"question": 10,
+			"text": "Ne",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":40,
+		"fields": {
+			"question": 11,
+			"text": "Da, njuhal/a",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":41,
+		"fields": {
+			"question": 11,
+			"text": "Da, injiciral/a",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":42,
+		"fields": {
+			"question": 11,
+			"text": "Ne",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":43,
+		"fields": {
+			"question": 12,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":44,
+		"fields": {
+			"question": 12,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":45,
+		"fields": {
+			"question": 13,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":46,
+		"fields": {
+			"question": 13,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":47,
+		"fields": {
+			"question": 13,
+			"text": "Ne vem",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":48,
+		"fields": {
+			"question": 14,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":49,
+		"fields": {
+			"question": 14,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":50,
+		"fields": {
+			"question": 15,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":51,
+		"fields": {
+			"question": 15,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":52,
+		"fields": {
+			"question": 15,
+			"text": "Ne, nimam spolnih odnosov",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":53,
+		"fields": {
+			"question": 16,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":54,
+		"fields": {
+			"question": 16,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":55,
+		"fields": {
+			"question": 17,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":56,
+		"fields": {
+			"question": 17,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":57,
+		"fields": {
+			"question": 18,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":58,
+		"fields": {
+			"question": 18,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":59,
+		"fields": {
+			"question": 19,
+			"text": "Virusom hepatitisa B",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":60,
+		"fields": {
+			"question": 19,
+			"text": "Virusom hepatitisa C",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":61,
+		"fields": {
+			"question": 19,
+			"text": "Virusom HIV",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":62,
+		"fields": {
+			"question": 19,
+			"text": "Nikoli nisem bil/a okužen/a z virusom hepatitisa B ali C ali HIV",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":63,
+		"fields": {
+			"question": 19,
+			"text": "Ne vem",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":64,
+		"fields": {
+			"question": 20,
+			"text": "Test na okužbo z virusom hepatitisa B je bil pozitiven in je potrdil trenutno okužbo (HBsAg pozitiven)",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":65,
+		"fields": {
+			"question": 20,
+			"text": "Test na okužbo z virusom hepatitisa B je bil pozitiven in je potrdil prebolelo okužbo (anti-HBc in antiHBs pozitiven)",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":66,
+		"fields": {
+			"question": 20,
+			"text": "Test na okužbo z virusom hepatitisa C je bil pozitiven in je potrdil trenutno okužbo (HCV RNA pozitiven)",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":67,
+		"fields": {
+			"question": 20,
+			"text": "Test na okužbo z virusom hepatitisa C je bil pozitiven (anti-HCV pozitiven), vendar ni potrdil trenutne okužbe, ampak prebolelo okužbo (HCV RNA negativen)",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":68,
+		"fields": {
+			"question": 20,
+			"text": "Test na okužbo z virusom hepatitisa B in C je bil negativen",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":69,
+		"fields": {
+			"question": 20,
+			"text": "Nikoli nisem bil/a testirana na okužbo z virusoma hepatitisa B ali C",
+			"order": 6
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":70,
+		"fields": {
+			"question": 21,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":71,
+		"fields": {
+			"question": 21,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":72,
+		"fields": {
+			"question": 22,
+			"text": "Da, prejel/a sem 1 odmerek",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":73,
+		"fields": {
+			"question": 22,
+			"text": "Da, prejel/a sem 2 odmerka",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":74,
+		"fields": {
+			"question": 22,
+			"text": "Ne",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":75,
+		"fields": {
+			"question": 23,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":76,
+		"fields": {
+			"question": 23,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":77,
+		"fields": {
+			"question": 24,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":78,
+		"fields": {
+			"question": 24,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":79,
+		"fields": {
+			"question": 25,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":80,
+		"fields": {
+			"question": 25,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":81,
+		"fields": {
+			"question": 26,
+			"text": "Domače suhomesne izdelke iz divjačine ali svinjine",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":82,
+		"fields": {
+			"question": 26,
+			"text": "Slabo prepečeno ali neprekuhano divjačino ali svinjino",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":83,
+		"fields": {
+			"question": 26,
+			"text": "Ne",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":84,
+		"fields": {
+			"question": 27,
+			"text": "Da",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":85,
+		"fields": {
+			"question": 27,
+			"text": "Ne",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":86,
+		"fields": {
+			"question": 27,
+			"text": "Nisem opravil krvnih testov za oceno delovanja jeter",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":87,
+		"fields": {
+			"question": 27,
+			"text": "Ne vem",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":88,
+		"fields": {
+			"question": 28,
+			"text": "Dlje časa trajajoče slabo počutje ali izčrpavajoča utrujenost",
+			"order": 1
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":89,
+		"fields": {
+			"question": 28,
+			"text": "Tiščečo bolečino v zgornjem delu trebuha",
+			"order": 2
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":90,
+		"fields": {
+			"question": 28,
+			"text": "Spahovanje in napenjanje v trebuhu",
+			"order": 3
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":91,
+		"fields": {
+			"question": 28,
+			"text": "Siljenje na bruhanje/bruhanje",
+			"order": 4
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":92,
+		"fields": {
+			"question": 28,
+			"text": "Izguba teka in/ali izguba telesne teže",
+			"order": 5
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":93,
+		"fields": {
+			"question": 28,
+			"text": "Zatekanje v trebuh in noge",
+			"order": 6
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":94,
+		"fields": {
+			"question": 28,
+			"text": "Zlatenica",
+			"order": 7
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":95,
+		"fields": {
+			"question": 28,
+			"text": "Opažate svetlejšo barvo blata",
+			"order": 8
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":96,
+		"fields": {
+			"question": 28,
+			"text": "Opažate temnejšo barvo urina",
+			"order": 9
+		}
+	},
+	{
+		"model": "HEPY_new.answer",
+		"pk":97,
+		"fields": {
+			"question": 28,
+			"text": "Nobena izmed naštetih trditev zame ne drži",
+			"order": 10
+		}
+	},
+    {
+        "model": "HEPY_new.answer",
+        "pk":98,
+        "fields": {
+            "question": 29,
+            "text": "Da",
+            "order": 1
+        }
+    },
+    {
+        "model": "HEPY_new.answer",
+        "pk":99,
+        "fields": {
+            "question": 29,
+            "text": "Ne",
+            "order": 2
+        }
+    }
+]
