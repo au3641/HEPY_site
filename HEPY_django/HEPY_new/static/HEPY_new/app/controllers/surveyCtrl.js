@@ -89,8 +89,13 @@
 			var red = 0;
 			var pinky = 0;
 			var alertlevel = 1;
+			var risk_type = false;
+			var vacinated_for_A_B = false;
 			var pack = {answeredWith: new Array()};		// list of selected answers
 
+			
+			var vac_skip = false;
+			var risk_skip = false;
 			// Count weight values for answered questions
 			$scope.questions.forEach(function(question)
 			{
@@ -110,22 +115,30 @@
 
                 	if(answer.selected && answer.weights.length != 0)
 					{
-						answer.weights.forEach(function(weight)
+						if(!risk_skip || !vac_skip)
 						{
-							if(weight.length != 0)
+							answer.weights.forEach(function (weight)
 							{
-								if(weight.type == "risk")
+								if (weight.length != 0)
 								{
-									switch (weight.value)
+									if (!risk_skip && weight.type == "risk")
 									{
-										case 1: green++; break;
-										case 2: yellow++; break;
-										case 3: red++; break;
-										case 4: pinky++; break;
+										risk_type = true;
+										risk_skip = true;
+									}
+									if (!vac_skip && weight.type == "not_a_b")
+									{
+										if (weight.value = 1.0)
+										{
+											vacinated_for_A_B = false;
+											vac_skip = true;
+										}
+										else
+											vacinated_for_A_B = true;
 									}
 								}
-							}
-						});
+							});
+						}
                     }
 				});
 			});

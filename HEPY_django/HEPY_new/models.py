@@ -25,10 +25,11 @@ class Questionnaire(models.Model):
 class Question(models.Model):
     def  __str__( self ):
         try:
-            return "QUESTIONNAIRE: {0} | QUESTION: {1} | ORDER: {2}".format(
+            return "QUESTIONNAIRE: {0} | QUESTION: {1} | ORDER: {2} | PK: {3}".format(
                 self.questionnaire.name,
                 self.text,
                 self.order,
+                self.pk
             )
         except:
             return "QUESTIONNAIRE: {0} | QUESTION: {1} | ORDER: {2}".format(
@@ -62,10 +63,11 @@ class Question(models.Model):
 class Answer(models.Model):
     def  __str__( self ):
         try:
-            return "ORDER: {0} | QUESTION: {1} | ANSWER: {2}".format(
+            return "ORDER: {0} | QUESTION: {1} | ANSWER: {2} | PK: {3}".format(
                 self.order,
                 self.question.text,
                 self.text,
+                self.pk
             )
         except:
             return "ORDER: {0} | QUESTION: {1} | ANSWER: {2}".format(
@@ -94,7 +96,7 @@ class Comment(models.Model):
                 ae_text.join("answer does not exist")
 
 
-        return "QUESTION: {0} | LONG TEXT: {1} | SHORT TEXT: {2} | ENABLED BY: {3}".format(
+        return "SHORT TEXT: {2} | QUESTION: {0} | ENABLED BY: {3}".format(
             q_text,
             self.long_text,
             self.short_text,
@@ -177,6 +179,8 @@ class AnswerWeight(models.Model):
 
     ANSWERWEIGHT_TYPES = (
         ('risk', 'risk'),
+        ('hepatitis_a_b', 'hepatitis_a_b'),
+        ('not_a_b', 'not_a_b')
     )
 
     answer = models.ForeignKey(Answer)

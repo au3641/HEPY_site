@@ -39,6 +39,11 @@
 
 				<!--div ng-show="alertLevel >= 0" class="alert" ng-class="alertLevel == 1 ? 'alert-success' : alertLevel == 2 ? 'alert-warning' : 'alert-danger'"-->
 				<div ng-show="alertLevel >= 0" class="alert" ng-class="'alert-warning'">
+					<p>
+						Zaradi naštetih dejavnikov tveganja oziroma bolezenskih	simptomov in znakov vam priporočamo obisk zdravnika in testiranje na okužbo z virusi hepatitisa(link do informacij glede testiranja).
+						<br>
+						Vaši dejavniki tveganja za okužbo z virusi hepatitisa:
+					</p>
 					<ul>
 						<li ng-repeat="rt in resultText">
 							{{ rt }}

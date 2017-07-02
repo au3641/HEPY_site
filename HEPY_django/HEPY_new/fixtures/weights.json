@@ -1,0 +1,560 @@
+[
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 1,
+        "fields": {
+            "answer": 18,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 2,
+        "fields": {
+            "answer": 20,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 3,
+        "fields": {
+            "answer": 21,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 4,
+        "fields": {
+            "answer": 22,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 5,
+        "fields": {
+            "answer": 24,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 6,
+        "fields": {
+            "answer": 25,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 7,
+        "fields": {
+            "answer": 26,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 8,
+        "fields": {
+            "answer": 27,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 9,
+        "fields": {
+            "answer": 29,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 10,
+        "fields": {
+            "answer": 30,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 11,
+        "fields": {
+            "answer": 31,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 12,
+        "fields": {
+            "answer": 32,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 13,
+        "fields": {
+            "answer": 33,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 14,
+        "fields": {
+            "answer": 35,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 15,
+        "fields": {
+            "answer": 36,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 16,
+        "fields": {
+            "answer": 37,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 17,
+        "fields": {
+            "answer": 38,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 18,
+        "fields": {
+            "answer": 40,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 19,
+        "fields": {
+            "answer": 41,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 20,
+        "fields": {
+            "answer": 43,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 21,
+        "fields": {
+            "answer": 45,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 22,
+        "fields": {
+            "answer": 47,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 23,
+        "fields": {
+            "answer": 48,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 24,
+        "fields": {
+            "answer": 51,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 25,
+        "fields": {
+            "answer": 54,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 26,
+        "fields": {
+            "answer": 55,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 27,
+        "fields": {
+            "answer": 57,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 28,
+        "fields": {
+            "answer": 59,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 29,
+        "fields": {
+            "answer": 60,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 30,
+        "fields": {
+            "answer": 61,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 31,
+        "fields": {
+            "answer": 63,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 32,
+        "fields": {
+            "answer": 64,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 33,
+        "fields": {
+            "answer": 65,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 34,
+        "fields": {
+            "answer": 66,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 35,
+        "fields": {
+            "answer": 67,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 36,
+        "fields": {
+            "answer": 69,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 37,
+        "fields": {
+            "answer": 70,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 38,
+        "fields": {
+            "answer": 74,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 39,
+        "fields": {
+            "answer": 75,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 40,
+        "fields": {
+            "answer": 78,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 41,
+        "fields": {
+            "answer": 79,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 42,
+        "fields": {
+            "answer": 81,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 43,
+        "fields": {
+            "answer": 82,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 44,
+        "fields": {
+            "answer": 84,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 45,
+        "fields": {
+            "answer": 86,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 46,
+        "fields": {
+            "answer": 87,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 47,
+        "fields": {
+            "answer": 88,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 48,
+        "fields": {
+            "answer": 89,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 49,
+        "fields": {
+            "answer": 90,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 50,
+        "fields": {
+            "answer": 91,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 51,
+        "fields": {
+            "answer": 92,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 52,
+        "fields": {
+            "answer": 93,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 53,
+        "fields": {
+            "answer": 94,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 54,
+        "fields": {
+            "answer": 95,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 55,
+        "fields": {
+            "answer": 96,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 56,
+        "fields": {
+            "answer": 98,
+            "type": "risk",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 57,
+        "fields": {
+            "answer": 72,
+            "type": "not_a_b",
+            "value": 0
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 58,
+        "fields": {
+            "answer": 73,
+            "type": "not_a_b",
+            "value": 0
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 59,
+        "fields": {
+            "answer": 74,
+            "type": "not_a_b",
+            "value": 1
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 60,
+        "fields": {
+            "answer": 16,
+            "type": "not_a_b",
+            "value": 0
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 61,
+        "fields": {
+            "answer": 17,
+            "type": "not_a_b",
+            "value": 0
+        }
+    },
+    {
+        "model": "HEPY_new.AnswerWeight",
+        "pk": 62,
+        "fields": {
+            "answer": 18,
+            "type": "not_a_b",
+            "value": 1
+        }
+    }
+]
