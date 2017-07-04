@@ -75,7 +75,7 @@
 
 		sc.changeCheckbox = function(){
 			update_comment_visibility();
-		}
+		};
 
 		// Called when returning to previous question
 		sc.back = function()
@@ -112,7 +112,6 @@
 			var risk_type = false;
 			var vacinated_for_A_B = false;
 			var pack = {answeredWith: new Array()};		// list of selected answers
-
 			
 			var vac_skip = false;
 			var risk_skip = false;
@@ -163,13 +162,8 @@
 				});
 			});
 
-			// Pick alert level, based on weight counts
-			if(yellow < 4 && pinky == 0 && red == 0)
-				alertlevel = 1; // green
-			else if((yellow >= 4 || (pinky > 0 && pinky < 3)) && red == 0)
-				alertlevel = 2; // yellow
-			else
-				alertlevel = 3; // red
+			//if(!risk_type && vacinated_for_A_B)
+				
 
 			// Set alert level variable that controls alert display
 			sc.alertLevel = alertlevel;
@@ -333,6 +327,7 @@
 			for(var i = 0; i < sc.tempQuestions.length; i++)
 			{
 				// Add property 'active' to indicate which question is displayed
+                sc.tempQuestions[i].tid = i;
 				sc.tempQuestions[i].active = false;// Required for Bootstrap UI Carousel
 				sc.tempQuestions[i].answers = [];	// array filled by getAnswers
 				sc.tempQuestions[i].comments = []; // array filled by getComments
@@ -353,6 +348,7 @@
 
             // Create consent question on scope for quick access later
 			sc.consentQuestion = {};
+            sc.consentQuestion.tid = sc.questions.length;
             sc.consentQuestion.pk = -1;
             sc.consentQuestion.questionnaire = sc.questionnaire.pk;
             sc.consentQuestion.text = sc.questionnaire.consentQuestionText;

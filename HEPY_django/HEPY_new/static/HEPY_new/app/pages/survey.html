@@ -15,18 +15,18 @@
 
 						<ul id="ulSurvey" ng-switch on="q.type">
 							<li ng-repeat="ans in q.answers" ng-switch-when="checkbox">
-								<label><input name="ans{{q.pk}}" type="checkbox" ng-change="changeCheckbox()" ng-model="ans.selected"> {{ ans.text }}</label>
+								<label><input name="ans{{q.pk}}_{{ans.pk}}" type="checkbox" ng-change="changeCheckbox()" ng-model="ans.selected"> {{ ans.text }}</label>
 								<!--label ng-show="ans.selected == true" ng-repeat="w in ans.weights"><p ng-if="w.type == 'long_comment'">{{ w.text }}</p></label-->
 							</li>
 							<li ng-repeat="ans in q.answers" ng-switch-when="radio">
-								<label><input name="ans{{q.pk}}" type="radio" ng-change="change(ans.pk)" ng-model="ans.selected" ng-value="true"> {{ ans.text }}</label>
+								<label><input name="ans{{q.pk}}_{{ans.pk}}" type="radio" ng-change="change(ans.pk)" ng-model="ans.selected" ng-value="true"> {{ ans.text }}</label>
 								<!--label ng-show="ans.selected == true" ng-repeat="w in ans.weights"><p ng-if="w.type == 'long_comment'">{{ w.text }}</p></label-->
 							</li>
 						</ul>
 
 						<div class="buttons">
 							<button class="btn btn-primary" ng-click="back()" ng-show="displayNr > 0">Nazaj</button>
-							<button class="btn btn-primary" id="button" ng-click="next()" ng-disabled="!moveOn">Naprej</button>
+							<button class="btn btn-primary" id="button" name="button_{{q.tid}}" actual_id="{{q.pk}}" ng-click="next()" ng-disabled="!moveOn">Naprej</button>
 						</div>
 
 						<ul id="ulSurveyComment">
