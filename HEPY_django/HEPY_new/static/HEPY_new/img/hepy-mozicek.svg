@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="40px"
+   viewBox="0 0 32 40"
+   version="1.1"
+   id="svg8209"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="hepy-mozicek.svg">
+  <defs id="defs8203">
+    <g
+       id="mozic">
+      <path
+         d="M 4,30 C 4,26.156 4.001,22.313 3.998,18.469 3.998,18.181 3.988,17.891 3.943,17.605 3.929,17.521 3.778,17.45 3.69,17.374 3.604,17.45 3.463,17.519 3.442,17.606 3.399,17.779 3.419,17.962 3.42,18.142 3.422,20.054 3.434,21.965 3.424,23.877 3.421,24.273 3.377,24.675 3.283,25.063 3.139,25.656 2.685,25.946 1.96,25.98 1.196,26.017 0.713,25.814 0.533,25.206 0.346,24.576 0.245,23.914 0.239,23.265 c -0.025,-3.048 -0.005,-6.095 0,-9.142 0,-0.259 0.01,-0.518 0.012,-0.776 0.005,-0.736 0.289,-1.38 0.878,-1.942 0.461,-0.438 1.015,-0.718 1.719,-0.73 1.234,-0.022 2.469,-0.017 3.704,-0.018 2.687,-10e-4 5.375,0.002 8.063,0.004 1.713,0.002 3.003,0.996 3.058,2.408 0.035,0.885 -0.023,1.771 -0.025,2.658 -0.003,2.2 0.017,4.401 -0.007,6.601 -0.007,0.724 -0.1,1.449 -0.193,2.17 -0.031,0.24 -0.158,0.48 -0.287,0.702 -0.235,0.403 -0.625,0.62 -1.191,0.595 -0.563,-0.024 -0.984,-0.258 -1.106,-0.688 -0.182,-0.645 -0.341,-1.308 -0.362,-1.966 -0.052,-1.662 -0.022,-3.326 -0.027,-4.988 0,-0.189 0.002,-0.381 -0.038,-0.565 -0.02,-0.091 -0.134,-0.168 -0.206,-0.251 -0.074,0.078 -0.196,0.149 -0.213,0.235 -0.044,0.214 -0.052,0.435 -0.053,0.653 -0.007,6.722 -0.01,13.443 -0.015,20.165 -10e-4,1.195 0.011,2.39 -0.008,3.585 -0.015,0.922 -0.602,1.588 -1.547,2.018 -0.671,0.305 -1.357,0.148 -1.95,-0.195 C 9.698,43.366 9.301,42.763 9.301,41.995 9.304,38.361 9.304,34.726 9.302,31.091 9.301,30.823 9.285,30.554 9.247,30.288 9.235,30.205 9.13,30.13 9.067,30.052 c -0.083,0.073 -0.227,0.14 -0.24,0.221 -0.054,0.324 -0.091,0.653 -0.092,0.98 -0.006,3.565 -0.004,7.13 -0.005,10.695 0,0.149 0.004,0.3 -0.019,0.447 C 8.548,43.462 7.696,44.038 6.299,44.033 5.027,44.029 4.17,43.405 4.021,42.367 3.992,42.16 3.984,41.949 3.984,41.741 3.982,37.827 3.983,33.914 3.983,30 Z"
+         style="fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path_telo"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 13.5,6 C 13.492,7.9 11.46,9.736 9.163,9.91 8.496,9.96 7.866,9.829 7.264,9.597 5.294,8.835 3.474,6.552 5.112,4.136 5.712,3.25 6.537,2.559 7.683,2.151 8.535,1.849 9.396,1.841 10.262,2.113 12.089,2.687 13.506,4.389 13.5,6"
+         style="fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path_glava"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g id="stirje_mozici">
+    <use transform="matrix(0.2,0,0,0.2,0,0)" style="fill:#393f5fff" href="#mozic" />
+    <use transform="matrix(0.2,0,0,0.2,8,0)" style="fill:#fcf6a7ff" href="#mozic" />
+    <use transform="matrix(0.2,0,0,0.2,0,10)" style="fill:#fcf6a7ff" href="#mozic" />
+    <use transform="matrix(0.2,0,0,0.2,8,10)" style="fill:#393f5fff" href="#mozic" />
+    </g>
+  </defs>
+  <metadata
+     id="metadata8206">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+
+  <g
+     inkscape:label="mozic"
+     inkscape:groupmode="layer"
+     id="mozicek">
+  </g>
+    <use x="16px" href="#stirje_mozici" />
+    <use x="0px" href="#stirje_mozici" />
+    <use y="20px" x="16px" href="#stirje_mozici" />
+    <use y="20px" x="0px" href="#stirje_mozici" />
+</svg>
