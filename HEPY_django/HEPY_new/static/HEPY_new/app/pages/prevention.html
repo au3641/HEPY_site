@@ -1,5 +1,5 @@
-<div id="page-std-info">
-    <h2 class="container">Splošno o spolno prenosljivih okužbah</h2>
+<div id="page-prevention">
+    <h2 class="container">Preprečevanje</h2>
 
     <div class="content-block">
         <div class="container">
@@ -12,8 +12,12 @@
                         <span class="icon-bar"></span>
                     </div>
                     <div class="list-group">
-                        <a ng-repeat="link in pages" href="#/o-spolno-prenosljivih-okuzbah/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}">
-                            {{ link.name }} 
+                        <a href="#/preprecevanje/cepljenje" class="list-group-item {{ file == 'cepljenje' ? 'active' : ''}}">
+                            Cepljenje
+                        </a>
+
+                        <a href="#/preprecevanje/zascita" class="list-group-item {{ file == 'zascita' ? 'active' : ''}}">
+                            Zaščita
                         </a>
 
                     </div>
@@ -26,7 +30,7 @@
                         </div>
 						
 						<div ng-switch-when="">
-                            <div marked ng-include="'app/pages/std-info/generalSTD.md'">
+                            <div marked ng-include="'app/pages/symptoms/symptoms.md'">
 						</div>
                     </div>
                 </div>

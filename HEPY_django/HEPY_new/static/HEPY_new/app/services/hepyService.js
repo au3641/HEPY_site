@@ -6,11 +6,9 @@
 	    var that = this;
 	    $http.defaults.xsrfCookieName = 'csrftoken';
 		$http.defaults.xsrfHeaderName = 'X-CSRFToken';
-	    //var baseUrl = "api/"; https://hepy.mf.uni-lj.si/rest/testRest/questions
-	    //var baseUrl = "http://localhost:8080/zdravo-mednozje/rest/testRest/";
-	    //var baseUrl = "https://hepy.mf.uni-lj.si/rest/testRest/";
-	    //var baseUrl = "https://hepy.mf.uni-lj.si/HEPY/rest/";
-		var baseUrl = "http://127.0.0.1:8000/HEPY/rest/";
+		
+	    //var baseUrl = "https://hepy.mf.uni-lj.si/HEPY/rest/";	// Deploy
+		var baseUrl = "http://127.0.0.1:8000/HEPY/rest/";		// Dev
 
 
 		function getQuestionnaire() {

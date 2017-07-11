@@ -1,11 +1,11 @@
 (function () {
     "use strict";
 
-    angular.module("HEPY").controller('SymptomsCtrl', ["$scope", "$routeParams",
+    angular.module("HEPY").controller('PreventionCtrl', ["$scope", "$routeParams",
 	function ($scope, $routeParams) {
         var that = this;
 		
 		$scope.file = !$routeParams.view ? "" : $routeParams.view;
-		$scope.urlFile = 'app/pages/symptoms/' + $scope.file + '.md';
+		$scope.urlFile = 'app/pages/prevention/' + $scope.file + '.md';
 	}]);
 })();
