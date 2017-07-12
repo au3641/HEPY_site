@@ -55,12 +55,12 @@
 				icon: 'safety-css.svg',
 				subpages: [
 					{
-						name: 'Cepljenje',
-						link: 'cepljenje',
+						name: 'Splošni ukrepi',
+						link: 'splosni-ukrepi',
 					},
 					{
-						name: 'Zaščita',
-						link: 'zascita',
+						name: 'Cepljenje',
+						link: 'cepljenje',
 					}]
 			},
 			{
