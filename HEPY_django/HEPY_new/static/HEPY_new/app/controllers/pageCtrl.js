@@ -21,27 +21,27 @@
 					},
 					{
 						name: 'Hepatitis A',
-						link: 'hepatitis-a',
+						link: 'description-ha',
 					},
 					{
 						name: 'Hepatitis B',
-						link: 'hepatitis-b',
+						link: 'description-hb',
 					},
 					{
 						name: 'Hepatitis C',
-						link: 'hepatitis-c',
+						link: 'description-hc',
 					},
 					{
 						name: 'Hepatitis D',
-						link: 'hepatitis-d',
+						link: 'description-hd',
 					},
 					{
 						name: 'Hepatitis E',
-						link: 'hepatitis-e',
+						link: 'description-he',
 					},
 					{
 						name: 'Jetra in prehrana',
-						link: 'jetra-in-prehrana',
+						link: 'food-and-liver',
 					}]
 			},
 			{
@@ -56,11 +56,11 @@
 				subpages: [
 					{
 						name: 'Splošni ukrepi',
-						link: 'splosni-ukrepi',
+						link: '',
 					},
 					{
 						name: 'Cepljenje',
-						link: 'cepljenje',
+						link: 'prevention',
 					}]
 			},
 			{

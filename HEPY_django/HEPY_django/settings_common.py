@@ -23,9 +23,9 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-#   Django (1.10.6)
+#   Django (1.11.3)
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    'django.contrib.admin', # current version is 1.11.3
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -116,4 +116,4 @@ REST_FRAMEWORK = {
 }
 
 # New in django 1.11, will remove csrf cookie and make it a session data instead
-#CSRF_USE_SESSIONS = True
+CSRF_USE_SESSIONS = True

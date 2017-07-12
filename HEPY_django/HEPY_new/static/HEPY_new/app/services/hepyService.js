@@ -8,7 +8,7 @@
 		$http.defaults.xsrfHeaderName = 'X-CSRFToken';
 		
 	    //var baseUrl = "https://hepy.fri.uni-lj.si/HEPY/rest/";	// Deploy
-		var baseUrl = "https://127.0.0.1:8000/HEPY/rest/";		// Dev
+		var baseUrl = "http://127.0.0.1:8000/HEPY/rest/";		// Dev
 
 
 		function getQuestionnaire() {
