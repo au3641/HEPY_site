@@ -1,6 +1,6 @@
-###Sifilis
+### Sifilis
 
-#####**1. Bolnik:** Dvainštiridesetletnik, ki je pred štirimi leti imel gonorejo.
+##### **1. Bolnik:** Dvainštiridesetletnik, ki je pred štirimi leti imel gonorejo.
 
 **Težave:** Pred tednom dni se je pojavilo splošno slabo počutje in glavobol, pred dvema dnevoma pa izpuščaj po telesu. Na vratu je otipal povečane bezgavke.  
 **Spolno vedenje:** Dva meseca pred nastopom bolezenskih težav je imel naključen nezaščiten oralni in analni spolni odnos z moškim. Nima stalnega partnerja ali partnerke.  
@@ -10,7 +10,7 @@
 
 **Izhod bolezni:** Bolnik je ozdravel, vendar so njegovo zdravstveno stanje še dalj časa redno spremljali v ambulanti za spolno prenosljive okužbe.
 
-#####**2. Bolnica:** Štiriindvajestletnica, predhodno zdrava.
+##### **2. Bolnica:** Štiriindvajestletnica, predhodno zdrava.
 
 **Težave:** Brez bolezenskih simptomov in znakov.  
 **Spolno vedenje:** Pred približno dvema mesecema je imela nezaščiten genitalni spolni odnos z neznancem. Nima stalnega partnerja.  

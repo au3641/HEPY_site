@@ -1,5 +1,5 @@
-###Hepatitis C
-###1. Bolnica: Devetinpetdesetletnica, predhodno zdrava
+### Hepatitis C
+### 1. Bolnica: Devetinpetdesetletnica, predhodno zdrava
 
 *Težave:* Opaža, da se v zadnjem mesecu hitreje utrudi, občasno jo sili na bruhanje, zvečer je zatekla okoli gležnjev, tudi obseg trebuha se ji je povečal. Začutila je srbečico kože in pred dvema dnevoma je opazila rumenkasti beločnici in nekoliko temnejši urin.
 
@@ -13,7 +13,7 @@
 
 *Izhod bolezni:* Zdravljenje hepatitisa C je bilo uspešno. Vendar pa je bila okužba z virusom hepatitisa C odkrita šele tedaj, ko je bolezen jeter že močno napredovala. Zaradi dokončne odpovedi delovanja jeter Bo potrebovala presaditev organa.
 
-###2. Bolnica: Tridesetletnica, predhodno zdrava
+### 2. Bolnica: Tridesetletnica, predhodno zdrava
 
 *Težave:* Nima nobenih zdravstvenih težav. V medijih je zasledila, da bi se zaradi uporabe tujega pribora za njuhanje in injiciranje drog lahko okužila z virusi, ki se prenašajo s krvjo.
 
@@ -27,7 +27,7 @@
 
 *Izhod bolezni:* Bolnica jezdravljenje hepatitisa dokončala in se pozdravila. Zavedala se je, da obstaja možnost ponovne okužbe z virusom hepatitisa C, če ne bo spremenila svojega tveganega vedenja.
 
-###3. Bolnik: Dvainpetdesetletnik, predhodno zdrav
+### 3. Bolnik: Dvainpetdesetletnik, predhodno zdrav
 
 *Težave:* Že pol leta opaža izrazito utrujenost, ima nekoliko slabši tek. Drugih težav nima.
 

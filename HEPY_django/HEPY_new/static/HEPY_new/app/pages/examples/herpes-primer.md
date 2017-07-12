@@ -1,6 +1,6 @@
-###Genitalni herpes
+### Genitalni herpes
 
-#####**1. Bolnica:** Šestnajstletnica, predhodno zdrava.
+##### **1. Bolnica:** Šestnajstletnica, predhodno zdrava.
 
 **Težave:** Nenadoma se pojavilo splošno slabo počutje, vročina in pekoče uriniranje. Na zunanjem spolovilu, ob zadnjiku ter v ustni votlini so se pojavili mehurčki, mestoma tudi zelo boleče razjedice. Takih sprememb še nikoli ni opazila. Večkrat pa je že imela podobne mehurčke na ustnicah.  
 **Spolno vedenje:** Pred dvema tednoma je imela nezaščitene vaginalne, oralne in analne spolne odnose s svojim stalnim partnerjem.   
@@ -10,7 +10,7 @@
 
 **Izhod bolezni:** Zdravila so pri bolnici omilila zagon bolezni, vendar virusa niso odstranila iz telesa.
 
-#####**2. Bolnik:** Petindvajsetletnik, predhodno zdrav.
+##### **2. Bolnik:** Petindvajsetletnik, predhodno zdrav.
 
 **Težave:** Brez bolezenskih simptomov in znakov.  
 **Spolno vedenje:** V zadnjem letu je imel več nezaščitenih spolnih odnosov z različnimi partnerkami.   

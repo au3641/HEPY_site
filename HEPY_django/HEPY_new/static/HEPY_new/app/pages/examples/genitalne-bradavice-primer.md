@@ -1,6 +1,6 @@
-﻿###Genitalne bradavice
+﻿### Genitalne bradavice
 
-#####**1. Bolnica:** Devetnajstletnica, predhodno zdrava.
+##### **1. Bolnica:** Devetnajstletnica, predhodno zdrava.
 
 **Težave:** Bolezenskih simptomov in znakov ni opazila.  
 **Spolno vedenje:** V zadnjem letu je imela tri spolne partnerje, med spolnim odnosom ni vedno uporabljala kondoma. Nima stalnega partnerja.  
@@ -10,7 +10,7 @@
 
 **Izhod bolezni:** Spremembe lahko spontano izzvenijo, ostanejo nespremenjene ali jih nastane več. Če bi se večale in postale moteče, jih specialist lahko odstrani, vendar pa virus kljub temu lahko ostane v telesu daljši čas in povzroči ponoven vznik genitalnih bradavic.
 
-#####**2. Bolnik:** Dvainštiridesetletnik, predhodno zdrav.
+##### **2. Bolnik:** Dvainštiridesetletnik, predhodno zdrav.
 
 **Težave:** Pred tremi meseci je ob zadnjiku zatipal neboleče čvrste izrastke. Spremembe so se postopoma večale.  
 **Spolno vedenje:** V zadnjem letu je imel več nezaščitenih oralnih in analnih spolnih odnosov z neznanci. Nima stalnega partnerja.  

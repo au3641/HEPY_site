@@ -1,6 +1,6 @@
-###Trihomonoza
+### Trihomonoza
 
-#####**1. Bolnica:** Osemindvajsetletnica, predhodno zdrava.
+##### **1. Bolnica:** Osemindvajsetletnica, predhodno zdrava.
 
 **Težave:** Pred tremi dnevi je opazila rumenozelen penast izcedek iz nožnice, ki je zelo zaudarjal. Tudi po zelo pogostem umivanju zunanjih spolovil, spiranju nožnice z vodo in pogosti menjavi perila, vonj ni izginil.  
 **Spolno vedenje:** Dva tedna pred pojavom bolezenskih znakov je imela naključen nezaščiten spolni odnos. Stalnega partnerja nima.  
@@ -10,7 +10,7 @@
 
 **Izhod bolezni:** Bolnica je uživala predpisano antibiotično zdravljenje po prejetih navodilih in povsem ozdravela.
 
-#####**2. Bolnik:** Dvaintridesetletnik, predhodno zdrav.
+##### **2. Bolnik:** Dvaintridesetletnik, predhodno zdrav.
 
 **Težave:** Pred dvema tednoma je začutil pekoče uriniranje brez sprememb videza urina in zjutraj blago skelenje ob vhodu v sečnico.  
 **Spolno vedenje:** Dva tedna pred začetkom težav je imel nezaščiten spolni odnos z neznanko. Ima stalno partnerko.  

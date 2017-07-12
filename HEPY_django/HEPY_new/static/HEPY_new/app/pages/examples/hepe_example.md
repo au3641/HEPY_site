@@ -1,5 +1,5 @@
-###Hepatitis E
-####1.Bolnica: šestindvajsetletnica, predhodno zdrava
+### Hepatitis E
+#### 1.Bolnica: šestindvajsetletnica, predhodno zdrava
 
 *Težave:* V službi so opazili, da ima rumene beločnice. Pred tem je opazila nekoliko temnejši seč. Bila je nekolko bolj utrujena. 
 
@@ -13,7 +13,7 @@
 
 *Izhod bolezni:* Pri bolnici je prišlo do ozdravitve hepatitisa E in prekinitve nosečnosti. Tudi njen mož je bil okužen z virusom hepatitisa E, vendar povsem brez bolezenskih znakov. 
 
-####2.Bolnik: šestdesetletnik, predhodno zdrav
+#### 2.Bolnik: šestdesetletnik, predhodno zdrav
 
 *Težave:* Nenadoma je opazil oslabelost v desni spodnji okončini, ni mogel več hoditi. 
 
