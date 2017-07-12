@@ -29,7 +29,7 @@
         sc.linked = false;
         
         var linkRunner = setInterval(function(){linkSurveyData()}, 1000);
-
+        
 		function update_comment_visibility()
 		{
 			var bork = false;

@@ -72,18 +72,18 @@
 				link: '#/o-hep-y',
 				icon: 'group-css.svg',
 			},
-		]
+		];
 		
 		that.show = false;
 		
 		that.close = function() {
 			$location.path("/");
 			that.show = false;
-		}
+		};
 		
 		that.navigate = function() {
 			that.show = true;
-		}
+		};
 		
 		that.show = $location.url().length > 1 ;
 	}]);

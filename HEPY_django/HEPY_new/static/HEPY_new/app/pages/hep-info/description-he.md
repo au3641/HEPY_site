@@ -1,24 +1,24 @@
-###HEPATITIS E
+### HEPATITIS E
 
 Hepatitis E je akutno vnetje jeter, ki ga povzroča virus hepatitisa E (HEV). Je najpogostejši povzročitelj akutnega hepatitisa odraslih v endemičnih področjih nerazvitega sveta, kjer vladajo slabe higienske razmere in slaba sanitacija okolja. V Slovenijo okužbo prinesejo potniki iz endemičnih področij, okužba pa je izjemoma pridobljena tudi doma. Letno število prijavljenih okuženih je zelo majhno.
  
-####Načini okužbe
+#### Načini okužbe
 Virus hepatitis E se v endemičnih predelih nerazvitega sveta prenaša po fekalno-oralni poti, predvsem z okuženo vodo, redkeje s hrano, v posameznih primerih tudi s toplotno neobdelanimi školjkami. V teh predelih se prenaša tudi z okužene matere na otroka, zelo redko pa tudi z osebe na osebo; dokazan je bil tudi prenos virusa s transfuzijo krvi. Najnovejše raziskave pa kažejo, da se z uživanjem termično slabo obdelanih določenih vrst mesa oziroma mesnih izdelkov, predvsem svinjine in divjačine, lahko okužimo tudi v Evropi.
 V Sloveniji je hepatitis E izredno redka bolezen, saj je letno število okuženih zelo majhno. Najpogosto zbolevajo potniki iz endemičnih predelov sveta. To so predeli jugovzhodne in osrednje Azije ter Bližnji vzhod in severna in zahodna Afrika, kjer je hepatitis E drugi najpogostejši povzročitelj hepatitisa. Epidemično se hepatitis E pojavlja v Mehiki. V evropskih državah ga večinoma beležijo pri potnikih po vrnitvi iz endemičnih območij, odkrivajo pa ga tudi kot doma pridobljeno okužbo. Tudi v Sloveniji smo že odkrili doma pridobljeno okužbo s HEV.
  
-####Potek okužbe
+#### Potek okužbe
 Okužba s HEV lahko poteka povsem brez bolezenskih znakov in se jo okuženi sploh ne zaveda. Od okužbe do pojava prvih simptomov in znakov bolezni običajno preteče od 14 do 60 dni, v povprečju 40 dni. Akutni hepatitis E poteka enako kot hepatitis A, vendar so hujše oblike bolezni pogostejše. Možen je potek od popolnoma nezaznavne oblike bolezni do hitro napredujoče in usodne odpovedi delovanja jeter, ki se pojavi pri 1% okuženih. Okuženi lahko akutno zbolijo z gripi podobnimi simptomi, ki jim po enem do dveh tednih sledijo najzgodnejši simptomi in znaki s strani prebavil, kot so siljenje na bruhanje in bruhanje, izguba apetita ter tiščeča bolečina pod desnim rebrnim lokom, temneje obarvan seč ali svetleje obarvano blato, čemur sledi pojav zlatenice. Nosečnost je izrazit dejavnik tveganja za hujši potek bolezni, saj je smrtnost med okuženimi nosečnicami zelo velika. V času nosečnosti se okužba z matere pogosto prenese tudi na plod in povzroča veliko obolevnost in smrtnost na ta način okuženih otrok. Kronična oblika hepatitisa E se lahko pojavi samo pri imunsko oslabelih posameznikih (po transplantaciji organov, okuženi s HIV, maligne krvne bolezni). Okužba, ki je v razvitem svetu pridobljena z uživanjem okuženih mesnih izdelkov, lahko povzroča tudi določene bolezenske znaka živčevja.
  
-####Kaj narediti ob sumu na okužbo
+#### Kaj narediti ob sumu na okužbo
 Ob pojavu simptomov in znakov okužbe čim prej obiščite izbranega osebnega zdravnika, ki bo opravil ustrezen pregled krvi in vas v primeru utemeljenega suma na hepatitis E takoj napotil k specialitu infektologu.  Ta bo opravil dodatne preiskave krvi in ocenil, kakšna je okvara vaših jeter in s posebnimi virološkimi preiskavami potrdil okužbo s HEV (pozitivni Ig M anti-HEV).
  
-####Zdravljenje
+#### Zdravljenje
 Hepatitis E je samoozdravljiva bolezen.. Zdravljenje je simptomatsko. Potrebni so počitek in redna, zdrava in uravnotežena prehrana v več manjših obrokih, izogibanje alkoholu in vsem jetrom škodljivim snovem, predvsem zdravilom, ki se presnavljajo skozi jetra. Izredno pomembna je ustrezna osebna higiena okužene osebe: dosledno umivanje rok pred jedjo in po opravljeni potrebi. Usmerjeno protivirusno zdravljenje se uvede le v primeru hujšega poteka bolezni pri imunsko oslabelih ter pri bolnikih s pridruženo prizadetostjo živčevja. Sprejem v bolnišnico je potreben, če bolnikovo stanje in laboratorijski testi za oceno delovanja jeter nakazujejo možnost hujšega poteka bolezni. Fulminantni hepatitis z akutno odpovedjo delovanja jeter zahteva intenzivno zdravljenje in po potrebi presaditev organa. Za hepatitis E je značilna popolna ozdravitev brez posledic in brez razvoja kronične oblike bolezni, razen v izjemnih primerih. Smrtnost je večja kot pri akutnem hepatitisu A, izrazito večja je pri nosečnicah.
 Po preboleli okužbi pridobimo protitelesa IgG anti-HEV, ki nas doživljenjsko ščitijo pred ponovno okužbo.
  
-####Možne posledice v primeru spregledane okužbe
+#### Možne posledice v primeru spregledane okužbe
 Pomembno je, da okužbo s HEV pravočasno prepoznamo in ustrezno nadzorujemo, saj se tako izognemo njenemu nadaljnjemu širjenju, hkrati pa preprečimo zaplete, ki lahko vodijo v odpoved delovanja jeter in presaditev organa.
  
-####Preprečevanje okužbe
+#### Preprečevanje okužbe
 Razen ustrezne higiene, sanitarnih ukrepov ter ustrezne toplotne obdelave svinjskega in določenega divjačinskega mesa ter mesnih izdelkov drugih ukrepov nimamo, saj pasivne in aktivne imunizacije proti okužbi s HEV ni na voljo. Cepivo proti hepatitisu E je v zaključnem obdobju kliničnega preizkušanja.
 

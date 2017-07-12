@@ -1,23 +1,23 @@
-###HEPATITIS D
+### HEPATITIS D
 
 Hepatitis D je akutno ali kronično vnetje jeter, ki ga povzroča virus hepatitisa D (HDV). Značilno se pojavi le pri okuženih z virusom hepatitisa B (HBV). Ocenjujejo, da je na svetu med 250 milijoni nosilcev hepatitisa B hkrati okuženih s hepatitisom D v približno 5%. Okužba s hepatitisom D je endemična v Sredozemlju in na Japonskem ter na pacifiških otokih.
 
-####Načini okužbe
+#### Načini okužbe
 V Sloveniji okužbe s hepatitisom D ne srečujemo. Hepatitis D se prenaša na enak način kot hepatitis B, v ne endemičnih področjih, kot so države zahodne Evrope in ZDA, pa se okužba prenaša pretežno s transfuzijami okužene krvi in krvnih pripravkov ter z vbrizgavanjem drog. Do okužbe s hepatitisom D lahko pride hkrati z okužbo s hepatitisom B (koinfekcija) ali pa po predhodni okužbi s hepatitisom B (super­infekcija).
 
-####Potek okužbe
+#### Potek okužbe
 Od okužbe do pojava prvih simptomov in znakov traja od 30 do 180 dni, v povprečju 60-90 dni. Klinični potek hepatitisa D je odvisen od tega, ali gre za koinfekcijo ali superinfekcijo z virusom hepatitisa D. Pri akutnem hepatitisu, ki je posledica koinfekcije s hepatitisom D in hepatitisom B, poteka bolezen podobno kot akutni hepatitis B, le da ima dva zagona. Pogost je fulminanten potek bolezni, saj koinfekcijo s hepatitisom D ugotavljamo pri 30% vseh primerov fulminantnega hepatitisa B. Smrtnost je 2-20%. Po izzvenetju akutnega hepatitisa iz krvi izgine tudi virus hepatitisa D. Kronični hepatitis se razvije pri manj kot 5% okuženih. Pri superinfekciji nosilcev poteka bolezen kot ponovitev akutnega hepatitisa B, vendar lahko v hujši obliki ali celo fulminantno. Pri 70-95% bolnikov superinfekcija preide v kronično okužbo, ki se kar pri 70% kaže s huje potekajočim kroničnim hepatitisom in pri 60-70% bolnikov preide v cirozo po 10-15 letih, lahko pa že dve leti po okužbi. Primarni jetrnocelični karcinom je tudi pogostejši pri okuženih s hepatitisom B, ki so hkrati okuženi tudi s hepatitisom D.
 
-####Kaj narediti ob sumu na okužbo
+#### Kaj narediti ob sumu na okužbo
 Ob pojavu simptomov in znakov okužbe, ali če so prisotni kakršnikoli dejavniki tveganja za okužbo, čim prej obiščite izbranega osebnega zdravnika, ki bo opravil ustrezen pregled krvi in vas v primeru utemeljenega suma na okužbo z virusom hepatitsa B oziroma dodatno hepatitisa D takoj napotil k specialitu infektologu. Ta bo opravil dodatne preiskave krvi in ocenil, kakšna je okvara vaših jeter in s posebnimi virološkimi preiskavami potrdil okužbo.
 
-####Zdravljenje
+#### Zdravljenje
 Akutni hepatitis D zdravimo simptomatsko, saj usmerjenega protivirusnega zdravljenja ni na voljo. Fulminantni potek akutnega hepatitisa D zahteva intenzivno zdravljenje in po potrebi presaditev jeter. Po prebolelem akutnem hepatitisu D je imunost doživljenjska. Bolniki s kroničnim hepatitisom D morajo biti pod rednim nadzorom specialista za virusne hepatitise (infektolog, gastroenterolog-hepatolog). Ta po potrebi uvede in vodi zdravljenje, s katerim zmanjšamo tveganje za pojav ciroze in raka na jetrih, žal pa je v veliko primerih neuspešno. V primerih, ko hepatitis D ogroža življenje, je rešitev lahko le transplantacija jeter.
 
-####Možne posledice v primeru spregledane okužbe
+#### Možne posledice v primeru spregledane okužbe
 Koinfekcija pogosto povzroči fulminanten potek bolezni; smrtnost je 2-20%. Superinfekcija zelo pogosto hitro povzroči cirozo in najverjetneje tudi pripomore k nastanku primarnega jetrnoceličnega karcinoma. Pomembno je, da okužbo prepoznamo in jo nadzorujemo oziroma zdravimo, saj se tako izognemo širjenju bolezni in preprečimo zaplete, ki lahko vodijo v odpoved delovanja jeter in transplantacijo organa.
 
-####Preprečevanje okužbe
+#### Preprečevanje okužbe
 Okužbo z virusom hepaitsa D preprečimo z ukrepi za preprečevanje okužbe z virusom hepatitisa B. Najboljši način je torej cepljenje proti hepatitsu B. Od leta 1998 je cepljenje otrok proti hepatitisu B pred vstopom v šolo del nacionalnega programa cepljenja -  cepljeni so vsi, rojeni od leta 1992 dalje. Cepljeni morajo biti tudi vsi odrasli, ki imajo večje tveganje za okužbo z virusom hepatitisa B (zdravstveni delavci, spolni partnerji ali partnerke in ožji družinski člani okuženih z virusom hepatitisa B,osebe, ki živijo v skupnem gospodinjstvu z okuženimi, moški, ki imajo spolne odnose z moškimi, osebe, ki uporabljajo droge). Cepljenje vključuje tri odmerke cepiva, po zadnjem odmerku pa je priporočljivo preveriti njegovo učinkovitost.
 Pred spolnim prenosom okužbe varuje tudi redna, dosledna in pravilna uporaba kondoma. Kondom je potrebno uporabljati vse od začetka do konca spolnega odnosa (vaginalnega, oralnega ali analnega). V kolikor ste imeli nezaščiten spolni odnos z okuženo osebo in niste cepljeni proti hepatitisu B, vas v prvih 14 dneh po spolnem stiku injekcija zaščitnih protiteles in prvi odmerek cepiva proti hepatitisu B lahko zaščitita pred okužbo (po-ekspozicijska profilaksa). Od leta 1994 so za okužbo z virusom hepatitisa B rutinsko pregledane vse nosečnice. Če je nosečnica kronično okužena, je potrebno novorojenca v prvih 12 urah po rojstvu cepiti in mu hkrati dati tudi zaščitna protitelesa.
 Pri preprečevanju širjenja okužbe je pomembno tudi izogibanje stiku s telesnimi tekočinami drugih ljudi, uporaba lastnega osebnega pribora (zobne ščetke, britvie, manikirni pribor), pazljivost pri izbiri salona za tetoviranje oziroma "piercing"  ter uporaba sterilnih igel in pribora njuhanje drog.

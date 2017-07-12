@@ -1,6 +1,6 @@
-###Okužba s klamidijo
+### Okužba s klamidijo
 
-#####**1. Bolnica:** Dvajsetletnica, predhodno brez zdravstvenih težav.
+##### **1. Bolnica:** Dvajsetletnica, predhodno brez zdravstvenih težav.
 
 **Težave:** Pred štirimi meseci so se pojavile bolečine v spodnjem delu trebuha, ki so bile izrazitejše pri spolnih odnosih.  
 **Spolno vedenje:** Tri mesece ima stalnega partnerja. Redno jemlje kontracepcijske tabletke, zato pri spolnih odnosih ne uporabljata kondoma. Pred tem je imela tri spolne partnerje in med spolnimi odnosi ni dosledno uporabljala kondoma.  
@@ -10,7 +10,7 @@
 
 **Izhod bolezni:** Ob kontrolnem pregledu po zaključku zdravljenja klamidija v predelu spolovil ni bila več prisotna . Napotena je bila še na pregled h ginekologu zaradi morebitnih zapletov dalj časa trajajoče okužbe s klamidijo. Pri stalnem partnerju s preiskavami niso odkrili klamidijske okužbe. Ker je obstajala možnost okužbe s klamidijo pri predhodnih  partnerjih, so bili tudi ti povabljeni na pregled.
 
-#####**2. Bolnik:** Petindvajsetletnik, predhodno zdrav.
+##### **2. Bolnik:** Petindvajsetletnik, predhodno zdrav.
 
 **Težave:** Pred dvema tednoma je začutil pekoče uriniranje, pred tremi dnevi pa je opazil tudi rahlo belkast izcedek iz spolovila.  
 **Spolno vedenje:** Štiri tedne pred začetkom težav je imel na počitnicah nezaščiten spolni odnos z neznanko. Nima stalne partnerke.  

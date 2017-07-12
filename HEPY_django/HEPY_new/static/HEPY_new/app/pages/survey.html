@@ -3,12 +3,12 @@
 
     <div class="content-block">
         <div class="container"> 
-			<div class="col-md-offset-3 col-md-6">
+			<div class="col-md-offset-2 col-md-8">
 						
 				<carousel interval="-1" id="survey-questions" ng-show="alertLevel == -1" class="carousel-fade">
 					<slide ng-repeat="q in questions" active="q.active" class="question-page">
 						<h3 class="survey-question">
-							{{actualDisplayNumber}}. {{q.text}}
+							{{actualDisplayNumber}}. <span ng-bind-html="q.text">{{q.text}}</span>
 							<div ng-if="q.type == 'checkbox'" class="question-info">Možnih je več odgovorov.</div>
 						</h3>
 						

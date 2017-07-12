@@ -22,5 +22,5 @@ Odvisno od načina delovanja posameznih ambulant za SPO izvid preiskav in nadalj
 
 NE OKLEVAJ! ČE SI IMEL TVEGANO SPOLNO VEDENJE IN/ALI IMAŠ BOLEZENSKE SIMPTOME IN ZNAKE ZA SPO, POJDI TAKOJ K ZDRAVNIKU!
 
-###Kam? 
+###Kam?
 #####AMBULANTE ZA SPOLNO PRENOSLJIVE OKUŽBE (SPO)

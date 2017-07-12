@@ -1,5 +1,5 @@
-###Hepatitis A
-####1.Bolnica: petdesetletnica, predhodno zdrava
+### Hepatitis A
+#### 1.Bolnica: petdesetletnica, predhodno zdrava
 
 *Težave:* Pet dni je bila splošno oslabela, nato jo je začelo siliti na bruhanje, opazila je tudi nekoliko temnejši seč. Naslednji dan se je pojavila rumenica beločnic in kože. 
 
@@ -13,7 +13,7 @@
 
 *Izhod bolezni:* Pri bolnici je prišlo do nenadne kritične odpovedi delovanja jeter in je potrebovala presaditev organa.
 
-####2. Bolnik: štiriindvajsetletnik, predhodno zdrav
+#### 2. Bolnik: štiriindvajsetletnik, predhodno zdrav
 
 *Težave:* nenadoma je opazil rumenico beločnic in kože, pred tem pa je bil nekaj dni brez teka, dva dni pa ga je sililo na bruhanje.
 

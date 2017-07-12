@@ -1,6 +1,6 @@
-###Okužba z virusom hepatitisa B
+### Okužba z virusom hepatitisa B
 
-#####**1. Bolnik:** Petindvajsetletnik, predhodno zdrav.
+##### **1. Bolnik:** Petindvajsetletnik, predhodno zdrav.
 
 **Težave:** Brez bolezenskih simptomov in znakov.  
 **Spolno vedenje:** Dva meseca ima novo partnerko, ki nima nobenih zdravstvenih težav, pri spolnih odnosih ne uporabljata kondoma. Pred tem je imel dve spolni partnerki, s katerima pri spolnih odnosih ni vedno uporabljal kondoma.  
@@ -10,7 +10,7 @@
 
 **Izhod bolezni:** Bolnik je imel akutno okužbo z virusom hepatitisa B brez bolezenskih znakov, ki je po šestih mesecih spontano izzvenela, zato ukrepanje ni bilo potrebno. Partnerka in njena mati sta potrebovali zdravljenje hepatitisa B, ki bo najverjetneje doživljenjsko. Brat partnerke je prejel cepivo proti hepatitisu B. Vsi udeleženci so bili rojeni pred letom 1994. Rojeni po tem letu so v Sloveniji rutinsko cepljeni proti hepatitisu B pred vstopom v osnovno šolo.  
 
-#####**2. Bolnik:** Tridesetletnik, predhodno zdrav.
+##### **2. Bolnik:** Tridesetletnik, predhodno zdrav.
 
 **Težave:** Nenadoma je opazil rumenico beločnic in kože, že nekaj dni pa je čutil izrazito utrujenost in bil brez teka.  
 **Spolno vedenje:** Pred štirimi meseci je bil na potovanju po večjih evropskih mestih, kjer je imel več nezaščitenih spolnih odnosov z naključnimi partnerji.  

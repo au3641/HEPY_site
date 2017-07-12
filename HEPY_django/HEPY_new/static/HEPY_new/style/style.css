@@ -4,6 +4,17 @@ main-color-hover: #
 */
 
 html {
+	/*background: url("../img/bg-img.jpg") no-repeat center center fixed;*/
+	/*rgba(37,119,184, 0.8),*/
+	background: linear-gradient(
+      rgba(14,63,102, 0.7),
+	  rgba(23, 83, 144, 0.7),
+      rgba(33,150,243, 0.7),
+	  rgba(23, 83, 144, 0.7),
+	  rgba(14,63,102, 0.7)
+    ), url("../img/background_4K_greyscale.png") no-repeat center center fixed;
+	/*background-color: rgba(15,68,111, 1);*/
+	background-color: rgba(8,34,56, 0.9);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -53,7 +64,7 @@ a:focus {
 }
 
 h5, h4 {
-	color: #f68f15;
+	color: #2196f3;
 	margin-bottom: 30px;
 	font-weight: bold;
 }
@@ -97,7 +108,7 @@ h5, h4 {
 	position: fixed;
 	left: 0;
 	top: 0;	
-	background: #f68f15;	
+	background: #2196f3;
 	width: 100%;	
 	color: #fff;
 }
@@ -232,11 +243,11 @@ h5, h4 {
 	}
 	
 	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-		background-color: #f68f15;
+		background-color: #2196f3;
 	}
 
 	.dropdown-menu {
-		background-color: #f68f15;
+		background-color: #2196f3;
 	}
 	
 	.dropdown-menu > li > a{
@@ -364,15 +375,16 @@ footer img {
 	}
 	
 	#home .button {
-		background: #f68f15;
+		background: #2196f3;
 		display: block;
 		border-radius: 2px;
 		transition-duration: 0.2s;
 		padding: 15px;
+		/*font-weight: bold;*/
 	}
 	
 	#home .button:hover {
-		background: #F68F15;
+		background: #2196f3;
 		padding: 20px;
 		transition-duration: 0.2s;
 	}
@@ -460,7 +472,7 @@ a.list-group-item {
 	}
 	
 	.container h3 {
-		color: #f68f15;
+		color: #2196f3;
 		margin-top: 0px;
 		font-weight: bold;
 		font-size: 28px;
@@ -589,7 +601,7 @@ a.list-group-item {
 	}
 	
 	.panel-heading .panel-title {
-		color: #2196f3; 
+		color: #2196f3;
 		font-size: 18px;
 		font-weight: bold;
 	}
@@ -618,7 +630,7 @@ a.list-group-item {
 	
 	.hospitalName {
 		font-size: 20px;
-		color: #2196f3; 
+		color: #2196f3;
 		line-height: 110%;
 		margin-top: 10px;
 		margin-bottom: 0px;
@@ -696,7 +708,7 @@ a.list-group-item {
  *	BACK TO TOP
  */
  
- .back-to-top {
+.back-to-top {
 	position: fixed;
 	right: 50px;
 	bottom: 50px;
@@ -708,6 +720,8 @@ a.list-group-item {
 	font-size: 40px;
 	opacity: 0;
 	transition: opacity ease-in-out 0.5s;
+	background: #2196f3 url(../img/arrow.png) no-repeat;
+	background-position: center;
 }
 
 .question-info {

@@ -1,6 +1,6 @@
-###Okužba z virusom hepatitisa C
+### Okužba z virusom hepatitisa C
 
-#####**1. Bolnik:** Dvainpetdesetletnik, do sedaj brez zdravstvenih težav.
+##### **1. Bolnik:** Dvainpetdesetletnik, do sedaj brez zdravstvenih težav.
 
 **Težave:** Že pol leta opaža izrazito utrujenost, ima nekoliko slabši tek. Drugih težav nima.    
 **Obisk pri specialistu:** Zaradi izrazite utrujenosti je obiskal izbranega osebnega zdravnika. Ta je opravil temeljne laboratorijske preiskave krvi, ki so kazale na nenormalno delovanje jeter. Ustrezne dodatne preiskave krvi so potrdile, da je bolnik kronično okužen z virusom hepatitisa C. Osebni zdravnik je bolnika napotil k infektologu, ki je ugotovil, da bi bila možen izvor okužbe lahko tetovaža, narejena pred 30 leti na potovanju po Aziji. Tedaj je imel bolnik tudi nezaščitene spolne odnose, ki bi lahko bili dodaten vzrok za okužbo, saj je le-ta v tem geografskem področju pogosta.     
@@ -10,7 +10,7 @@
 **Izhod bolezni:** Po uspešni ozdravitvi hepatitisa C so sledili nadaljnji ukrepi za obvladanje raka na jetrih, ki lahko vključujejo tudi presaditev organa. 
 
 
-#####**2. Bolnica:** Tridesetletnica, ki od 22. leta starosti občasno, predvsem na zabavah, njuha kokain. Nekajkrat si je drogo tudi vbrizgala v žilo. Pri tem ni uporabljala svojega pribora.
+##### **2. Bolnica:** Tridesetletnica, ki od 22. leta starosti občasno, predvsem na zabavah, njuha kokain. Nekajkrat si je drogo tudi vbrizgala v žilo. Pri tem ni uporabljala svojega pribora.
 
 **Težave:** Nima nobenih zdravstvenih težav. V medijih je zasledila, da bi se zaradi uporabe tujega pribora lahko okužila z virusi, ki se prenašajo s krvjo.  
 **Obisk pri specialistu:** Odločila se je za pregled v ambulanti za anonimno in brezplačno testiranje na okužbo z virusi hepatitisa B, C in HIV na Kliniki za infekcijske bolezni in vročinska stanja v Ljubljani.  
@@ -20,7 +20,7 @@
 
 **Izhod bolezni:** Bolnica je med zdravljenjem imela precej stranskih učinkov protivirusnih zdravil, vendar je zdravljenje dokončala in se pozdravila. Zavedala pa se je, da obstaja možnost ponovne okužbe z virusom hepatitisa C, če ne bo spremenila svojega tveganega vedenja
 
-#####**3. Bolnica:** Devetinpetdesetletnica, predhodno brez zdravstvenih težav.
+##### **3. Bolnica:** Devetinpetdesetletnica, predhodno brez zdravstvenih težav.
 
 **Težave:** Opaža, da se v zadnjem mesecu hitreje utrudi, občasno jo sili na bruhanje, zvečer pa je zatekla okoli gležnjev, tudi obseg trebuha se ji je povečal. Začutila je srbečico kože, pred dvema dnevoma pa opazila rumenkasti beločnici in nekoliko temnejši urin.  
 **Obisk pri specialistu:** Zaradi nakazane zlatenice jo je osebni zdravnik napotil k specialistu gastroenterologu, ki je ugotovil, da ima bolnica cirozo jeter. Opravila je dodatne preiskave.   

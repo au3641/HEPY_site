@@ -1,5 +1,5 @@
-###Hepatitis B
-####1. Bolnik: Petindvajsetletnik, predhodno zdrav
+### Hepatitis B
+#### 1. Bolnik: Petindvajsetletnik, predhodno zdrav
 
 *Težave:* Brez bolezenskih simptomov in znakov. Ni cepljen proti hepatitisu B.
 
@@ -13,7 +13,7 @@
 
 *Izhod bolezni:* Bolnik je imel akutno okužbo z virusom hepatitisa B brez bolezenskih znakov, ki je po šestih mesecih spontano izzvenela, zato ukrepanje ni bilo potrebno. Partnerka in njena mati sta potrebovali zdravljenje kroničnega hepatitisa B, ki bo najverjetneje doživljenjsko.
 
-####2. Bolnik: Enaintridesetletnik, predhodno zdrav
+#### 2. Bolnik: Enaintridesetletnik, predhodno zdrav
 
 *Težave:* Nenadoma je opazil rumenico beločnic in kože, že nekaj dni pa je čutil izrazito utrujenost in bil brez teka.
 

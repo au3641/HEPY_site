@@ -35,7 +35,7 @@
 		},
 		{
 			name: 'Jetra in prehrana',
-			link: 'jetra-in-prehrana',
+			link: 'food-and-liver',
 		}];
 	}]);
 })();

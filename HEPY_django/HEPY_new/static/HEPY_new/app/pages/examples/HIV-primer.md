@@ -1,6 +1,6 @@
-###HIV/aids
+### HIV/aids
 
-#####**1. Bolnik:** Šestintridesetletnik, ki je v preteklosti imel genitalne bradavice in sifilis.
+##### **1. Bolnik:** Šestintridesetletnik, ki je v preteklosti imel genitalne bradavice in sifilis.
 
 **Težave:** Brez bolezenskih simptomov in znakov.  
 **Spolno vedenje:** Pred štirimi meseci je imel nezaščiten spolni odnos z naključnima partnerjema v eni izmed evropskih prestolnic. Sedaj ima stalnega partnerja v Sloveniji, s katerim ima zaščitene analne in nezaščitene oralne spolne odnose.  
@@ -10,7 +10,7 @@
 
 **Izhod bolezni:** Ostal bo pod rednim zdravniškim nadzorom infektologa, ki bo glede na rezultate preiskav presodil o uvedbi zdravljenja HIV/aidsa in ostalih ukrepih. Aids je neozdravljiva bolezen, pod skrbnim zdravniškim nadzorom pa z ustreznim zdravljenjem postane obvladljiva kronična bolezen.
 
-#####**2. Bolnik:** Petindvajsetletnik, predhodno zdrav.
+##### **2. Bolnik:** Petindvajsetletnik, predhodno zdrav.
 
 **Težave:** Zadnji mesec se slabo počuti, ima vročino, bolečine v grlu in sklepih, ki niso spremenjeni, ter glavobol.  
 **Spolno vedenje:** Pred dvema mesecema je imel nezaščiten spolni odnos z naključno partnerko na potovanju po Afriki. V Sloveniji nima stalne partnerke.  

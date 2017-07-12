@@ -1,6 +1,6 @@
-###Gonoreja
+### Gonoreja
 
-#####**1. Bolnica:** Enaindvajsetletnica, predhodno zdrava.
+##### **1. Bolnica:** Enaindvajsetletnica, predhodno zdrava.
 
 **Težave:** Brez bolezenskih simptomov in znakov.  
 **Spolno vedenje:** V zadnjem letu je imela več različnih spolnih partnerjev, med spolnim odnosom ni vedno uporabljala kondoma. Nima stalnega partnerja.  
@@ -11,7 +11,7 @@
 **Izhod bolezni:** Bolnica je dosledno upoštevala napotke glede antibiotičnega zdravljenja in se povsem pozdravila. V nasprotnem primeru bi lahko prišlo do številnih dolgoročnih zapletov neprepoznane in nezdravljene klamidijske okužbe, med njimi tudi do neplodnosti.
 
 
-#####**2. Bolnik:** Šestintridesetletnik, do sedaj brez zdravstvenih težav.
+##### **2. Bolnik:** Šestintridesetletnik, do sedaj brez zdravstvenih težav.
 
 **Težave:** Zjutraj je pred uriniranjem opazil gostejši rumen izcedek iz spolovila.  
 **Spolno vedenje:** Pred tremi dnevi je imel naključen nezaščiten oralni in analni spolni odnos z neznancem, sicer pa ima stalnega spolnega partnerja.  
