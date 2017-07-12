@@ -1,5 +1,5 @@
 <div id="page-hep-info">
-    <h2 class="container">Primeri</h2>
+    <h2 class="container">Opis virusnih hepatitisov</h2>
 
     <div class="content-block">
         <div class="container">
@@ -12,7 +12,7 @@
                         <span class="icon-bar"></span>
                     </div>
                     <div class="list-group">
-                        <a ng-repeat="link in pages" href="#/primeri/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}">
+                        <a ng-repeat="link in pages" href="#/opis-virusnih-hepatitisov/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}">
                             {{ link.name }} 
                         </a>
 
@@ -20,7 +20,15 @@
                 </div>
 
                 <div class="col-sm-8 col-md-9">
-					<div marked ng-include="urlFile"></div>
+                    <div ng-switch on="file">
+                        <div ng-switch-default>
+                            <div marked ng-include="urlFile"></div>
+                        </div>
+						
+						<div ng-switch-when="">
+                            <div marked ng-include="'app/pages/hep-info/description-acute.md'">
+						</div>
+                    </div>
                 </div>
             </div>
         </div>

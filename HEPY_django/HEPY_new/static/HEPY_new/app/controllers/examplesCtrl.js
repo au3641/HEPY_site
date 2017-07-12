@@ -5,45 +5,25 @@
 	function ($scope, $routeParams) {
         var that = this;
 		
-		$scope.file = !$routeParams.view ? "gonoreja-primer" : $routeParams.view;
+		$scope.file = !$routeParams.view ? "hepa_example" : $routeParams.view;
 		$scope.urlFile = 'app/pages/examples/' + $scope.file + '.md';
 		
 		$scope.pages = [
 		{
-			name: 'Gonoreja',
-			link: 'gonoreja-primer',
-		},
-		{
-			name: 'Genitalni herpes',
-			link: 'herpes-primer',
-		},
-		{
-			name: 'Genitalne bradavice',
-			link: 'genitalne-bradavice-primer',
-		},
-		{
-			name: 'Okužba s klamidijo',
-			link: 'klamidija-primer',
-		},
-		{
-			name: 'Sifilis',
-			link: 'sifilis-primer',
-		},
-		{
-			name: 'Trihomonoza',
-			link: 'trihomonoza-primer',
+			name: 'Hepatitis A',
+			link: 'hepa_example',
 		},
 		{
 			name: 'Hepatitis B',
-			link: 'hepatitisB-primer',
+			link: 'hepb_example',
 		},
 		{
 			name: 'Hepatitis C',
-			link: 'hepatitisC-primer',
+			link: 'hepc_example',
 		},
 		{
-			name: 'HIV/aids',
-			link: 'HIV-primer',
+			name: 'Hepatitis E',
+			link: 'hepe_example',
 		}];
 	}]);
 })();

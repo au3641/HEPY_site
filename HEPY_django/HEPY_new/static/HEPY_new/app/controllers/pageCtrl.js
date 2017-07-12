@@ -11,41 +11,17 @@
 				icon: 'questions-css.svg',
 			},
 			{
-				text: 'Opis spolno prenosljivih okužb',
-				link: '#/o-spolno-prenosljivih-okuzbah',
+				text: 'Opis virusnih hepatitisov',
+				link: '#/opis-virusnih-hepatitisov',
 				icon: 'virus-css.svg',
 				subpages: [
 					{
-						name: 'Splošno o SPO',
+						name: 'Akutni',
 						link: '',
 					},
 					{
-						name: 'Gonoreja',
-						link: 'gonoreja',
-					},
-					{
-						name: 'Genitalni herpes',
-						link: 'genitalni-herpes',
-					},
-					{
-						name: 'Genitalne bradavice',
-						link: 'genitalne-bradavice',
-					},
-					{
-						name: 'Okužba s klamidijo',
-						link: 'okuzba-s-klamidijo',
-					},
-					{
-						name: 'Sifilis',
-						link: 'sifilis',
-					},
-					{
-						name: 'Trihomonoza',
-						link: 'trihomonoza',
-					},
-					{
-						name: 'Okužba z urogenitalnimi mikoplazmami',
-						link: 'okuzba-z-urogenitalnimi-mikoplazmami',
+						name: 'Hepatitis A',
+						link: 'hepatitis-a',
 					},
 					{
 						name: 'Hepatitis B',
@@ -56,40 +32,44 @@
 						link: 'hepatitis-c',
 					},
 					{
-						name: 'HIV/aids',
-						link: 'hiv-aids',
-					}],
+						name: 'Hepatitis D',
+						link: 'hepatitis-d',
+					},
+					{
+						name: 'Hepatitis E',
+						link: 'hepatitis-e',
+					},
+					{
+						name: 'Jetra in prehrana',
+						link: 'jetra-in-prehrana',
+					}]
 			},
 			{
-				text: 'Bolezenski znaki',
-				link: '#/bolezenski-znaki',
-				icon: 'doctor-css.svg',
-				subpages: [{
-					name: 'Izcedek',
-					link: 'izcedek',
-				},
-				{
-					name: 'Razjeda',
-					link: 'razjeda',
-				}]
+				text: 'Kam po pomoč',
+				link: '#/kam-po-pomoc',
+				icon: 'doctor-css.svg'
 			},
 			{
-				text: 'Pregled pri zdravniku',
-				link: '#/pregled-pri-zdravniku',
-				icon: 'doctor-css.svg',
-			},
-			{
-				text: 'Zaščita',
-				link: '#/zascita',
+				text: 'Preprečevanje',
+				link: '#/preprecevanje',
 				icon: 'safety-css.svg',
+				subpages: [
+					{
+						name: 'Cepljenje',
+						link: 'cepljenje',
+					},
+					{
+						name: 'Zaščita',
+						link: 'zascita',
+					}]
 			},
 			{
 				text: 'Primeri',
 				link: '#/primeri',
 			},
 			{
-				text: 'O HEPY',
-				link: '#/o-nas',
+				text: 'O HEP-Y',
+				link: '#/o-hep-y',
 				icon: 'group-css.svg',
 			},
 		]
