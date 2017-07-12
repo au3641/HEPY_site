@@ -725,6 +725,14 @@ a.list-group-item {
 	background-position: center;
 }
 
+@media(max-width: 767px)
+{
+	.back-to-top
+	{
+		display: none !important;
+	}
+}
+
 .question-info {
 	text-align: justify;
 	margin-top: 20px;
