@@ -6,15 +6,15 @@ main-color-hover: #
 html {
 	/*background: url("../img/bg-img.jpg") no-repeat center center fixed;*/
 	/*rgba(37,119,184, 0.8),*/
-	background: linear-gradient(
+	background: /*linear-gradient(
       rgba(14,63,102, 0.7),
 	  rgba(23, 83, 144, 0.7),
       rgba(33,150,243, 0.7),
 	  rgba(23, 83, 144, 0.7),
 	  rgba(14,63,102, 0.7)
-    ), url("../img/background_4K_greyscale.png") no-repeat center center fixed;
-	/*background-color: rgba(15,68,111, 1);*/
-	background-color: rgba(8,34,56, 0.9);
+    ), */url("../img/background_4K.png") no-repeat center center fixed;
+	background-color: rgba(15,68,111, 1);
+	/*background-color: rgba(8,34,56, 0.9);*/
 	/*background-color: rgba(0,0,0, 0.9);*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
