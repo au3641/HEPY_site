@@ -6,15 +6,18 @@ main-color-hover: #
 html {
 	/*background: url("../img/bg-img.jpg") no-repeat center center fixed;*/
 	/*rgba(37,119,184, 0.8),*/
-	background: linear-gradient(
+	background: /*linear-gradient(
       rgba(14,63,102, 0.7),
 	  rgba(23, 83, 144, 0.7),
       rgba(33,150,243, 0.7),
 	  rgba(23, 83, 144, 0.7),
 	  rgba(14,63,102, 0.7)
-    ), url("../img/background_4K_greyscale.png") no-repeat center center fixed;
-	/*background-color: rgba(15,68,111, 1);*/
-	background-color: rgba(8,34,56, 0.9);
+    ), */linear-gradient(
+			rgba(0,0,0,0.0),
+			rgba(0,0,0,0.0)),
+		url("../img/background_4K.png") no-repeat center center fixed;
+	background-color: rgba(15,68,111, 1);
+	/*background-color: rgba(8,34,56, 0.9);*/
 	/*background-color: rgba(0,0,0, 0.9);*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -376,7 +379,7 @@ footer img {
 	}
 	
 	#home .button {
-		background: #2196f3;
+		background: #f2d86d;
 		display: block;
 		border-radius: 2px;
 		transition-duration: 0.2s;
@@ -385,7 +388,7 @@ footer img {
 	}
 	
 	#home .button:hover {
-		background: #2196f3;
+		background: #f2d86d;
 		padding: 20px;
 		transition-duration: 0.2s;
 	}
