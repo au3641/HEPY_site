@@ -10,12 +10,12 @@
 		
 		$scope.pages = [
 			{
-				name: 'Cepljenje',
+				name: 'Splošni ukrepi',
 				link: ''
 			},
 			{
-				name: 'Zaščita',
-				link: 'protection'
+				name: 'Cepljenje',
+				link: 'prevention'
 			}
 		]
 	}]);

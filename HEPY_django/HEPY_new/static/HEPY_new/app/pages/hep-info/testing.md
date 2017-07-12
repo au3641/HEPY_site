@@ -30,6 +30,8 @@ NE OKLEVAJ! ČE SI IMEL KAKRŠENKOLI DEJAVNIK TVEGANJA ZA OKUŽBO Z VIRUSOMA HEP
 
 #### Kam na pregled k specialistu?
 
+Osrednja bolnišnica za obravnavo bolnikov z virusnim hepatitisom v Sloveniji je Klinika za infekcijske bolezni in vročinska stanja UKC Ljubljana
+
 
          
 
