@@ -12,7 +12,7 @@ html {
       rgba(33,150,243, 0.7),
 	  rgba(23, 83, 144, 0.7),
 	  rgba(14,63,102, 0.7)
-    ), url("../img/background_4K_greyscale.png") no-repeat center center fixed;
+    ), url("../img/background_4K_grey_blur.png") no-repeat center center fixed;
 	/*background-color: rgba(15,68,111, 1);*/
 	background-color: rgba(8,34,56, 0.9);
 	/*background-color: rgba(0,0,0, 0.9);*/
@@ -337,7 +337,7 @@ footer img {
 }
 
 .logo-eu-sklad {
-	margin-top: 20px;
+	margin-top: 11px;
 }
 	
 /*
