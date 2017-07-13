@@ -6,20 +6,41 @@ main-color-hover: #
 html {
 	/*background: url("../img/bg-img.jpg") no-repeat center center fixed;*/
 	/*rgba(37,119,184, 0.8),*/
-	background: linear-gradient(
+	/*background: linear-gradient(
       rgba(14,63,102, 0.7),
 	  rgba(23, 83, 144, 0.7),
       rgba(33,150,243, 0.7),
 	  rgba(23, 83, 144, 0.7),
 	  rgba(14,63,102, 0.7)
-    ), url("../img/background_4K_greyscale.png") no-repeat center center fixed;
-	/*background-color: rgba(15,68,111, 1);*/
-	background-color: rgba(8,34,56, 0.9);
+    ), url("../img/background_uniform.png") repeat center center fixed;*/
+	background: linear-gradient(
+	  rgba(0,0,0, 0.2),
+      rgba(0,0,0, 0.2)
+    ), url("../img/background_uniform.png") repeat center center fixed;
+	background-color: rgba(15,68,111, 0.8);
+	/*background-color: rgba(15,68,111, 0.8);*/
+	/*background-color: rgba(8,34,56, 0.9);*/
 	/*background-color: rgba(0,0,0, 0.9);*/
-	-webkit-background-size: cover;
+	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
+	background-size: 80px;
+}
+
+@media(max-width: 900px)
+{
+	html
+	{
+		background: linear-gradient(
+		  rgba(14,63,102, 0.7),
+		  rgba(23, 83, 144, 0.7),
+		  rgba(33,150,243, 0.7),
+		  rgba(23, 83, 144, 0.7),
+		  rgba(14,63,102, 0.7)
+		), url("../img/background_mobile.png") repeat center center fixed;
+		background-color: rgba(8,34,56, 0.9);
+	}
 }
 
 html, body {
@@ -109,7 +130,7 @@ h5, h4 {
 	position: fixed;
 	left: 0;
 	top: 0;	
-	background: #2196f3;
+	background: #428eca;
 	width: 100%;	
 	color: #fff;
 }
@@ -244,11 +265,11 @@ h5, h4 {
 	}
 	
 	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-		background-color: #2196f3;
+		background-color: #428eca;
 	}
 
 	.dropdown-menu {
-		background-color: #2196f3;
+		background-color: #428eca;
 	}
 	
 	.dropdown-menu > li > a{
@@ -266,7 +287,7 @@ h5, h4 {
  
 footer {
 	min-height: 100px;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(15,68,111, 0.7);
 	width: 100%;
 	display: block;
 }
@@ -337,7 +358,7 @@ footer img {
 }
 
 .logo-eu-sklad {
-	margin-top: 20px;
+	margin-top: 11px;
 }
 	
 /*
@@ -353,7 +374,7 @@ footer img {
 	}
  
 	#home h1 {
-		padding-top: 15vh;
+		/*padding-top: 15vh;*/
 		font-size: 3.5em;
 		font-weight: bold;
 	}
@@ -363,7 +384,8 @@ footer img {
 	}
 
 	#home h1, #home h2 {
-		color: #fff;
+		color: #326c99;
+		/*color: #428eca;*/
 		text-align: center;
 	}
 	
@@ -374,9 +396,25 @@ footer img {
 		border-radius: 2px;
 		display: inline-block;
 	}
+
+	#home .button-border-box2 {
+		margin-top: 25vh;
+		background: rgba(0, 0, 0, 0.3);
+		padding: 10px;
+		border-radius: 2px;
+		display: inline-block;
+	}
+
+	#home .text-border-box {
+		margin-top: 0vh;
+		background: rgba(255,255,255, 0.85);
+		padding: 10px;
+		border-radius: 2px;
+		display: inline-block;
+	}
 	
 	#home .button {
-		background: #2196f3;
+		background: rgba(255,255,255, 0.85);
 		display: block;
 		border-radius: 2px;
 		transition-duration: 0.2s;
@@ -385,7 +423,7 @@ footer img {
 	}
 	
 	#home .button:hover {
-		background: #2196f3;
+		background: rgba(255,255,255, 0.85);
 		padding: 20px;
 		transition-duration: 0.2s;
 	}
@@ -393,9 +431,10 @@ footer img {
 	#home .button a {
 		margin: 15px;
 		width: auto;
-		color: #fff;
+		color: #326c99;
 		padding: 20px;
 		font-size: 2em;
+		font-weight: bold;
 		letter-spacing: 0.75px;
 	}
 	
