@@ -50,7 +50,7 @@ function ($anchorScroll, $location, $scope, $routeParams, $document) {
 			//$location.hash('hep-c');
 			//$anchorScroll();
 			var elementus = angular.element(document.getElementById(String(x)));
-			$document.duScrollToElement(elementus, 150, 1000);
+			$document.duScrollToElement(elementus, 100, 1000);
     	};
 	}]);
 })();
