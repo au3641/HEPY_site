@@ -6,15 +6,19 @@ main-color-hover: #
 html {
 	/*background: url("../img/bg-img.jpg") no-repeat center center fixed;*/
 	/*rgba(37,119,184, 0.8),*/
+	/*background: linear-gradient(
+      rgba(14,63,102, 0.0),
+	  rgba(23, 83, 144, 0.0),
+      rgba(33,150,243, 0.0),
+	  rgba(23, 83, 144, 0.0),
+	  rgba(14,63,102, 0.0)
+    ), url("../img/hepy_bg.jpg") no-repeat center center fixed;*/
 	background: linear-gradient(
-      rgba(14,63,102, 0.7),
-	  rgba(23, 83, 144, 0.7),
-      rgba(33,150,243, 0.7),
-	  rgba(23, 83, 144, 0.7),
-	  rgba(14,63,102, 0.7)
-    ), url("../img/background_4K_greyscale.png") no-repeat center center fixed;
+      rgba(0, 0, 0, 0.1),
+	  rgba(0, 0, 0, 0.1)
+    ), url("../img/hepy_bg_2k.jpg") no-repeat center center fixed;
 	/*background-color: rgba(15,68,111, 1);*/
-	background-color: rgba(8,34,56, 0.9);
+	/*background-color: rgba(8,34,56, 0.9);*/
 	/*background-color: rgba(0,0,0, 0.9);*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -337,7 +341,7 @@ footer img {
 }
 
 .logo-eu-sklad {
-	margin-top: 20px;
+	margin-top: 11px;
 }
 	
 /*
@@ -376,6 +380,7 @@ footer img {
 	}
 	
 	#home .button {
+		/*background: #f2d86d;*/
 		background: #2196f3;
 		display: block;
 		border-radius: 2px;
@@ -385,6 +390,7 @@ footer img {
 	}
 	
 	#home .button:hover {
+		/*background: #f2d86d;*/
 		background: #2196f3;
 		padding: 20px;
 		transition-duration: 0.2s;
@@ -396,6 +402,7 @@ footer img {
 		color: #fff;
 		padding: 20px;
 		font-size: 2em;
+		/*font-weight: bold;*/
 		letter-spacing: 0.75px;
 	}
 	
@@ -674,7 +681,12 @@ a.list-group-item {
 		margin-top: 50px;
 		text-align: left;
 	}
-	
+
+	.result-padding {
+		margin-top: 8px;
+		margin-left: 15px;
+	}
+
 /*
  *	CAROUSEL ANIMATION SURVEY
  */
@@ -747,3 +759,46 @@ a.list-group-item {
 .lightbox-img:hover {
 	cursor: pointer;
 }
+
+/*
+ *  LIST GROUP - SUBLISTS FOR BOOTSTRAP
+ */
+
+.subitem
+{
+	padding-left: 45px;
+}
+/*
+.just-padding {
+  padding: 15px;
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+  padding-left: 45px;
+}
+
+.list-group-item .glyphicon {
+  margin-right: 5px;
+}*/

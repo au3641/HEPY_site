@@ -53,6 +53,7 @@ class Question(models.Model):
     questionnaire = models.ForeignKey(Questionnaire)
     text = models.TextField(blank=True, null=True)
     order = models.IntegerField(blank=True, null=True)
+    group = models.IntegerField(blank=True, null=True)
     type = models.CharField(
         max_length = 16,
         choices=QUESTION_TYPES,
@@ -180,7 +181,8 @@ class AnswerWeight(models.Model):
     ANSWERWEIGHT_TYPES = (
         ('risk', 'risk'),
         ('hepatitis_a_b', 'hepatitis_a_b'),
-        ('not_a_b', 'not_a_b')
+        ('not_a_b', 'not_a_b'),
+        ('order', 'order')
     )
 
     answer = models.ForeignKey(Answer)

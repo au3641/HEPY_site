@@ -6,6 +6,7 @@
 		"ngAnimate",
         "ui.bootstrap",
 		"ngSanitize",
+		"duScroll"
     ]);
 
     app.constant("_", window._);
@@ -25,7 +26,7 @@
 				templateUrl : 'app/pages/survey-intro.html',
 				controller  : 'BlankCtrl'
 			})
-			.when('/opis-virusnih-hepatitisov/:view?', {
+			.when('/opisi-virusnih-hepatitisov/:view?', {
 				templateUrl : 'app/pages/hepatitis-info.html',
 				controller  : 'HepInfoCtrl'
 			})

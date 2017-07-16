@@ -1,21 +1,27 @@
 <div id="page-prevention">
-    <h2 class="container">Preprečevanje</h2>
+    <h2 class="container">Splošni ukrepi preprečevanja okužb z virusi hepatitisa in cepljenje</h2>
 
     <div class="content-block">
         <div class="container">
 
             <div class="row">
                 <div class="col-sm-4 col-md-3 sidebar">
-                    <div class="mini-submenu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </div>
                     <div class="list-group">
-                        <a ng-repeat="link in pages" href="#/preprecevanje/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}">
-                            {{ link.name }}
-                        </a>
-
+                        <div ng-repeat="link in pages">
+                            <a ng-if="link.subpages.length <= 0" href="#/preprecevanje/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}">
+                                {{ link.name }}
+                            </a>
+                            <a ng-if="link.subpages.length > 0" href="#/preprecevanje/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}" data-toggle="collapse" data-target="#{{ link.link }}">
+                                {{ link.name }}
+                            </a>
+                            <div ng-if="link.subpages.length > 0" id="{{ link.link }}" class="collapse in" collapse="{{ file == link.link ? 'false' : 'true'}}">
+                                <div ng-repeat="subpage in link.subpages">
+                                    <a href="" ng-click="theySeeMeScrollin(subpage.link)" class="list-group-item subitem">
+                                        {{subpage.name}}
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

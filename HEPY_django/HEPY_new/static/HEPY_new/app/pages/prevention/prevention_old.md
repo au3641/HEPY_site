@@ -1,4 +1,4 @@
-### PREPREČEVANJE OKUŽBE Z VIRUSOMA HEPATITISA A IN E in CEPLJENJE PROTI HEPATITISU A
+### PREPREČEVANJE OKUŽBE Z VIRUSOMA HEPATITISA A IN E in CEPLJENJE PROTI HEPATITISU A <div id="hep-ae"></div>
 
 Na potovanju v endemične kraje (glej zemljevid) popotnik virus hepatitisa A (HAV) in virus hepatitisa E (HEV) zaužije s hrano, vodo ali preko umazanih rok. Povzročitelj se določen čas izloča z blatom okuženega. Z bolnika ali tihega nosilca virusa se povzročitelj vrača v okolje, v higiensko neurejenih razmerah pa se okužba lahko širi na zdrave osebe. 
 
@@ -18,7 +18,8 @@ Vsem osebam, starejšim od enega leta, ki so bile izpostavljene okužbi s HAV in
 osebje in otroci v jaslih/vrtcih ter njihovi družinski člani, ko zboli najmanj en otrok ali zaposleni v jaslih ali se primeri pojavijo v najmanj dveh gospodinjstvih (družinah) otrok, ki obiskujejo iste jasli;
 osebe, izpostavljene skupnemu viru okužbe (npr. okuženemu zaposlenemu, ki pripravlja in rokuje s hrano).
 
-### PREPREČEVANJE OKUŽBE Z VIRUSOM HEPATITISA B in CEPLJENJE PROTI HEPATITISU B 
+
+### PREPREČEVANJE OKUŽBE Z VIRUSOM HEPATITISA B in CEPLJENJE PROTI HEPATITISU B <div id="hep-b"></div>
 
 #### Kako se zavarujemo pred okužbo?
 Okužba z virusom hepatitisa B se prenaša ob neposrednem stiku z okuženo krvjo, ki se vnese v izpostavljeno telo, ali z nekaterimi drugimi telesnimi tekočinami (najpogosteje slina, sperma, vaginalni izločki). 
@@ -66,7 +67,7 @@ Cepivo proti hepatitisu B je zelo varno. Večina ljudi po cepljenju nima težav.
 Če je v času predvidenega cepljenja oseba akutno zbolela z neko drugo boleznijo, je cepljenje proti hepatitisu B potrebno začasno odložiti do okrevanja.
 
 
-### PREPREČEVANJE OKUŽBE Z VIRUSOM HEPATITISA C
+### PREPREČEVANJE OKUŽBE Z VIRUSOM HEPATITISA C <div id="hep-c"></div>
 
 Zaradi izrazite spremenljivosti virusa hepatitisa C (HCV) *cepiva proti hepatitisu C še niso* uspeli razviti, prav tako ni učinkovita niti pasivna zaščita z imunoglobulini. 
 

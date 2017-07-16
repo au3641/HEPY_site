@@ -11,13 +11,17 @@
 				icon: 'questions-css.svg',
 			},
 			{
-				text: 'Opis virusnih hepatitisov',
-				link: '#/opis-virusnih-hepatitisov',
+				text: 'Opisi virusnih hepatitisov',
+				link: '#/opisi-virusnih-hepatitisov',
 				icon: 'virus-css.svg',
 				subpages: [
 					{
-						name: 'Akutni',
-						link: '',
+						name: 'Virusni hepatitis',
+						link: 'description-viral'
+					},
+					{
+						name: 'Akutni hepatitis',
+						link: 'description-acute',
 					},
 					{
 						name: 'Hepatitis A',
@@ -56,11 +60,11 @@
 				subpages: [
 					{
 						name: 'Splošni ukrepi',
-						link: '',
+						link: 'general_prevention',
 					},
 					{
 						name: 'Cepljenje',
-						link: 'prevention',
+						link: 'vaccination',
 					}]
 			},
 			{

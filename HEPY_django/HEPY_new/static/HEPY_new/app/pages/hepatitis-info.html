@@ -6,13 +6,8 @@
 
             <div class="row">
                 <div class="col-sm-4 col-md-3 sidebar">
-                    <div class="mini-submenu">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </div>
                     <div class="list-group">
-                        <a ng-repeat="link in pages" href="#/opis-virusnih-hepatitisov/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}">
+                        <a ng-repeat="link in pages" href="#/opisi-virusnih-hepatitisov/{{ link.link }}" class="list-group-item {{ file == link.link ? 'active' : ''}}">
                             {{ link.name }} 
                         </a>
 
@@ -26,7 +21,7 @@
                         </div>
 						
 						<div ng-switch-when="">
-                            <div marked ng-include="'app/pages/hep-info/description-acute.md'">
+                            <div marked ng-include="'app/pages/hep-info/description-virus-hep.md'">
 						</div>
                     </div>
                 </div>

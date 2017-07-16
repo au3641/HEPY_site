@@ -9,7 +9,7 @@ class QuestionnaireSerializer(serializers.ModelSerializer):
 class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Question
-        fields = ('pk', 'questionnaire', 'text', 'order', 'type')
+        fields = ('pk', 'questionnaire', 'text', 'order', 'group', 'type')
 
 class AnswerSerializer(serializers.ModelSerializer):
     class Meta:

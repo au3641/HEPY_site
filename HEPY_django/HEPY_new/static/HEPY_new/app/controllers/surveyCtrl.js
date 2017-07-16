@@ -13,6 +13,7 @@
         sc.questionnaire = 0;
         sc.questions = new Array();
         sc.consentQuestion = {};
+        sc.lookUpTable = new Array();
         
         sc.questionnaireLoaded = false;
         sc.questionsLoaded = false;
@@ -40,6 +41,8 @@
 				for(var j = 0; j < sc.questions[sc.displayNr].comments[i].answersThatEnable.length; j++)
 				{
 					var rqa = sc.questions[sc.displayNr].comments[i].relatedQAs[j];
+					rqa = sc.lookUpTable[rqa];
+					
 					for(var k = 0; k < sc.questions[rqa].answers.length; k++)
 					{
 						if(sc.questions[rqa].answers[k].pk == sc.questions[sc.displayNr].comments[i].answersThatEnable[j])
@@ -100,7 +103,20 @@
 			sc.questions[sc.displayNr].active = true;
 			sc.moveOn = true; // enable "next" button, since anwsers were already chosen on this question
 		};
-
+		
+		
+		
+		// Recalculate lookup question IDs (use this after reordering questions)
+		function rebuildLookupTable()
+		{
+			for(var i = 0; i < sc.questions.length; i++)
+			{
+				sc.lookUpTable[sc.questions[i].tid] = i;
+			}
+		}
+		
+		
+		
 		// Called after the last (non-hidden) question is answered
 		function end()
 		{
@@ -196,6 +212,8 @@
 
 			return;
 		}
+		
+				
 
 		// Called when procceding to next question
 		sc.next = function()
@@ -203,6 +221,62 @@
 			// Make current question inactive (hide on front-end)
 			sc.questions[sc.displayNr].active = false;
 
+			
+			// Check order weight and sort array if neccesary
+			var target_order = null;
+			for(var i = 0; i < sc.questions[sc.displayNr].answers.length; i++)
+			{
+				// Check order weight of selected answer
+				if(sc.questions[sc.displayNr].answers[i].selected)
+				{
+					for(var j = 0; j < sc.questions[sc.displayNr].answers[i].weights.length; j++)
+					{
+						if(sc.questions[sc.displayNr].answers[i].weights[j].type == "order")
+						{
+							target_order = Math.floor(sc.questions[sc.displayNr].answers[i].weights[j].value);
+							break;
+						}
+					}
+					break;
+				}
+			}
+			
+			// Order change found, reorder remaining questions
+			if(target_order != null && sc.displayNr+1 < sc.questions.length)
+			{
+				if(target_order != -1)
+				{
+					var sliced_q = sc.questions.slice(sc.displayNr + 1);
+					
+					sliced_q.sort(function (a, b) {
+						if (a.group == target_order && b.group == target_order)
+							return a.order - b.order;
+						
+						if (a.group == target_order)
+							return -1;
+						if (b.group == target_order)
+							return 1;
+						
+						if (a.group != b.group)
+							return a.group - b.group;
+						return a.order - b.order;
+					});
+					
+					for (var i = sc.displayNr + 1; i < sc.questions.length; i++)
+						sc.questions[i] = sliced_q[i - (sc.displayNr + 1)];
+				}
+				else
+				{
+					sc.questions.sort(function (a, b)
+					{
+						return a.order - b.order;
+					});
+				}
+				
+				rebuildLookupTable();
+				sc.$apply();
+			}
+			
 			var skip; // do we skip the question?
 
 			do
@@ -228,7 +302,8 @@
 					for(var j = 0; j < sc.questions[sc.displayNr].disables[i].requiredAnswers.length && !skip; j++)
 					{
 						var relatedQID = sc.questions[sc.displayNr].disables[i].relatedQAs[j]; // question index of required answer
-
+						relatedQID = sc.lookUpTable[relatedQID];
+						
 						// Check through all answers on question that has at least one required answer
 						for(var k = 0; k < sc.questions[relatedQID].answers.length; k++)
 						{
@@ -267,6 +342,9 @@
 			sc.actualDisplayNumber++;
 		};
 
+		
+		
+		
         hepyService.getQuestionnaire().then(function (questionnaire)
         {
             // We get all the data from the database about our questionnaire and save it in scope
@@ -274,14 +352,14 @@
             sc.questionnaireLoaded = true;
             linkSurveyData();
         });
-        
+		
         hepyService.getQuestions().then(function (questions)
         {
             sc.tempQuestions = questions;
             sc.questionsLoaded = true;
             linkSurveyData();
         });
-        
+		
         hepyService.getAnswers().then(function (answers)
         {
             sc.tempAnswers = answers;
@@ -295,14 +373,14 @@
 			sc.commentsLoaded = true;
 			linkSurveyData();
 		});
-        
+		
         hepyService.getDisables().then(function (disables)
         {
             sc.tempDisables = disables;
             sc.disablesLoaded = true;
             linkSurveyData();
         });
-        
+		
         hepyService.getAnswerWeights().then(function (disables)
         {
             sc.tempAnswerWeights = disables;
@@ -310,6 +388,9 @@
             linkSurveyData();
         });
 
+        
+        
+        
 		// Service calls this function after it gets questions from the database
 		function linkSurveyData()
 		{
@@ -353,6 +434,7 @@
             sc.consentQuestion.questionnaire = sc.questionnaire.pk;
             sc.consentQuestion.text = sc.questionnaire.consentQuestionText;
             sc.consentQuestion.order = sc.questionnaire.consentShowOrder;
+            sc.consentQuestion.group = null;
             sc.consentQuestion.type = "radio";
             sc.consentQuestion.active = false;
             sc.consentQuestion.answers = [];
@@ -501,7 +583,11 @@
 					}
 				}
 			}
-
+			
+			// Prepare reorder look up table
+			for(var i = 0; i < sc.questions.length; i++)
+				sc.lookUpTable.push(i);
+			
             sc.tempQuestions = null;
             sc.tempAnswers = null;
             sc.tempComments = null;
