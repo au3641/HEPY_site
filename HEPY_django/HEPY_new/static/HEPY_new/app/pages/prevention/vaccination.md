@@ -22,9 +22,9 @@ Preventivno cepljenje proti hepatitisu A je zelo učinkovito, saj zaščiti vse 
 
 #### Za koga je priporočljivo?
 Poeksppozicijsko cepljenje proti hepatitisu A se priporoča vsem osebam, starejšim od enega leta, ki so že bile izpostavljene okužbi s HAV in pred tem niso bile cepljene oz. bolezni niso prebolele.To so:
-*tesni kontakti oseb s potrjeno okužbo s HAV, in sicer osebe, ki živijo v istem gospodinjstvu, spolni partnerji okužene osebe, ali osebe, ki so si z okuženim delile pribor za uporabo nedovoljenih drog,
-*osebje in otroci v jaslih/vrtcih ter njihovi družinski člani, ko zboli najmanj en otrok ali zaposleni v jaslih ali se primeri pojavijo v najmanj dveh gospodinjstvih (družinah) otrok, ki obiskujejo iste jasli,
-*osebe, izpostavljene skupnemu viru okužbe (npr. okuženemu zaposlenemu, ki pripravlja in rokuje s hrano).
+* tesni kontakti oseb s potrjeno okužbo s HAV, in sicer osebe, ki živijo v istem gospodinjstvu, spolni partnerji okužene osebe, ali osebe, ki so si z okuženim delile pribor za uporabo nedovoljenih drog,
+* osebje in otroci v jaslih/vrtcih ter njihovi družinski člani, ko zboli najmanj en otrok ali zaposleni v jaslih ali se primeri pojavijo v najmanj dveh gospodinjstvih (družinah) otrok, ki obiskujejo iste jasli,
+* osebe, izpostavljene skupnemu viru okužbe (npr. okuženemu zaposlenemu, ki pripravlja in rokuje s hrano).
 
 Po izpostavitvi okužbi s HAV se priporoča cepljenje z enim odmerkom cepiva čimprej oz. znotraj dveh tednov po izpostavitvi. Za osebe, ki potrebujejo dolgotrajno zaščito proti hepatitisu A (npr. zaradi potovanj) je smiselno, da se cepijo še z enim odmerkom cepiva 6 do 12 mesecev po prvem.
 
@@ -42,17 +42,17 @@ Cepljenje odraslih je zelo priporočljivo za vse, pri katerih obstaja verjetnost
 Od leta 1998 je cepljenje otrok proti hepatitisu B pred vstopom v šolo del nacionalnega programa cepljenja. Rutinsko so torej cepljeni otroci, rojeni po letu 1992. Prva dva odmerka cepiva prejmejo pred vstopom v šolo s presledkom najmanj enega meseca,  tretji odmerek pa prejmejo v prvem razredu (najmanj pet mesecev po drugem odmerku).
 
 Cepljenje je po Pravilniku o cepljenju, zaščiti z zdravili in varstvu pred vnosom in razširjenjem nalezljivih bolezni (UL RS, 16/1999) obvezno tudi za vse tiste, ki imajo zvečano tveganje za okužbo  s HBV. To velja za:
-*Zdravstvene in druge delavce, ki so pri opravljanju svojega dela izpostavljeni možnosti okužbe s HBV,
-*dijake in študente, ki so pri praktičnem pouku izpostavljeni možnosti okužbe s HBV,
-*novorojenčke HBsAg pozitivnih mater,
-*otroke ob vstopu v osnovno šolo,
-*osebe, ki nimajo niti antigena niti zaščitnih protiteles in živijo v tesnem stiku z osebami, ki so nosilci antigena hepatitisa B, pri čemer imajo prednost spolni partnerji,
-*bolnike na hemodializi,
-*varovance zavodov za duševno in telesno zaostale,
-*uživalce drog z injiciranjem,
-*hemofilike,
-*bolnike s spolno prenosljivimi okužbami,
-*osebe, ki so bile izpostavljene okužbi s HBV preko kože ali sluznice.
+* Zdravstvene in druge delavce, ki so pri opravljanju svojega dela izpostavljeni možnosti okužbe s HBV,
+* dijake in študente, ki so pri praktičnem pouku izpostavljeni možnosti okužbe s HBV,
+* novorojenčke HBsAg pozitivnih mater,
+* otroke ob vstopu v osnovno šolo,
+* osebe, ki nimajo niti antigena niti zaščitnih protiteles in živijo v tesnem stiku z osebami, ki so nosilci antigena hepatitisa B, pri čemer imajo prednost spolni partnerji,
+* bolnike na hemodializi,
+* varovance zavodov za duševno in telesno zaostale,
+* uživalce drog z injiciranjem,
+* hemofilike,
+* bolnike s spolno prenosljivimi okužbami,
+* osebe, ki so bile izpostavljene okužbi s HBV preko kože ali sluznice.
 
 Po letu 1994 so vse noseče žene rutinsko testirane glede morebitne kronične okužbe s HBV. Če je nosečnica kronično okužena s HBV (v krvi ima prisoten HBsAg), je potrebno novorojenca čim prej po rojstvu cepiti proti hepatitisu B in mu hkrati s prvim odmerkom cepiva dati tudi pasivno zaščito s specifičnimi imunoglobulini. Ti otroci so cepljenji s štirimi odmerki cepiva, po shemi 0, 1, 2, 12 (drugi odmerek cepiva prejmejo 1 mesec po prvem, tretjega 2 meseca po prvem in četrtega 12 mesecev po prvem odmerku cepiva).
 

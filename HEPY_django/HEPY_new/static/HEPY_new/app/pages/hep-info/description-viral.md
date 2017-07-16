@@ -5,13 +5,14 @@ Hepatitis je vnetje jeter, ki ga povzročajo različni dejavniki kot so kot so o
 Kljub številnim preventivnim in kurativnim ukrepom je virusni hepatitis v svetu še danes pomemben javnozdravnstveni problem z velikim deležem obolevnosti in smrtnosti. Po podatkih Svetovne zdravstvene organizacije je v svetu leta 2013 število smrtnih primerov zaradi virusnega hepatitisa prvič preseglo število smrtniih primerov zaradi HIV/aidsa, malarije in tuberkuloze. 
 
 Poznamo pet glavnih povzročiteljev primarnega virusnega hepatitisa:
-*virus hepatitisa A (HAV)
-*virus hepatitisa B (HBV)
-*virus hepatitisa C (HCV)
-*virus hepatitisa D (HDV), ki je izključno pridružen virusu hepatitisa B
-*virus hepatitisa E (HEV)
+* virus hepatitisa A (HAV)
+* virus hepatitisa B (HBV)
+* virus hepatitisa C (HCV)
+* virus hepatitisa D (HDV), ki je izključno pridružen virusu hepatitisa B
+* virus hepatitisa E (HEV)
 
 Vsem je skupno, da prizadenejo jetra, na splošno pa se razlikujejo po načinu prenosa okužbe in možnosti za razvoj kronične okužbe. Klinični simptomi in znaki akutnega virusnega hepatitisa so večinoma enaki ne glede na povzročitelja, diagnozo pa razkrije šele ustrezno mikrobiološko testiranje.
+
 
 | Virusni hepatitis 	| Vir okužbe                             	| Pot prenosa                  	| Način prenos                                               	| Kronična okužba 	| Pasivna zaščita s protitelesi 	| Cepivo                                                    	|
 |-------------------	|----------------------------------------	|------------------------------	|------------------------------------------------------------	|-----------------	|-------------------------------	|-----------------------------------------------------------	|

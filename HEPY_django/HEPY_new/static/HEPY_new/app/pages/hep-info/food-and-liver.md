@@ -5,16 +5,16 @@ Motnje v delovanju jeter se odražajo z neustreznim privzemom hranil in spremenj
 Pri napredovali jetrni bolezni se zato pogosto pojavita beljakovinska in energijska nedohranjenost, ki značilno zvečata obolevnost in smrtnost bolnikov s hepatitisom. Uživanje hrane tedaj dodatno omejujejo tudi izguba teka, slabost in bruhanje. Tudi prekomerna telesna teža in zamaščenost jeter pomembno pospešujeta napredovanje hepatitisa in slabšata uspešnost zdravljenja.
 
 Da bi se telo čim bolje branilo pred napredovanjem bolezni, je izrednega pomena, da že v najzgodnejšem obdobju bolezni poskrbite za zdrav način življenja z:
-·         zdravo in uravnoteženo prehrano,
-·         zmerno fizično aktivnostjo,
-·         neuživanjem alkohola.
+* zdravo in uravnoteženo prehrano,
+* zmerno fizično aktivnostjo,
+* neuživanjem alkohola.
 
 Cilj zdrave in uravnotežene prehrane bolnikov s hepatitisom je, da:
-·         zagotovi zadosti beljakovin in energije za obnavljanje jetrnega tkiva in mišične mase,
-·         vzdržuje ravnovesje v presnovi dušika,
-·         preprečuje zaplete, povezane s presnavljanjem ogljikovih hidratov, maščob in beljakovin,
-·         zagotovi telesu dovolj vitaminov in mineralov,
-·         ureja ravnovesje telesnih tekočin in elektrolitov.
+* zagotovi zadosti beljakovin in energije za obnavljanje jetrnega tkiva in mišične mase,
+* vzdržuje ravnovesje v presnovi dušika,
+* preprečuje zaplete, povezane s presnavljanjem ogljikovih hidratov, maščob in beljakovin,
+* zagotovi telesu dovolj vitaminov in mineralov,
+* ureja ravnovesje telesnih tekočin in elektrolitov.
 
 Prehrano se načrtuje za vsakega bolnika posebej, glede na njegovo splošno stanje in stopnjo jetrne okvare. Na splošno bolniki s hepatitisom ne potrebujejo posebne diete in lahko uživajo živila iz vseh skupin, razen če gre za napredovalo obliko bolezni ali nekatera druga bolezenska stanja (sladkorna bolezen, celiakija…). Zelo pomembno je pravilno razmerje med posameznimi živili in njihova energijska vrednost. Če bolnik iz jedilnika izpusti posamezna živila, naj jih ustrezno nadomesti ali naj uživa ustrezna prehranska dopolnila. Vnos beljakovin, maščob, soli, vode in napitkov spreminjajte samo tedaj, ko je to zaradi napredovale bolezni nujno potrebno in to predpiše zdravnik. Uživanje alkohola je odsvetovano, saj njegova presnova še dodatno obremenjuje jetra.
 
