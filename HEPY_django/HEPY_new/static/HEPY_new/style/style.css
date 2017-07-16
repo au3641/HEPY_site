@@ -380,6 +380,7 @@ footer img {
 	}
 	
 	#home .button {
+		/*background: #f2d86d;*/
 		background: #2196f3;
 		display: block;
 		border-radius: 2px;
@@ -389,6 +390,7 @@ footer img {
 	}
 	
 	#home .button:hover {
+		/*background: #f2d86d;*/
 		background: #2196f3;
 		padding: 20px;
 		transition-duration: 0.2s;
@@ -400,6 +402,7 @@ footer img {
 		color: #fff;
 		padding: 20px;
 		font-size: 2em;
+		/*font-weight: bold;*/
 		letter-spacing: 0.75px;
 	}
 	
