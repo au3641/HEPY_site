@@ -120,8 +120,8 @@ Ob takem incidentu lahko pride do izpostavljenosti virusoma hepatitisa B in/ali 
 
 #### Ob vsakem incidentu je potrebno ustrezno **ukrepanje**:
 
-*Če pride do vboda/vreza z okrvavljenim ostrim predmetom ali politja poškodovane kože, mesto poškodbe **iztiskamo, da kri izteka in hkrati spiramo z mlačno tekočo vodo vsaj 10 minut.** Kožo nato dobro osušimo in razkužimo z alkoholnim razkužilom, ki naj učinkuje najmanj 2-3 minute, nato poškodbo oskrbimo. V primeru obrizganja sluznice (tudi očesne) s krvjo mesto vsaj 10 minut spiramo z vodo ali fiziološko raztopino. 
-***Ustrezen zdravnik specialist (infektolog) oceni nevarnost** za prenos HBV in/ali HCV in potrebo odredi nadaljnje ukrepanje za preprečitev okužbe. V primeru hepatitisa B je to po-ekspozicijska profilaksa, če izpostavljena oseba ni bila cepljena proti hepatitisu B ali še ni bila okužena s HBV. V primeru hepatitisa C je to reden zdravniški nadzor šest mesecev po incidentu. Če pride do pojava okužbe, je potrebno zdravljenje akutnega hepatitisa C.
+* Če pride do vboda/vreza z okrvavljenim ostrim predmetom ali politja poškodovane kože, mesto poškodbe **iztiskamo, da kri izteka in hkrati spiramo z mlačno tekočo vodo vsaj 10 minut.** Kožo nato dobro osušimo in razkužimo z alkoholnim razkužilom, ki naj učinkuje najmanj 2-3 minute, nato poškodbo oskrbimo. V primeru obrizganja sluznice (tudi očesne) s krvjo mesto vsaj 10 minut spiramo z vodo ali fiziološko raztopino.
+* **Ustrezen zdravnik specialist (infektolog) oceni nevarnost** za prenos HBV in/ali HCV in potrebo odredi nadaljnje ukrepanje za preprečitev okužbe. V primeru hepatitisa B je to po-ekspozicijska profilaksa, če izpostavljena oseba ni bila cepljena proti hepatitisu B ali še ni bila okužena s HBV. V primeru hepatitisa C je to reden zdravniški nadzor šest mesecev po incidentu. Če pride do pojava okužbe, je potrebno zdravljenje akutnega hepatitisa C.
 
 
 

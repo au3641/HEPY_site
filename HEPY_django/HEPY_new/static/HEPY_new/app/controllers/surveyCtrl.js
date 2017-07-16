@@ -41,7 +41,7 @@
 				for(var j = 0; j < sc.questions[sc.displayNr].comments[i].answersThatEnable.length; j++)
 				{
 					var rqa = sc.questions[sc.displayNr].comments[i].relatedQAs[j];
-					rqa = sc.lookUpTable[rqa];
+					rqa = findInLookupTable(rqa);
 					
 					for(var k = 0; k < sc.questions[rqa].answers.length; k++)
 					{
@@ -111,8 +111,18 @@
 		{
 			for(var i = 0; i < sc.questions.length; i++)
 			{
-				sc.lookUpTable[sc.questions[i].tid] = i;
+				sc.lookUpTable[i] = sc.questions[i].tid;
 			}
+		}
+		
+		function findInLookupTable(x)
+		{
+			for(var i = 0; i < sc.lookUpTable.length; i++)
+			{
+				if(sc.lookUpTable[i] == x)
+					return i;
+			}
+			return -1;
 		}
 		
 		
@@ -178,18 +188,15 @@
 				});
 			});
 
-			//if(!risk_type && vacinated_for_A_B)
-				
-
+			
 			// Set alert level variable that controls alert display
-			sc.alertLevel = alertlevel;
-			sc.alertLevel = 1;
-			/*
-			ZELENA, vsi odgovori zeleni, ali do vključno trije rumeni
-			RUMENA, če so zeleni in vsaj štirje rumeni; če sta 1 ali 2 roza in ostali zeleni/rumeni
-			RDEČA, vsaj 1 rdeč; ali če 3 roza
-			 */
-
+			if(!vacinated_for_A_B && !risk_type)
+				sc.alertLevel = 1;
+			else if(vacinated_for_A_B && !risk_type)
+				sc.alertLevel = 2;
+			else
+				sc.alertLevel = 3;
+			
 			// Check through all answers on consent question
 			for(var i = 0; i < sc.consentQuestion.answers.length; i++)
 			{
@@ -248,6 +255,11 @@
 				{
 					var sliced_q = sc.questions.slice(sc.displayNr + 1);
 					
+					
+					// if a > b -> 1
+					// if a < b -> -1
+					// if a = b -> 0
+					
 					sliced_q.sort(function (a, b) {
 						if (a.group == target_order && b.group == target_order)
 							return a.order - b.order;
@@ -257,10 +269,28 @@
 						if (b.group == target_order)
 							return 1;
 						
-						if (a.group != b.group)
-							return a.group - b.group;
 						return a.order - b.order;
 					});
+					
+					var non_groupy = 0;
+					for (var i = 0; i < sliced_q.length; i++)
+					{
+						if(sliced_q[i].group != target_order)
+						{
+							non_groupy = i;
+							break;
+						}
+					}
+					
+					var sliced_q2 = sliced_q.slice(non_groupy);
+					
+					sliced_q2.sort(function(a,b)
+					{
+						return a.order - b.order;
+					});
+					
+					for (var i = 0; i < sliced_q2.length; i++)
+						sliced_q[i + non_groupy] = sliced_q2[i];
 					
 					for (var i = sc.displayNr + 1; i < sc.questions.length; i++)
 						sc.questions[i] = sliced_q[i - (sc.displayNr + 1)];
@@ -302,7 +332,7 @@
 					for(var j = 0; j < sc.questions[sc.displayNr].disables[i].requiredAnswers.length && !skip; j++)
 					{
 						var relatedQID = sc.questions[sc.displayNr].disables[i].relatedQAs[j]; // question index of required answer
-						relatedQID = sc.lookUpTable[relatedQID];
+						relatedQID = findInLookupTable(relatedQID);
 						
 						// Check through all answers on question that has at least one required answer
 						for(var k = 0; k < sc.questions[relatedQID].answers.length; k++)
@@ -455,6 +485,10 @@
 			{
 				return a.order - b.order;
 			});
+			
+			// Fix true IDs after we order questions
+			for(var i = 0; i < sc.questions.length; i++)
+				sc.questions[i].tid = i;
 
 			// Mark first one as active
 			sc.questions[0].active = true;

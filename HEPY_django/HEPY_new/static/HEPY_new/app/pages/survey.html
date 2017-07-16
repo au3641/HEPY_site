@@ -40,10 +40,17 @@
 				</carousel>
 
 				<!--div ng-show="alertLevel >= 0" class="alert" ng-class="alertLevel == 1 ? 'alert-success' : alertLevel == 2 ? 'alert-warning' : 'alert-danger'"-->
-				<div ng-show="alertLevel >= 0" class="alert" ng-class="'alert-warning'">
+				<div ng-show="alertLevel >= 0" class="alert" ng-class="alertLevel == 3 ? 'alert-warning' : 'alert-success'">
+					<p ng-show="alertLevel == 1">
+						Verjetnost, da ste okuženi s katerim od virusov hepatitisa, je majhna. Svetujemo vam cepljenje proti hepatitisu B, v kolikor potujete v tujino, pa tudi cepljenje proti hepatitisu A. Poleg tega pa vam priporočamo, da upoštevate ukrepe za preprečevanje okužbe z virusi hepatitisa, ki jih najdete na naši strani.
+					</p>
+					<p ng-show="alertLevel == 2">
+						Najverjetneje niste okuženi s katerim od virusov hepatitisa. Vseeno pa vam priporočamo, da upoštevate ukrepe za preprečevanje okužbe z virusi hepatitisa, ki jih najdete na naši strani.
+					</p>
+					<p ng-show="alertLevel == 3">
+						Zaradi naštetih dejavnikov tveganja oziroma bolezenskih	simptomov in znakov vam priporočamo obisk zdravnika in testiranje na okužbo z virusi hepatitisa, informacije o tem so na voljo na naši spletni strani.
+					</p>
 					<p>
-						Zaradi naštetih dejavnikov tveganja oziroma bolezenskih	simptomov in znakov vam priporočamo obisk zdravnika in testiranje na okužbo z virusi hepatitisa(link do informacij glede testiranja).
-						<br><br>
 						Vaši dejavniki tveganja za okužbo z virusi hepatitisa:
 					</p>
 					<ul>
