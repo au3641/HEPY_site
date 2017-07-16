@@ -16,7 +16,7 @@ html {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.1),
 	  rgba(0, 0, 0, 0.1)
-    ), url("../img/hepy_bg.jpg") no-repeat center center fixed;
+    ), url("../img/hepy_bg_2k.jpg") no-repeat center center fixed;
 	/*background-color: rgba(15,68,111, 1);*/
 	/*background-color: rgba(8,34,56, 0.9);*/
 	/*background-color: rgba(0,0,0, 0.9);*/
@@ -681,7 +681,12 @@ a.list-group-item {
 		margin-top: 50px;
 		text-align: left;
 	}
-	
+
+	.result-padding {
+		margin-top: 8px;
+		margin-left: 15px;
+	}
+
 /*
  *	CAROUSEL ANIMATION SURVEY
  */

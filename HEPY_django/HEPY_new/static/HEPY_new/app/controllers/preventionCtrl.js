@@ -12,16 +12,24 @@ function ($anchorScroll, $location, $scope, $routeParams, $document) {
 				subpages:
 					[
 						{
-							name: 'Hepatitis A in E',
-							link: 'hep-ae'
+							name: 'Splošno',
+							link: 'general-prevention'
 						},
 						{
-							name: 'Hepatitis B',
-							link: 'hep-b'
+							name: 'Tvegano vedenje',
+							link: 'risky-behaviour'
 						},
 						{
-							name: 'Hepatitis C',
-							link: 'hep-c'
+							name: 'Spolni odnosi',
+							link: 'safe-sex'
+						},
+						{
+							name: 'Tetovaža / »piercing«',
+							link: 'tattoo'
+						},
+						{
+							name: 'Nesreče',
+							link: 'incident'
 						}
 					]
 			},
@@ -32,11 +40,11 @@ function ($anchorScroll, $location, $scope, $routeParams, $document) {
 				[
 					{
 						name: 'Hepatitis A',
-						link: 'hep-a'
+						link: 'vac-hep-a'
 					},
 					{
 						name: 'Hepatitis B',
-						link: 'hep-b'
+						link: 'vac-hep-b'
 					}
 				]
 			}

@@ -30,9 +30,11 @@
 						</div>
 
 						<ul id="ulSurveyComment">
-							<li ng-repeat="com in q.comments">
-								<p ng-show="com.displayed">{{ com.long_text }}</p>
-							</li>
+							<div ng-repeat="com in q.comments">
+								<li ng-show="com.displayed">
+									<p>{{ com.long_text }}</p>
+								</li>
+							</div>
 						</ul>
 					</slide>
 				</carousel>
@@ -41,11 +43,11 @@
 				<div ng-show="alertLevel >= 0" class="alert" ng-class="'alert-warning'">
 					<p>
 						Zaradi naštetih dejavnikov tveganja oziroma bolezenskih	simptomov in znakov vam priporočamo obisk zdravnika in testiranje na okužbo z virusi hepatitisa(link do informacij glede testiranja).
-						<br>
+						<br><br>
 						Vaši dejavniki tveganja za okužbo z virusi hepatitisa:
 					</p>
 					<ul>
-						<li ng-repeat="rt in resultText">
+						<li ng-repeat="rt in resultText" class="result-padding">
 							{{ rt }}
 						</li>
 					</ul>
