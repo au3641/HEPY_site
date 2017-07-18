@@ -1,4 +1,4 @@
-### JETRA IN PREHRANA
+### Jetra in prehrana
 
 Jetra so osnovni organ presnavljanja, ki opravljajo nad 500 življenjsko pomembnih funkcij. Po zaužitju hrane usklajujejo osnovne biokemične in fiziološke procese pri prebavi, vsrkavanju, skladiščenju in presnavljanju hranil, tvorbi beljakovin in razstrupljanju škodljivih snovi.
 Motnje v delovanju jeter se odražajo z neustreznim privzemom hranil in spremenjenim splošnim prehranskim stanjem bolnika. Bolniki s kronično jetrno boleznijo imajo povečano porabo energije v mirovanju, ki narašča z napredovanjem bolezni.
@@ -22,7 +22,8 @@ Potreba po kalorijah je pri ljudeh različna, zato se potrebna količina zaužit
 
 
 
-### VZORČNI JEDILNIK ZA TRI SKUPINE BOLNIKOV
+### Vzorčni jedilnik za tri skupine bolnikov
+
 | Skupina živil                      	| 1600 kcal (sedeče ženske, nekateri starostniki) 	| 2200 kcal (aktivne ženske, sedeči moški) 	| 2800 kcal (aktivni moški, zelo aktivne ženske) 	|
 |------------------------------------	|-------------------------------------------------	|------------------------------------------	|------------------------------------------------	|
 | Kruh, žita, žitni izdelki, krompir 	| 6 enot                                          	| 9 enot                                   	| 11 enot                                        	|

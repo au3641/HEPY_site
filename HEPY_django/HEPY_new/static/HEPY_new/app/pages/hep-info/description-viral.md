@@ -1,4 +1,4 @@
-### VIRUSNI HEPATITIS
+### Virusni hepatitis
 
 Hepatitis je vnetje jeter, ki ga povzročajo različni dejavniki kot so kot so okužbe, pretirano uživanje alkohola, razna zdravila, kemične snovi in strupi, motnje v presnovi (npr. hemokromatoza) ali celo spremenjen lasten imunski odziv. Najpogostejši vzrok so hepatotropni virusi, ki primarno povzročajo vnetje jeter. Lahko pa ga povzročajo tudi različni drugi virusi, ki poleg za določeno obolenje značilnih bolezenskih znakov, povzročajo tudi vnetje jeter. To so na primer virus Ebstein-Barr ob infekcijski mononukleozi, virus noric, virus herpes simpleks in drugi.
 
@@ -14,7 +14,7 @@ Poznamo pet glavnih povzročiteljev primarnega virusnega hepatitisa:
 Vsem je skupno, da prizadenejo jetra, na splošno pa se razlikujejo po načinu prenosa okužbe in možnosti za razvoj kronične okužbe. Klinični simptomi in znaki akutnega virusnega hepatitisa so večinoma enaki ne glede na povzročitelja, diagnozo pa razkrije šele ustrezno mikrobiološko testiranje.
 
 
-| Virusni hepatitis 	| Vir okužbe                             	| Pot prenosa                  	| Način prenos                                               	| Kronična okužba 	| Pasivna zaščita s protitelesi 	| Cepivo                                                    	|
+| Virusni hepatitis 	| Vir okužbe                             	| Pot prenosa                  	| Način prenosa                                              	| Kronična okužba 	| Pasivna zaščita s protitelesi 	| Cepivo                                                    	|
 |-------------------	|----------------------------------------	|------------------------------	|------------------------------------------------------------	|-----------------	|-------------------------------	|-----------------------------------------------------------	|
 | A                 	| Blato                                  	| Fekalno- oralno              	| okužena voda/hrana, s človeka na človeka                   	| Ne              	| Da                            	| Da                                                        	|
 | B                 	| Kri in nekatere druge telesne tekočine 	| Izpostavljena koža/ sluznica 	| spolni stik, okužene igle, transfuzija, z matere na otroka 	| Da              	| Da                            	| Da                                                        	|

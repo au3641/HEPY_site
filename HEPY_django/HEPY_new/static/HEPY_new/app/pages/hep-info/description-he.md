@@ -1,4 +1,4 @@
-### HEPATITIS E
+### Hepatitis E
 
 Hepatitis E je akutno vnetje jeter, ki ga povzroča virus hepatitisa E (HEV). Je najpogostejši povzročitelj akutnega hepatitisa odraslih v endemičnih področjih nerazvitega sveta, kjer vladajo slabe higienske razmere in slaba sanitacija okolja. V Slovenijo okužbo prinesejo potniki iz endemičnih področij, okužba pa je izjemoma pridobljena tudi doma. Letno število prijavljenih okuženih je zelo majhno.
  

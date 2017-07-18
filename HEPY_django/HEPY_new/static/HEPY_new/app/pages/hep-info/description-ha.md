@@ -1,4 +1,4 @@
-### HEPATITIS A
+### Hepatitis A
 
 Hepatitis A je vnetje jeter, ki ga povzroča virus hepatitisa A (HAV). Je ena najstarejših bolezni, ki jih pozna človeštvo in lahko ogroža življenje. Na svetu se vsako leto z virusom hepatitisa A okuži najmanj 1,5 milijona ljudi. Okužba s HAV je velik zdravstveni problem predvsem v nerazvitem svetu, kjer vladajo slabe higienske razmere in slaba sanitacija okolja. V Slovenijo okužbo prinesejo potniki iz endemičnih področij, letno število okuženih pa je zelo majhno.
 

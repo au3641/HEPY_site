@@ -1,4 +1,4 @@
-### HEPATITIS D
+### Hepatitis D
 
 Hepatitis D je akutno ali kronično vnetje jeter, ki ga povzroča virus hepatitisa D (HDV). Značilno se pojavi le pri okuženih z virusom hepatitisa B (HBV). Ocenjujejo, da je na svetu med 250 milijoni nosilcev hepatitisa B hkrati okuženih s hepatitisom D v približno 5%. Okužba s hepatitisom D je endemična v Sredozemlju in na Japonskem ter na pacifiških otokih.
 
