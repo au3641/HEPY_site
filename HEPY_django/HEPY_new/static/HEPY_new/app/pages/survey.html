@@ -8,7 +8,7 @@
 				<carousel interval="-1" id="survey-questions" ng-show="alertLevel == -1" class="carousel-fade">
 					<slide ng-repeat="q in questions" active="q.active" class="question-page">
 						<h3 class="survey-question">
-							{{actualDisplayNumber}}. <span ng-bind-html="q.text">{{q.text}}</span>
+							{{actualDisplayNumber}}. <span ng-bind-html="q.text" class="question-img">{{q.text}}</span>
 							<div ng-if="q.type == 'checkbox'" class="question-info">Možnih je več odgovorov.</div>
 						</h3>
 						
@@ -31,7 +31,7 @@
 
 						<ul id="ulSurveyComment">
 							<div ng-repeat="com in q.comments">
-								<li ng-show="com.displayed">
+								<li ng-show="com.displayed" ng-bind-html="com.long_text">
 									<p>{{ com.long_text }}</p>
 								</li>
 							</div>
@@ -54,7 +54,7 @@
 						Vaši dejavniki tveganja za okužbo z virusi hepatitisa:
 					</p>
 					<ul>
-						<li ng-repeat="rt in resultText" class="result-padding">
+						<li ng-repeat="rt in resultText" class="result-padding" ng-bind-html="rt">
 							{{ rt }}
 						</li>
 					</ul>
