@@ -71,10 +71,10 @@ a:focus {
 #wrap {
 	min-height: 100%;
 	padding-top: 64px;
-	margin-bottom: -100px;
+	margin-bottom: -115px;
 	height: auto;
 	overflow-y: hidden;
-	padding-bottom: 100px;
+	padding-bottom: 115px;
 }
 
 #main-scroll {
@@ -284,10 +284,22 @@ h5, h4 {
  */
  
 footer {
-	min-height: 100px;
+	min-height: 115px;
 	background: rgba(0, 0, 0, 0.7);
 	width: 100%;
 	display: block;
+	max-height: 120px;
+}
+
+.legal-link
+{
+	text-align: center;
+	color: white;
+	/*text-decoration-line: underline;*/
+	width: 100%;
+	letter-spacing: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: small;
 }
 
 .img-container {
@@ -448,6 +460,11 @@ footer img {
 
 #page-survey .question-page {
 	min-height: 435px;
+}
+
+.question-page > img {
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .button-next a {
@@ -668,7 +685,7 @@ a.list-group-item {
 	
 	.hospitalDescription {
 		color: #7F7F7F; 
-		line-height: 110%; 
+		line-height: 110%;
 		text-align: justify; 
 		font-size: 18px;
 		margin-bottom: 0px;
@@ -793,7 +810,13 @@ a.list-group-item {
 
 .checkbox-fix
 {
-	padding-left: 5px;
+	display: inline;
+	padding-right: 8px;
+}
+
+input[type="checkbox"].checkbox-input-fix
+{
+	vertical-align: 0; !important;
 }
 /*
 .just-padding {

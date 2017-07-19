@@ -1,14 +1,13 @@
-### Splošni ukrepi
+### SPLOŠNI UKREPI
 
 ### Varno prehranjevanje <div id="food-safety"></div>
 
 Na potovanju v endemične kraje (glej zemljevid) popotnik <lightbox-img img="'img/hepA.png'" text="'Geografska porazdelitev okuženih z virusom hepatitisa A po svetu'">virus hepatitisa A (HAV)</lightbox-img> in <lightbox-img img="'img/hepE.png'" text="'Geografska porazdelitev okuženih z virusom hepatitisa E po svetu'">virus hepatitisa E (HEV)</lightbox-img> zaužije s hrano, vodo ali preko umazanih rok. Povzročitelj se določen čas izloča z blatom okuženega. Z bolnika ali tihega nosilca virusa se povzročitelj vrača v okolje, v higiensko neurejenih razmerah pa se okužba lahko širi na zdrave osebe.
 
-##### Kako se zavarujemo pred okužbo?
+#### Kako se zavarujemo pred okužbo?
 Pred okužbo se lahko zavarujemo z doslednim upoštevanjem higienskih ukrepov, predvsem smo pozorni v državah, kjer ni razvite kanalizacije oziroma sanitacije okolja. Najpomembnejše je pitje higiensko neoporečne vode, priporočamo uporabo ustekleničene vode, ne le prekuhavanje vode. Roke si pred pripravo jedi in pred jedjo ter po uporabi stranišča vedno temeljito umijemo z milom in čisto vodo. Kjer ni na voljo čiste vode, svetujemo uporabo mokrih higienskih ali alkoholnih robčkov.  Pri umivanju zob uporabljamo samo pitno vodo.  Svetujemo uživanje dobro pečene ali dobro kuhane in pravkar pripravljene hrane. Zelenjavo in sadje je potrebno dobro oprati v pitni vodi. 
 
 **Cepljenje** je najbolj učinkovit način preprečitve okužbe s HAV. Vključuje dva odmerka cepiva in je doživljenjsko učinkovito. Možno je tudi cepljenje s kombiniranim cepivom proti hepatitisoma  A in B s tremi odmerki. Proti hepatitisu E cepiva ni na voljo.
-
 
 ### Izogibanje tveganemu vedenju <div id="risky-behaviour"></div>
 
@@ -22,12 +21,10 @@ Zato je večji poudarek na preprečevanju okužbe z dobrim nadzorom nad darovano
 Pred okužbo se lahko zavarujemo z manj tveganim vedenjem:
 * Intravenski uporabniki drog z uporabo lastnega pribora za injiciranje,
 * njuhalci drog z uporabo lastnega pribora,
-* z izogibanjem neprofesionalno opravljenemu tetoviranju, prebadanju kože in sluznic ("piercing") in akupunkturi,
+* z izogibanjem neprofesionalno opravljenemu tetoviranju, prebadanju kože in sluznic (»piercing«) in akupunkturi,
 * osebe, ki menjavajo spolne partnerje, s pravilno uporabo kondoma iz lateksa dosledno pri vsakem spolnem odnosu,
 * novorojenci mater, okuženih s HCV, s testiranjem na prisotnost okužbe s HCV takoj po porodu in nadaljnjim zdravniškim nadzorom,
 * z izogibanjem souporabi osebnega pribora (zobna ščetka, brivnik, manikirni pribor) in vzdrževanjem osnovnih higienskih navad.
-
-
 
 ### Varni spolni odnosi <div id="safe-sex"></div>
 
@@ -81,37 +78,29 @@ NE OKLEVAJTE! ČE STE IMELI TVEGANO SPOLNO VEDENJE IN/ALI IMATE BOLEZENSKE SIMPT
 
 Več informacij o spolno prenosljivih okužbah najdete na spletni strani: https://aspo.mf.uni-lj.si/
 
+### Varna tetovaža /piercing <div id="tattoo"></div>
 
+##### Zakaj se lahko okužimo pri tetoviranju ali piercingu?
 
-### Varna tetovaža / "piercing" <div id="tattoo"></div>
+Virusa hepatitisa B in C se lahko prenašata, če se pri kakršnihkoli posegih na ali v telo ne upošteva ustreznih higienskih metod in metod preprečevanja širjenja okužbe. Pri izvajanju tetovaže ali piercingu pride do stika kože z iglo oziroma črnilom. Zelo pomembno je, da se uporabi igla za enkratno uporabo, da izvajalec tetovaže ali piercinga med posegom uporablja rokavice in da so ostali pripomočki za izvedbo ustrezno sterilizirani. 
 
-##### Zakaj se lahko okužimo pri tetoviranju ali "piercingu"?
+##### Kakšno je tveganje, da se okužimo z virusom hepatitisa B/C pri tetovaži/piercingu?
 
-Virusa hepatitisa B in C se lahko prenašata, če se pri kakršnihkoli posegih na ali v telo ne upošteva ustreznih higienskih metod in metod preprečevanja širjenja okužbe. Pri izvajanju tetovaže ali "piercingu" pride do stika kože z iglo oziroma črnilom. Zelo pomembno je, da se uporabi igla za enkratno uporabo, da izvajalec tetovaže ali "piercinga" med posegom uporablja rokavice in da so ostali pripomočki za izvedbo ustrezno sterilizirani.
+Raziskave so pokazale, da imajo okuženi z virusom hepatitisa C štirikrat pogosteje prisotno tetovažo v primerjavi z neokuženimi osebami. Tveganje za okužbo se je izrazito povečalo, če je bila tetovaža opravljena neprofesionalno, kar pomeni, da ni bila opravljena v posebnih lokalih za izvajanje tetovaž in piercingov, kjer upoštevajo vse previdnostne ukrepe za preprečevanje širjenja okužb s krvjo (uporaba materiala za enkratno rabo, higienske zahteve in zahteve sterilizacije). 
 
-##### Kakšno je tveganje, da se okužimo z virusom hepatitisa B/C pri tetovaži / "piercingu"?
+##### Kako se lahko zaščitimo pred okužbo z virusom hepatitisa B/C pri tetovaži/piercingu?
 
-Raziskave so pokazale, da imajo okuženi z virusom hepatitisa C štirikrat pogosteje prisotno tetovažo v primerjavi z neokuženimi osebami. Tveganje za okužbo se je izrazito povečalo, če je bila tetovaža opravljena neprofesionalno, kar pomeni, da ni bila opravljena v posebnih lokalih za izvajanje tetovaž in "piercingov", kjer upoštevajo vse previdnostne ukrepe za preprečevanje širjenja okužb s krvjo (uporaba materiala za enkratno rabo, higienske zahteve in zahteve sterilizacije).
-
-##### Kako se lahko zaščitimo pred okužbo z virusom hepatitisa B/C pri tetovaži / "piercingu"?
-
-1. Preverite, če ima lokal, kjer boste opravili tetovažo ali "piercing", ustrezno dovoljenje za izvedbo teh postopkov (uporaba materialov za enkratno rabo, ustrezen higienski nadzor in ukrepe za preprečevanje širjenja okužb preko krvi).
-2. Vprašajte izvajalce tetovaže/"piercinga, na kakšen način sterilizirajo pripomočke in kako pogosto to delajo. Za sterilizacijo pripomočkov se uporablja posebna aparatura (avtoklav). Ti postopki se morajo izvajati rutinsko.
-3. Izvajalec tetovaže/"piercinga" mora med posegom uporabljati rokavice iz lateksa za enkratno uporabo. Preden si natakne rokavice iz lateksa, si mora oprati roke, enako tudi potem, ko rokavice sname.
-4. Vsi pripomočki, ki med tetovažo/"piercingom" pridejo v stik s krvjo in jih ni mogoče sterilizirati (rokavcie, črnilnik, vatiranci, papirnati robčki, stekleničke z milom, in podobno) je potrebno takoj po opravljenem delu odvreči v posebno posodo z oznako, da gre za material s tveganjem za okužbo.
+1. Preverite, če ima lokal, kjer boste opravili tetovažo ali piercing, ustrezno dovoljenje za izvedbo teh postopkov (uporaba materialov za enkratno rabo, ustrezen higienski nadzor in ukrepe za preprečevanje širjenja okužb preko krvi). 
+2. Vprašajte izvajalce tetovaže/piercinga, na kakšen način sterilizirajo pripomočke in kako pogosto to delajo. Za sterilizacijo pripomočkov se uporablja posebna aparatura (avtoklav). Ti postopki se morajo izvajati rutinsko. 
+3. Izvajalec tetovaže/piercinga mora med posegom uporabljati rokavice iz lateksa za enkratno uporabo. Preden si natakne rokavice iz lateksa, si mora oprati roke, enako tudi potem, ko rokavice sname.
+4. Vsi pripomočki, ki med tetovažo/piercingom pridejo v stik s krvjo in jih ni mogoče sterilizirati (rokavice, črnilnik, vatiranci, papirnati robčki, stekleničke z milom in podobno) je potrebno takoj po opravljenem delu odvreči v posebno posodo z oznako, da gre za material s tveganjem za okužbo.
 5. Črnilo ali tekočine na vodni osnovi je potrebno takoj po opravljenem delu zavreči in ne dati nazaj v stekleničko, iz katere izvirajo.
-6. Delovne površine, ki jih uporablja izvajalec tetovaže/"piercinga" in na katere odlaga pripomočke, je potrebno redno čistiti z ustreznim dezinfekcijskim sredstvom.
+6. Delovne površine, ki jih uporablja izvajalec tetovaže/piercinga in na katere odlaga pripomočke, je potrebno redno čistiti z ustreznim dezinfekcijskim sredstvom.
 
-
-
-##### Če že imam tetovažo ali "piercing", kakšno je tveganje, da sem okužen/a z virusom hepatitisa B/C?
-
+##### Če že imam tetovažo ali piercing, kakšno je tveganje, da sem okužen/a z virusom hepatitisa B/C?
 
 Če ste opravili tetovažo v lokalu z ustreznimi dovoljenji in nadzorom, ki upoštevajo zgoraj naštete previdnostne ukrepe, ni nobenih dokazov, da bi imeli kakršnokoli tveganje za okužbo z virusoma hepatitisa B ali C. 
-Če pa ste tetovažo ali "piercing" opravil/a drugje, kjer ni takega nadzora in upoštevanja previdnostnih ukrepov, obstaja tveganje za okužbo. ZATO TAKOJ OPRAVITE TESTIRANJE NA OKUŽBO Z VIRUSOM HEPATITISA C. Če niste cepljeni proti hepatitisu B, pa OPRAVITE TUDI TESTIRANJE NA OKUŽBO Z VIRUSOM HEPATITISA B.
-
-
-
+Če pa ste tetovažo ali piercing opravil/a drugje, kjer ni takega nadzora in upoštevanja previdnostnih ukrepov, obstaja tveganje za okužbo. ZATO TAKOJ OPRAVITE TESTIRANJE NA OKUŽBO Z VIRUSOM HEPATITISA C. Če niste cepljeni proti hepatitisu B, pa OPRAVITE TUDI TESTIRANJE NA OKUŽBO Z VIRUSOM HEPATITISA B.
 
 ### Ukrepanje ob incidentu <div id="incident"></div>
 

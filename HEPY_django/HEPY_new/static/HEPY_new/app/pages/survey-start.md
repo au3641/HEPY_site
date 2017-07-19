@@ -3,3 +3,5 @@
 **Vprašalnik ni nadomestilo za pregled pri zdravniku. Ob vsakem tveganem dejavniku se posvetujte s strokovnjakom.**
 
 Vprašalnik vam ne bo vzel veliko časa. Nadaljujte s klikom gumba *Naprej*.
+
+Vprašalnik izpolnjujete anonimno. Aplikacija ne shranjuje vaših osebnih podatkov.

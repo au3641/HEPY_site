@@ -3,3 +3,5 @@ Spletno orodje za informiranje in prepoznavanje okužbe z virusnimi hepatitisi H
 Kot cilj projekta HEP-Y smo si zastavili razvoj prvega interaktivnega spletnega orodja v slovenskem jeziku na temo informiranja in prepoznavanja okužbe z virusnimi hepatitisi.
 
 Pri razvoju aplikacije smo sodelovale študentke Medicinske fakultete UL Ana Peterlin, Karolina Počivavšek, Ana Prodan in Saša Rink, študenti Fakultete za računalništvo in informatiko UL Alen Ajanović, Matic Podpadec in Andrej Ulčar ter študentka Visoke šole za storitve Špela Pišek, pod mentorstvom prof. dr. Mojce Matičič, dr. med. s Klinike za infekcijske bolezni in vročinska stanja UKC Ljubljana, dr. Gašperja Fele-Žorža s Fakultete za računalništvo in informatiko UL, prof. dr. Matjaža Gamsa in dr. Antona Gradiška z Inštituta Jožef Stefan ter Jadrana Prodana s podjetja Globalsoft poslovna informatika.
+
+Osebni podatki se ne zbirajo, razen anonimno za potrebe statistike, po predhodni odobritvi uporabnika. Podrobneje preberite <a href="http://www.loally.com/tos/1ugkj5m">tukaj</a>.

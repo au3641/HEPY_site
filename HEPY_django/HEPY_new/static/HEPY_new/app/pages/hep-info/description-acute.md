@@ -11,7 +11,7 @@ Akutna bolezen poteka v štirih obdobjih. Okužbi sledi obdobje inkubacije, ko
 V poteku akutnega hepatitis so lahko poleg jeter prizadete tudi žile (vaskulitis), predvsem pri hepatitisu B, in ledvice (pri hepatitisih B in C).
 Potek akutnega hepatitisa pri manj kot 1% bolnikov poteka burno (fulminantno), kar privede do odpovedi delovanja jeter. Kaže se z zelo izraženo rumenico kože, izrazitim otekanjem v trebuh in noge, krvavitvami po koži in v prebavilih, zaspanostjo, zmedenostjo, vznemirjenostjo in celo komo, končno pa z motnjami dihanja ter motnjami v delovanju srčno-žilnega sistema in ledvic.
 
-#### Kaj narediti ob sumu na okužbo
+#### Kaj narediti ob sumu na okužbo?
 Ob pojavu simptomov in znakov okužbe čimprej obiščite izbranega osebnega zdravnika, ki bo opravil ustrezen pregled krvi in vas v primeru utemeljenega suma na virusni hepatitis takoj napotil k specialistu infektologu. Ta bo opravil dodatne preiskave krvi in ocenil, kakšna je okvara vaših jeter in s posebnimi virološkimi preiskavami potrdil okužbo z virusnim hepatitisom.
  
 #### Zdravljenje
