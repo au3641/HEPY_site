@@ -1,4 +1,4 @@
-### AKUTNI VIRUSNI HEPATITIS
+### Akutni virusni hepatitis
  
 Akutni virusni hepatitis je akutna sistemska okužba, ki jo povzročajo virusi hepatitisa A, B, C, D in E (HAV, HBV, HCV, HDV, HEV). Simptomi in znaki bolezni, s katerimi se kaže akutni virusni hepatitis, so enaki ne glede na povzročitelja. Okužba lahko poteka popolnoma brez bolezenskih znakov, v redkih primerih pa lahko pride celo do hitre odpovedi delovanja jeter.
  
@@ -10,7 +10,8 @@ Obdobje od okužbe pa do pojava prvih bolezenskih znakov je različno dolgo, odv
 Akutna bolezen poteka v štirih obdobjih. Okužbi sledi obdobje inkubacije, ko simptomi in znaki še niso izraženi. To obdobje je pri različnih povzročiteljih različno dolgo, od 15 dni do 6 mesecev. Nato nastopi prodromalno ali predikterično obdobje z neznačilnimi simptomi, kot so splošno slabo počutje, utrujenost in oslabelost, siljenje na bruhanje, bruhanje, lahko driska, izguba teka in pogosto tiščeča bolečina pod desnim rebrnim lokom, lahko tudi gripi podobni simptomi s povišano telesno temperaturo, glavobolom ter bolečinami v mišicah in sklepih. Po štirih do desetih dneh sledi ikterično ali zlatenično obdobje, v katerem predhodni neznačilni simptomi izvenijo, pojavi pa se zlatenica ali rumenica, ki zajame oči, mehko nebo in kožo. Seč se obarva temno, blato pa bledo sivkasto. Poleg rumenice so lahko zvečana in na otip rahlo boleča jetra ter nekoliko povečana vranica, povečane so lahko tudi bezgavke na vratu in drugje po telesu. Prisotna je lahko izrazita srbečica in rdeč izpuščaj na dlaneh. Povprečno po 2 do 3 tednih sledi obdobje okrevanja ali poikterično obdobje, ki traja od dveh do 12 tednov.
 V poteku akutnega hepatitis so lahko poleg jeter prizadete tudi žile (vaskulitis), predvsem pri hepatitisu B, in ledvice (pri hepatitisih B in C).
 Potek akutnega hepatitisa pri manj kot 1% bolnikov poteka burno (fulminantno), kar privede do odpovedi delovanja jeter. Kaže se z zelo izraženo rumenico kože, izrazitim otekanjem v trebuh in noge, krvavitvami po koži in v prebavilih, zaspanostjo, zmedenostjo, vznemirjenostjo in celo komo, končno pa z motnjami dihanja ter motnjami v delovanju srčno-žilnega sistema in ledvic.
-Kaj narediti ob sumu na okužbo
+
+#### Kaj narediti ob sumu na okužbo
 Ob pojavu simptomov in znakov okužbe čimprej obiščite izbranega osebnega zdravnika, ki bo opravil ustrezen pregled krvi in vas v primeru utemeljenega suma na virusni hepatitis takoj napotil k specialistu infektologu. Ta bo opravil dodatne preiskave krvi in ocenil, kakšna je okvara vaših jeter in s posebnimi virološkimi preiskavami potrdil okužbo z virusnim hepatitisom.
  
 #### Zdravljenje

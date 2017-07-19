@@ -40,6 +40,21 @@ label {
 	cursor: pointer;
 }
 
+table {
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	border-collapse: collapse;
+	margin-bottom: 40px;
+}
+
+th, td {
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	padding: 1em;
+}
+
 a:hover, a:active, a:focus, a {
 	text-decoration: none;
 	color: auto;
@@ -402,7 +417,7 @@ footer img {
 		color: #fff;
 		padding: 20px;
 		font-size: 2em;
-		/*font-weight: bold;*/
+		font-weight: bold;
 		letter-spacing: 0.75px;
 	}
 	
@@ -529,8 +544,15 @@ a.list-group-item {
 		margin-bottom: 40px;
 		font-size: 18px;
 	}
-	
-	.condoms > img {
+
+	ol {
+		margin-top: 8px;
+		line-height: 130%;
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	.maps > img {
 		height: 100%;
 		width: 100%;
 		border-radius: 3px;
@@ -543,11 +565,11 @@ a.list-group-item {
 	}
 	
 	@media screen and (max-width: 1000px) {
-		.condoms {
+		.maps {
 			text-align: center;
 		}
 		
-		.condoms > img {
+		.maps > img {
 			height: 50%;
 			width: 50%;
 			border-radius: 3px;
@@ -767,6 +789,11 @@ a.list-group-item {
 .subitem
 {
 	padding-left: 45px;
+}
+
+.checkbox-fix
+{
+	padding-left: 5px;
 }
 /*
 .just-padding {

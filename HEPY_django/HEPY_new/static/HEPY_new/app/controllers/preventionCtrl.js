@@ -12,23 +12,23 @@ function ($anchorScroll, $location, $scope, $routeParams, $document) {
 				subpages:
 					[
 						{
-							name: 'Splošno',
-							link: 'general-prevention'
+							name: 'Varno prehranjevanje',
+							link: 'food-safety'
 						},
 						{
-							name: 'Tvegano vedenje',
+							name: 'Izogibanje tveganemu vedenju',
 							link: 'risky-behaviour'
 						},
 						{
-							name: 'Spolni odnosi',
+							name: 'Varni spolni odnosi',
 							link: 'safe-sex'
 						},
 						{
-							name: 'Tetovaža / »piercing«',
+							name: 'Varna tetovaža / "piercing"',
 							link: 'tattoo'
 						},
 						{
-							name: 'Nesreče',
+							name: 'Ukrepanje ob incidentu',
 							link: 'incident'
 						}
 					]

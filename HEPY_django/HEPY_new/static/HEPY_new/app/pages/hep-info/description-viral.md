@@ -1,4 +1,4 @@
-### VIRUSNI HEPATITIS
+### Virusni hepatitis
 
 Hepatitis je vnetje jeter, ki ga povzročajo različni dejavniki kot so kot so okužbe, pretirano uživanje alkohola, razna zdravila, kemične snovi in strupi, motnje v presnovi (npr. hemokromatoza) ali celo spremenjen lasten imunski odziv. Najpogostejši vzrok so hepatotropni virusi, ki primarno povzročajo vnetje jeter. Lahko pa ga povzročajo tudi različni drugi virusi, ki poleg za določeno obolenje značilnih bolezenskih znakov, povzročajo tudi vnetje jeter. To so na primer virus Ebstein-Barr ob infekcijski mononukleozi, virus noric, virus herpes simpleks in drugi.
 

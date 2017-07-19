@@ -1,4 +1,4 @@
-### JETRA IN PREHRANA
+### Jetra in prehrana
 
 Jetra so osnovni organ presnavljanja, ki opravljajo nad 500 življenjsko pomembnih funkcij. Po zaužitju hrane usklajujejo osnovne biokemične in fiziološke procese pri prebavi, vsrkavanju, skladiščenju in presnavljanju hranil, tvorbi beljakovin in razstrupljanju škodljivih snovi.
 Motnje v delovanju jeter se odražajo z neustreznim privzemom hranil in spremenjenim splošnim prehranskim stanjem bolnika. Bolniki s kronično jetrno boleznijo imajo povečano porabo energije v mirovanju, ki narašča z napredovanjem bolezni.
