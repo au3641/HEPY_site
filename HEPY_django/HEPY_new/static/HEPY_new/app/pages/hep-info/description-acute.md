@@ -22,4 +22,4 @@ Pomembno je, da okužbo z virusi hepatitisa pravočasno prepoznamo in ustrezno n
  
 #### Preprečevanje okužbe
 Najboljši način za preprečevanje hepatitisov A in B je cepljenje. Okužbo z HAV in HEV lahko preprečimo tudi z ustrezno higieno in pozornostjo pri uživanju hrane in pijače pri potovanju v endemična področja, kot tudi v domačem okolju.
-Okužbo z HBV, HCV in HDV preprečujemo s pravilno in dosledno uporabo kondoma pri spolnih odnosih (vaginalnih, analnih in oralnih), z uporaba lastnega osebnega pribora (zobne ščetke, britvice, manikirni pribor), pazljivostjo pri izbiri salona za tetoviranje in "piercing", uporabo sterilnih igel in pribora za injiciranje ter njuhanje.
+Okužbo z HBV, HCV in HDV preprečujemo s pravilno in dosledno uporabo kondoma pri spolnih odnosih (vaginalnih, analnih in oralnih), z uporaba lastnega osebnega pribora (zobne ščetke, britvice, manikirni pribor), pazljivostjo pri izbiri salona za tetoviranje in piercing, uporabo sterilnih igel in pribora za injiciranje ter njuhanje.

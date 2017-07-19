@@ -21,7 +21,7 @@ Zato je večji poudarek na preprečevanju okužbe z dobrim nadzorom nad darovano
 Pred okužbo se lahko zavarujemo z manj tveganim vedenjem:
 * Intravenski uporabniki drog z uporabo lastnega pribora za injiciranje,
 * njuhalci drog z uporabo lastnega pribora,
-* z izogibanjem neprofesionalno opravljenemu tetoviranju, prebadanju kože in sluznic (»piercing«) in akupunkturi,
+* z izogibanjem neprofesionalno opravljenemu tetoviranju, prebadanju kože in sluznic (piercing) in akupunkturi,
 * osebe, ki menjavajo spolne partnerje, s pravilno uporabo kondoma iz lateksa dosledno pri vsakem spolnem odnosu,
 * novorojenci mater, okuženih s HCV, s testiranjem na prisotnost okužbe s HCV takoj po porodu in nadaljnjim zdravniškim nadzorom,
 * z izogibanjem souporabi osebnega pribora (zobna ščetka, brivnik, manikirni pribor) in vzdrževanjem osnovnih higienskih navad.
@@ -78,11 +78,11 @@ NE OKLEVAJTE! ČE STE IMELI TVEGANO SPOLNO VEDENJE IN/ALI IMATE BOLEZENSKE SIMPT
 
 Več informacij o spolno prenosljivih okužbah najdete na spletni strani: https://aspo.mf.uni-lj.si/
 
-### Varna tetovaža /piercing <div id="tattoo"></div>
+### Varna tetovaža / piercing <div id="tattoo"></div>
 
 ##### Zakaj se lahko okužimo pri tetoviranju ali piercingu?
 
-Virusa hepatitisa B in C se lahko prenašata, če se pri kakršnihkoli posegih na ali v telo ne upošteva ustreznih higienskih metod in metod preprečevanja širjenja okužbe. Pri izvajanju tetovaže ali piercingu pride do stika kože z iglo oziroma črnilom. Zelo pomembno je, da se uporabi igla za enkratno uporabo, da izvajalec tetovaže ali piercinga med posegom uporablja rokavice in da so ostali pripomočki za izvedbo ustrezno sterilizirani. 
+Virusa hepatitisa B in C se lahko prenašata, če se pri kakršnihkoli posegih na ali v telo ne upošteva ustreznih higienskih metod in metod preprečevanja širjenja okužbe. Pri izvajanju tetovaže ali piercingu pride do stika kože z iglo oziroma črnilom. Zelo pomembno je, da se uporabi igla za enkratno uporabo, da izvajalec tetovaže ali piercinga med posegom uporablja rokavice in da so ostali pripomočki za izvedbo ustrezno sterilizirani.
 
 ##### Kakšno je tveganje, da se okužimo z virusom hepatitisa B/C pri tetovaži/piercingu?
 
