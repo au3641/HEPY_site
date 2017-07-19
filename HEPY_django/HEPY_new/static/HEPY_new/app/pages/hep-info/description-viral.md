@@ -14,7 +14,7 @@ Poznamo pet glavnih povzročiteljev primarnega virusnega hepatitisa:
 Vsem je skupno, da prizadenejo jetra, na splošno pa se razlikujejo po načinu prenosa okužbe in možnosti za razvoj kronične okužbe. Klinični simptomi in znaki akutnega virusnega hepatitisa so večinoma enaki ne glede na povzročitelja, diagnozo pa razkrije šele ustrezno mikrobiološko testiranje.
 
 
-| Virusni hepatitis 	| Vir okužbe                             	| Pot prenosa                  	| Način prenos                                               	| Kronična okužba 	| Pasivna zaščita s protitelesi 	| Cepivo                                                    	|
+| Virusni hepatitis 	| Vir okužbe                             	| Pot prenosa                  	| Način prenosa                                               	| Kronična okužba 	| Pasivna zaščita s protitelesi 	| Cepivo                                                    	|
 |-------------------	|----------------------------------------	|------------------------------	|------------------------------------------------------------	|-----------------	|-------------------------------	|-----------------------------------------------------------	|
 | A                 	| Blato                                  	| Fekalno- oralno              	| okužena voda/hrana, s človeka na človeka                   	| Ne              	| Da                            	| Da                                                        	|
 | B                 	| Kri in nekatere druge telesne tekočine 	| Izpostavljena koža/ sluznica 	| spolni stik, okužene igle, transfuzija, z matere na otroka 	| Da              	| Da                            	| Da                                                        	|

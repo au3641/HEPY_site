@@ -22,7 +22,7 @@ Potreba po kalorijah je pri ljudeh različna, zato se potrebna količina zaužit
 
 
 
-### VZORČNI JEDILNIK ZA TRI SKUPINE BOLNIKOV
+### Vzorčni jedilnik za tri skupine bolnikov
 | Skupina živil                      	| 1600 kcal (sedeče ženske, nekateri starostniki) 	| 2200 kcal (aktivne ženske, sedeči moški) 	| 2800 kcal (aktivni moški, zelo aktivne ženske) 	|
 |------------------------------------	|-------------------------------------------------	|------------------------------------------	|------------------------------------------------	|
 | Kruh, žita, žitni izdelki, krompir 	| 6 enot                                          	| 9 enot                                   	| 11 enot                                        	|
