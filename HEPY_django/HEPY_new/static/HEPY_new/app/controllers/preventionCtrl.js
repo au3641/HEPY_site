@@ -24,7 +24,7 @@ function ($anchorScroll, $location, $scope, $routeParams, $document) {
 							link: 'safe-sex'
 						},
 						{
-							name: 'Varna tetovaža / "piercing"',
+							name: 'Varna tetovaža / piercing',
 							link: 'tattoo'
 						},
 						{
