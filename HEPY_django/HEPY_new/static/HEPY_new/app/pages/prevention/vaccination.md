@@ -42,7 +42,7 @@ Cepljenje odraslih je zelo priporočljivo za vse, pri katerih obstaja verjetnost
 Od leta 1998 je cepljenje otrok proti hepatitisu B pred vstopom v šolo del nacionalnega programa cepljenja. Rutinsko so torej cepljeni otroci, rojeni po letu 1992. Prva dva odmerka cepiva prejmejo pred vstopom v šolo s presledkom najmanj enega meseca,  tretji odmerek pa prejmejo v prvem razredu (najmanj pet mesecev po drugem odmerku).
 
 Cepljenje je po Pravilniku o cepljenju, zaščiti z zdravili in varstvu pred vnosom in razširjenjem nalezljivih bolezni (UL RS, 16/1999) obvezno tudi za vse tiste, ki imajo zvečano tveganje za okužbo  s HBV. To velja za:
-* Zdravstvene in druge delavce, ki so pri opravljanju svojega dela izpostavljeni možnosti okužbe s HBV,
+* zdravstvene in druge delavce, ki so pri opravljanju svojega dela izpostavljeni možnosti okužbe s HBV,
 * dijake in študente, ki so pri praktičnem pouku izpostavljeni možnosti okužbe s HBV,
 * novorojenčke HBsAg pozitivnih mater,
 * otroke ob vstopu v osnovno šolo,

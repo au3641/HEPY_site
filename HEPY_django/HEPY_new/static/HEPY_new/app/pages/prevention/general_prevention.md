@@ -19,7 +19,7 @@ Cepljenje je najbolj učinkovit način za preprečitev okužbe s HBV in njenih r
 Zaradi izrazite spremenljivosti virusa hepatitisa C (HCV) cepiva proti HCV še niso uspeli razviti, prav tako ni učinkovita niti pasivna zaščita z imunoglobulini.
 Zato je večji poudarek na preprečevanju okužbe z dobrim nadzorom nad darovano krvjo in darovanimi organi ter spremljanju posameznikov, ki so izpostavljeni večjemu tveganju za okužbo. Izrednega pomena je tudi preventivno izobraževanje javnosti. Zaradi možnosti preprečitve kronične okužbe s pravočasno uvedbo zdravljenja akutnega HCV je zelo pomembno ustrezno medicinsko spremljanje oseb, ki so bile izpostavljene tveganju za okužbo s HCV.
 Pred okužbo se lahko zavarujemo z manj tveganim vedenjem:
-* Intravenski uporabniki drog z uporabo lastnega pribora za injiciranje,
+* intravenski uporabniki drog z uporabo lastnega pribora za injiciranje,
 * njuhalci drog z uporabo lastnega pribora,
 * z izogibanjem neprofesionalno opravljenemu tetoviranju, prebadanju kože in sluznic (piercing) in akupunkturi,
 * osebe, ki menjavajo spolne partnerje, s pravilno uporabo kondoma iz lateksa dosledno pri vsakem spolnem odnosu,
