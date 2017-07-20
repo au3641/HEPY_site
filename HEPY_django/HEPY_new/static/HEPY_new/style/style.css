@@ -20,10 +20,10 @@ html {
 	/*background-color: rgba(15,68,111, 1);*/
 	/*background-color: rgba(8,34,56, 0.9);*/
 	/*background-color: rgba(0,0,0, 0.9);*/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
 }
 
 html, body {
